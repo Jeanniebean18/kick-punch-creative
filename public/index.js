@@ -9,7 +9,7 @@ window.onscroll=inView;
 function inView () {
  if (isInViewport(mini)) {
    mini.style.visibility="visible"
-   mini.setAttribute("class","animated flipInX");
+   mini.setAttribute("class","animated bounceInUp");
    };
  if (isInViewport(cool)) {
    
