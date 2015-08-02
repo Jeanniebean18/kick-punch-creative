@@ -24,7 +24,7 @@ body {
   top: 0;
   left:10%;
   margin: 2%;
-  width: 10%;
+  width: 15%;
 }
 
 .wrapper {
@@ -89,7 +89,7 @@ body {
   /*  margin-left: auto;*/
   /*  margin-right: auto;*/
   /*  background-color:red;*/
-  /*  border:1px solid red;*/
+/*    border:1px solid red;*/
   width: 100%;
   overflow:hidden;
 
@@ -231,12 +231,14 @@ body {
   }
 
   #bubble {
-    width: 40%;
+    width: 30%;
     position: relative;
     margin-right: auto;
     margin-left: auto;
+    display:block;
     -webkit-animation-delay: 3s;
     animation-delay: 3s;
+/*    border:1px solid red;*/
   }
   /*.bubble:hover {
   -webkit-animation-name: tada;
