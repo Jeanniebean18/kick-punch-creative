@@ -207,13 +207,13 @@ body {
     right:40%;
     z-index:0;
  
-    width:150px;
+    width:100px;
   }
 
 
   #part5{
     position:relative;
-    border:1px solid red;
+/*    border:1px solid red;*/
   }
 
 
@@ -644,7 +644,7 @@ body {
   .jeanner {
     float:left;
     width:20%;
-    border:1px solid red;
+/*    border:1px solid red;*/
   
   }
 
@@ -778,18 +778,18 @@ body {
   }
   .col1 {
     margin-top:12%;
-    width:40%;
+    width:35%;
     float:left;
     z-index:500;
     /*  border:1px solid;*/
   }
   .col2 {
   
-    margin-left:5%;
+    margin-left:10%;
     width:42%;
     float:left;
     z-index:500;
-    border:1px solid;
+    /*    border:1px solid;*/
   }
 
   .col3 {
@@ -801,7 +801,7 @@ body {
     float:left;
   
     /*  z-index:500;*/
-    border:1px solid;
+    /*    border:1px solid;*/
     text-align:center;
   }
 
@@ -809,11 +809,11 @@ body {
     position:relative;
     /*  display:block;*/
   
-    border:1px solid red;
+    /*    border:1px solid red;*/
     margin-left:auto;
     margin-right:auto;
     width:90%;
-    border:1px solid red;
+    /*    border:1px solid red;*/
     height:auto;
   
   }
@@ -821,7 +821,7 @@ body {
     position:relative;
     display:block;
     width:100%;
-    border:1px solid red;
+    /*    border:1px solid red;*/
     background-color:#363636;
     width:100%;
     height:auto;
