@@ -727,9 +727,31 @@
 
 </div>
 <div id="part6">
+  <div id="part6_parent_text">
+  <h5> who has four thumbs </h5>
+   <h6> and wants to work with you? </h6>
+   
+   
+ </div>
+  
+<div id="form">
+<form action="/contacts" method="post">
+ <input type="name" class = "form" placeholder="your name" name="name" value="<%= params["name"] %>" required>
+ <input type="email" class = "form" placeholder="your email" name="email" value="<%=params["email"]%>" >
+<input type="text" class = "form" placeholder="402-555-5555" name="phone" value="<%=params["phone"]%>" required>
+<input type="text_area" class = "form message" placeholder="how can we make your business shine?" name="message" value="<%=params["message"]%>"required> 
+<input type="hidden" name="date" value="<%=Time.now%>">
+<input type="submit" value="submit" class="submit">
+</form>
+</div>
 <div id="part6_parent">
-  <object data="jeannie.svg" id="jeanner" type="image/svg+xml" class="animated smack jeanner" >
+  
+  
+  <object data="bryan.svg" id="bryans" type="image/svg+xml" class="animated  bryans" >
   </object>
+  <object data="jeannie.svg" id="jeanner" type="image/svg+xml" class="animated  jeannies" >
+  </object>
+   <div style="clear:both"></div>
 </div>
 </div>
 
