@@ -6,7 +6,7 @@ end
 get "/profile" do
   if session[:user_id] # && session[:user_id] == params[:id].to_i
     @user = User.find(session[:user_id])
-    erb :show, :layout => :"layout-admin"
+    erb :show
   else
     redirect "/login"
   end
