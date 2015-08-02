@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Dosis);
+
 
 body {
   margin: 0;
@@ -127,7 +127,7 @@ body {
   z-index: 1000;
   padding-top: 1%;
   padding-bottom: 1%;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
   color: white;
   font-size: 420%;
   text-align: center;
@@ -161,7 +161,7 @@ body {
     margin-top: 3%;
   
     margin-left:2%;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
     color: white;
     font-size: 450%;
     text-align: left;
@@ -174,7 +174,7 @@ body {
     position: relative;
     margin-top: 15%;
     padding: 1%;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
     color: white;
     font-size: 440%;
     text-align: left;
@@ -690,7 +690,7 @@ body {
 h1 {
   position:relative;
   background-color:#363636;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
   font-weight:400;
   color: white;
   font-size: 70px;
@@ -704,7 +704,7 @@ h1 {
 h2{
   position:relative;
   background-color:#3CC0C5;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
   font-weight:400;
   color: white;
   font-size: 60px;
@@ -723,7 +723,7 @@ p{
   
   /*  right:50%;*/
   display:block;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
   font-weight:200;
   color: #363636;
   text-align:right;
@@ -735,7 +735,7 @@ p{
 h3{
   position:relative;
   background-color:#3CC0C5;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
   font-weight:400;
   color: white;
   font-size: 50px;
