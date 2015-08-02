@@ -785,7 +785,7 @@ body {
   }
   .col2 {
   
-    margin-left:10%;
+    margin-left:7%;
     width:42%;
     float:left;
     z-index:500;
@@ -796,7 +796,7 @@ body {
     /*  margin-top:8%;*/
     position:relative;
     /*  display:block;*/
-    width:40%;
+    width:50%;
     margin:0;
     float:left;
   
