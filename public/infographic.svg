@@ -9,11 +9,11 @@
 	 viewBox="0 0 200.667 210.667" enable-background="new 0 0 200.667 210.667" xml:space="preserve">
 <g>
 	<g class="bkg">
-		<rect x="35.075" y="24.734" fill="#363636" width="123.267" height="172.519"/>
+		<rect x="35.075" y="24.734" fill="#F2F2F2" width="123.267" height="172.519"/>
 	</g>
 	<g>
 		<g>
-			<rect x="101.175" y="162.293" fill="#3ABFC4" width="7.146" height="16.078"/>
+			<rect x="101.175" y="162.293" fill="#F2F2F2" width="7.146" height="16.078"/>
 		</g>
 		<g>
 			<rect x="90.456" y="146.214" fill="#EFEFEF" width="7.146" height="32.157"/>
