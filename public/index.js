@@ -1,24 +1,22 @@
 mini = document.getElementById("mini_web_image");
 cool = document.getElementById("part2");
 arrow = document.getElementById("arrow");
-blades = document.getElementById("blades");
-info = document.getElementById("infographic");
-light = document.getElementById("lightning");
-circle = document.getElementById("circle");
-form = document.getElementById("form");
-awesome = document.getElementById("awesome");
-paperlines = document.getElementById("paper_lines");
-standout = document.getElementById("standout");
-logob = document.getElementById("logobranding");
+heart = document.getElementById("heart");
+thumb = document.getElementById("thumbsup");
+web = document.getElementById("screen");
+
 
 /*isInViewport(elem);*/ // Boolean: returns true/false
 
 window.onscroll=inView;
 
 function inView () {
-  if (isInViewport(mini)) {
-    mini.style.visibility="visible"
-    mini.setAttribute("class","animated bounce");
+
+  if (isInViewport(heart)) {
+   
+    heart.setAttribute("class","animated pulse heart");
+    web.setAttribute("class","animated pulse heart");
+    thumb.setAttribute("class","animated pulse heart");
   };
   
   if (isInViewport(arrow)) {
@@ -26,30 +24,6 @@ function inView () {
     arrow.setAttribute("class","animated arrow");
   };
   
-  if (isInViewport(blades)) {
-
-    blades.setAttribute("class","blades");
-    standout.setAttribute("class"," animated pulse");
-    logob.setAttribute("class"," animated pulse");
-  };
-  
-  if (isInViewport(info)) {
-    info.style.visibility="visible"
-    info.setAttribute("class","animated pulse");
-    circle.setAttribute("class","animated pulse");
-    paperlines.setAttribute("class","animated pulse");
-    awesome.setAttribute("class","animated tada");
-    
-    
-    
-  };
-  
-  if (isInViewport(light)) {
-   
-    light.setAttribute("class","lightning animated flash");
-  };
-  
-
   
   if (isInViewport(form)) {
    
