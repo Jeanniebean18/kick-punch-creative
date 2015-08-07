@@ -31,17 +31,16 @@ body {
 #logo {
   position: absolute;
   top: 0;
-  left:10%;
-  margin: 2%;
+  right:0;
+  
   width: 15%;
 }
 
 #logo2 {
   position: absolute;
   top: 0;
-  left:0;
-  margin: 2%;
-  width: 15%;
+  left:110px;
+  width: 9%;
   transform-origin:50% 50%;
   -webkit-transform-origin:50% 50%;
 }
@@ -91,7 +90,7 @@ body {
 #parent_container {
   position: relative;
   height:600px;
-  background-color:#ffffff;
+  /*background-color:#EFDA5E;*/
   width: 100%;
   overflow:hidden;
 }
@@ -451,7 +450,7 @@ h1 {
   font-size: 160%;
   text-align:center;
   /*    border:1px solid;*/
-  background-color:#363636;
+  background-color:#2EBEC2;
 }
 
 #part5_parent{
@@ -493,9 +492,9 @@ h2 {
   width:100%;
   height:45px;
   font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
-  color:gray;
+  color:white;
   font-size: 19px;
-  background-color:white;
+  background-color:#D8D8D8;
   outline:0;
   border:none;
   float:right;
@@ -513,7 +512,6 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   width:40%;
-  visibility:hidden;
   margin-top:-3%;
 }
 
@@ -528,6 +526,11 @@ p {
   
   
 }
+#plane{
+  position:relative;
+  height:200px;
+  margin-top:2%;
+}
 
 #part6{
   position:relative;
@@ -535,7 +538,8 @@ p {
   width:100%;
   height:auto;
   overflow:hidden;
-  background-color:#3CC0C5;
+  border-top:1px dashed gray;
+/*  background-color:#3CC0C5;*/
  
 
 }
@@ -552,6 +556,7 @@ p {
   font-size:25px;
   margin-top:2%;
   margin-bottom:9%;
+  -webkit-appearance: none;
 }
 
 .bryans{
@@ -584,6 +589,7 @@ p {
   position:absolute;
   top:0;
   animation-delay:.1s;
+  -webkit-animation-delay:.1s;
 }
 
 #cloud2 {
@@ -592,6 +598,7 @@ p {
   top:20px;
   right:200px;
   animation-delay:1s;
+  -webkit-animation-delay:1s;
 }
 
 #cloud3 {
@@ -600,13 +607,15 @@ p {
   top:60px;
   left:300px;
   animation-delay:2s;
+  -webkit-animation-delay:2s;
 }
 
 #cloud4 {
-  width:19%;
+  width:10%;
   position:absolute;
-  top:30px;
+  top:100px;
   right:30px;
+  -webkit-animation-delay:2s;
   animation-delay:2s;
 }
 
@@ -615,6 +624,15 @@ p {
   position:absolute;
   top:-19px;
   left:300px;
+   -webkit-animation-delay:2s;
+   animation-delay:2s;
+}
+#cloud6 {
+  width:12%;
+  position:absolute;
+  top:110px;
+  left:30px;
+  -webkit-animation-delay:2s;
   animation-delay:2s;
 }
 

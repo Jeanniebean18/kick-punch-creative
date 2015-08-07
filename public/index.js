@@ -5,8 +5,9 @@ heart = document.getElementById("heart");
 heartinner = document.getElementById("heartinner");
 thumb = document.getElementById("thumbsup");
 web = document.getElementById("screen");
-you = document.getElementById("you");
+plane = document.getElementById("plane");
 form = document.getElementById("form");
+
 
 
 /*isInViewport(elem);*/ // Boolean: returns true/false
@@ -21,11 +22,10 @@ function inView () {
     thumb.setAttribute("class","animated heart bounce");
   };
   
-  if (isInViewport(form)) {
-    form.style.visibility="visible";
-    form.setAttribute("class","animated slideInUp");
-    you.style.visibility="visible";
-    you.setAttribute("class","animated slideInUp");
+  if (isInViewport(plane)) {
+    plane.setAttribute("class","float");
+    form.setAttribute("class","animated bounce");
+   
 
   };
 
