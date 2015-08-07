@@ -18,11 +18,11 @@ body {
 .jeannie {
   position:relative;
   float:left;
-  width:220px;
+  width:230px;
   margin-top:20px;
 }
 .bryan {
-  width:221px;
+  width:231px;
   float:left;
   -webkit-animation-delay:1s;
   animation-delay: 1s;
@@ -98,7 +98,7 @@ body {
 
 .skyline {
   position:absolute;
-  bottom:-160px;
+  bottom:-120px;
   width:101%;
 }
 
@@ -143,22 +143,8 @@ h1 {
   
 }
 
-.column {
-  position: relative;
-  display: block;
-  width:24%;
-  float:left;
-  margin-left:6%;
-  margin-right:3%;
-  font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
-  color:#363636;
-  font-weight:200;
-  font-size: 210%;
-  text-align: center;
-  padding-bottom:8%;
-  padding-top:8%;
-  
-}
+
+
 
 
 .heart {
@@ -210,16 +196,31 @@ h1 {
 }
 
 #heart {
+  width:90%;
+  position:relative;
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
   
 }
 
 #screen{
   animation-delay:.2s;
+  width:90%;
+  position:relative;
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
   
 }
 
 #thumbsup{
-  animation-delay:.5s;
+  animation-delay:.4s;
+  width:90%;
+  position:relative;
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
   
 }
 
@@ -229,9 +230,9 @@ h1 {
   display: block;
   background-image:url("web.svg");
   /*    background-color: #3CC0C5;*/
-  width: auto;
+  width: 100%;
   height: auto;
-  padding:5%;
+
   /*  border:1px solid red;*/
 }
   
@@ -240,9 +241,34 @@ h1 {
   display:block;
   margin-right: auto;
   margin-left: auto;
-  width:70%;
-   
+  width:90%;
 }
+.column {
+  position: relative;
+  display: block;
+  width:33%;
+  float:left;
+  font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
+  color:#363636;
+  font-weight:200;
+  font-size: 210%;
+  text-align: center;
+  padding:.16%;
+  
+  margin-top:3%;
+  margin-bottom:3%;
+  
+}
+
+.box {
+  width:90%;
+  position:relative;
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
 
 #part3_text {
   position: relative;
@@ -448,6 +474,11 @@ h1 {
   text-align:center;
     
     
+}
+
+a {
+  text-decoration:none;
+  color:white;
 }
 
 h2 {
