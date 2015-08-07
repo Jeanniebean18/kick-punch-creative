@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+ 
 <!-- Generator: Adobe Illustrator 19.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 420.7 229.3" style="enable-background:new 0 0 420.7 229.3;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#EFEFEF;}
+	.st0{fill:#EDEDED;}
+  .st0:hover{fill:##F26A5C;}
 	.st1{fill:#303333;}
+  .st1:hover{fill:##F26A5C;}
 </style>
 <path class="st0" d="M392.9,220l-17.2-42.5c6.4-4.7,10.6-12.3,10.6-20.9V57.9c0-14.3-11.6-26-26-26H53.8c-14.3,0-26,11.6-26,26v98.7
 	c0,14.3,11.6,26,26,26h264.3L392.9,220z"/>

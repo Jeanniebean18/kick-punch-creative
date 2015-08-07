@@ -5,6 +5,8 @@ heart = document.getElementById("heart");
 heartinner = document.getElementById("heartinner");
 thumb = document.getElementById("thumbsup");
 web = document.getElementById("screen");
+you = document.getElementById("you");
+form = document.getElementById("form");
 
 
 /*isInViewport(elem);*/ // Boolean: returns true/false
@@ -14,24 +16,19 @@ window.onscroll=inView;
 function inView () {
 
   if (isInViewport(heart)) {
-   
-    heart.setAttribute("class","animated pulse heart");
-    web.setAttribute("class","animated pulse heart");
-    thumb.setAttribute("class","animated pulse heart");
+    heart.setAttribute("class","animated heart bounce");
+    web.setAttribute("class","animated heart bounce");
+    thumb.setAttribute("class","animated heart bounce");
   };
-  
-  if (isInViewport(arrow)) {
-   
-    arrow.setAttribute("class","animated arrow");
-  };
-  
   
   if (isInViewport(form)) {
-   
-    form.setAttribute("class","animated bounce");
+    form.style.visibility="visible";
+    form.setAttribute("class","animated slideInUp");
+    you.style.visibility="visible";
+    you.setAttribute("class","animated slideInUp");
+
   };
-  
-  
+
 };
 
 
