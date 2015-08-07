@@ -2,6 +2,7 @@ mini = document.getElementById("mini_web_image");
 cool = document.getElementById("part2");
 arrow = document.getElementById("arrow");
 heart = document.getElementById("heart");
+heartinner = document.getElementById("heartinner");
 thumb = document.getElementById("thumbsup");
 web = document.getElementById("screen");
 
