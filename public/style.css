@@ -18,7 +18,18 @@ body {
 }
 
 .jeannie {
-  margin-bottom: -10px;
+  position:relative;
+  float:left;
+  width:195px;
+  margin-top:20px;
+}
+.bryan {
+  width:200px;
+  float:left;
+  -webkit-animation-delay:1s;
+  animation-delay: 1s;
+ 
+
 }
 
 #logo {
@@ -30,9 +41,22 @@ body {
 }
 
 .wrapper {
-  width: 50%;
-  float: left;
-  margin-bottom: -9%;
+  position:absolute;
+  bottom:-9%;
+  width: 100%;
+  
+/*  border:1px solid;*/
+  
+  
+}
+
+.innerwrap {
+  position:relative;
+  display:block;
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:100px;
 }
 
 .eyebrows {
@@ -183,6 +207,7 @@ body {
 
 #parent_container {
   position: relative;
+  height:575px;
   
   /*  display: block;*/
   /*  margin-left: auto;*/
@@ -247,10 +272,10 @@ body {
 .column {
   position: relative;
   display: block;
-  width:22%;
+  width:24%;
   float:left;
 /*  border:1px solid red;*/
-  margin-left:7%;
+  margin-left:6%;
   margin-right:3%;
   font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
   color:#363636;
@@ -409,11 +434,11 @@ body {
 
 
 #bubble {
-  width: 25%;
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top:3%;
+  width: 275px;
+  position: absolute;
+  top:40%;
+  left:10%;
+  margin-top:1%;
   display:block;
   -webkit-animation-delay: 3s;
   animation-delay: 3s;
@@ -431,11 +456,7 @@ body {
     animation-iteration-count: infinite;
   }
 
-  .bryan {
-    -webkit-animation-delay:1s;
-    animation-delay: 1s;
- 
-  }
+
 
   .top_arrow{
     position:absolute;
@@ -951,7 +972,7 @@ p {
   width:25%;
   position:absolute;
   top:20px;
-  right:0;
+  right:200px;
   animation-delay:1s;
 }
 
