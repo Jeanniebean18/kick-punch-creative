@@ -57,7 +57,7 @@ body {
   width:600px;
   margin-left:auto;
   margin-right:auto;
-  padding-left:100px;
+  padding-left:150px;
 }
 
 .eyebrows {
@@ -338,7 +338,7 @@ h1 {
 #bubble {
   width: 290px;
   position: absolute;
-  top:40%;
+  top:25%;
   left:10%;
   margin-top:1%;
   display:block;
@@ -540,7 +540,7 @@ p {
   height:auto;
   overflow:hidden;
   border-top:1px dashed gray;
-/*  background-color:#3CC0C5;*/
+  /*  background-color:#3CC0C5;*/
  
 
 }
@@ -625,8 +625,8 @@ p {
   position:absolute;
   top:-19px;
   left:300px;
-   -webkit-animation-delay:2s;
-   animation-delay:2s;
+  -webkit-animation-delay:2s;
+  animation-delay:2s;
 }
 #cloud6 {
   width:12%;
@@ -663,29 +663,50 @@ p {
   
   .column.info {
     border-bottom:none;
-}
+  }
 
-.skyline {
-  position:absolute;
-  bottom:-50px;
-  width:101%;
-}
+  .skyline {
+    position:absolute;
+    bottom:-50px;
+    width:101%;
+  }
 
-#bubble {
-  width: 250px;
-  position: absolute;
-  top:20%;
-  left:10%;
-  margin-top:1%;
-  display:block;
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+  #bubble {
+    width: 250px;
+    position: absolute;
+    top:20%;
+    left:10%;
+    margin-top:1%;
+    display:block;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
  
-}
+  }
 
 }
 
 @media (max-width: 1000px) {
+  
+  #part2 {
+    visibility:visible;
+    display:block;
+    position: relative;
+    background-color: #363636;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 360%;
+    text-align: center;
+    font-weight:200;
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+  
+  
+    /*  border:1px solid red;*/
+  }
   .skyline {
     position:absolute;
     bottom:-39px;
@@ -719,10 +740,35 @@ p {
     width: 100%;
     overflow:hidden;
   }
+  .top_arrow{
+    display:none;
+    /*  animation-delay:8s;*/
+  }
   
 }
 
 @media (max-width: 655px) {
+  
+  #part2 {
+    visibility:visible;
+    display:block;
+    position: relative;
+    background-color: #363636;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 260%;
+    text-align: center;
+    font-weight:200;
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+  
+  
+    /*  border:1px solid red;*/
+  }
   #parent_container {
     position: relative;
     height:400px;
@@ -732,7 +778,7 @@ p {
   }
   .skyline {
     position:absolute;
-    bottom:-39px;
+    
     width:101%;
   }
   
@@ -757,7 +803,7 @@ p {
     padding-left:100px;
   }
   .top_arrow{
- display:none;
+    display:none;
     /*  animation-delay:8s;*/
   }
   .wrapper {
@@ -776,8 +822,112 @@ p {
     animation-delay: 3s;
  
   }
+  .column {
+    position: relative;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    float:none;
+    font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
+    color:#363636;
+    font-weight:200;
+    font-size: 210%;
+    text-align: center;
+    padding:.16%;
+    margin-top:3%;
+    margin-bottom:3%;
+    border-bottom:1px dashed;
+  }
+  
   
 }
+
+@media (max-width: 502px) {
+  #parent_container {
+    position: relative;
+    height:250px;
+    /*background-color:#EFDA5E;*/
+    width: 100%;
+    overflow:hidden;
+  }
+  .skyline {
+    position:absolute;
+    
+    width:101%;
+  }
+  
+  .jeannie {
+    position:relative;
+    float:left;
+    width:35%;
+    margin-top:20px;
+  }
+  .bryan {
+    width:35%;
+    float:left;
+    -webkit-animation-delay:1s;
+    animation-delay: 1s;
+  }
+  .innerwrap {
+    position:relative;
+    display:block;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+    /*    border:1px solid red;*/
+    
+    
+  }
+  .top_arrow{
+    display:none;
+    /*  animation-delay:8s;*/
+  }
+  .wrapper {
+    position:absolute;
+    bottom:-15%;
+    width: 100%;
+
+  }
+  #bubble {
+    width: 175px;
+    position: absolute;
+    top:7%;
+    left:10%;
+    margin-top:1%;
+    display:block;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+ 
+  }
+  
+  
+  #part2 {
+    visibility:visible;
+    display:block;
+    position: relative;
+    background-color: #363636;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 160%;
+    text-align: center;
+    font-weight:200;
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+  
+  
+    /*  border:1px solid red;*/
+  }
+
+  
+}
+
 
 
 
