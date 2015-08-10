@@ -15,6 +15,10 @@ body {
   fill: #F26A5C;
 }
 
+#gear3 {
+  
+}
+
 .jeannie {
   position:relative;
   float:left;
@@ -578,6 +582,23 @@ p {
   position:absolute;
   bottom:-40%;
   z-index:0;
+  
+}
+
+#gear1 {
+  animation-delay:.5s;
+  -webkit-animation-delay:.5s;
+  
+}
+
+#clamp {
+  left:-5%;
+  
+}
+
+#gear2 {
+  animation-delay:1s;
+  -webkit-animation-delay:1s;
 }
 
 .submit {
