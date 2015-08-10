@@ -1,16 +1,9 @@
-mini = document.getElementById("mini_web_image");
-cool = document.getElementById("part2");
-arrow = document.getElementById("arrow");
 heart = document.getElementById("heart");
 heartinner = document.getElementById("heartinner");
 thumb = document.getElementById("thumbsup");
 web = document.getElementById("screen");
 what = document.getElementById("what");
 form = document.getElementById("form");
-
-
-
-
 
 /*isInViewport(elem);*/ // Boolean: returns true/false
 
@@ -28,7 +21,7 @@ function inView () {
   if (isInViewport(what)) {
     what.style.visibility="visible"
     what.setAttribute("class","animated flipInX bottom");
-    form.setAttribute("class","animated bounce");
+    
   };
 
 };
