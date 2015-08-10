@@ -560,6 +560,10 @@ p {
   -webkit-appearance: none;
 }
 
+.submit:hover {
+  border:1px solid red;
+}
+
 .bryans{
   position:absolute;
   bottom:-40px;
@@ -744,6 +748,40 @@ p {
     display:none;
     /*  animation-delay:8s;*/
   }
+  #form {
+    position:relative;
+    display:block;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;
+    margin-top:3%;
+  }
+  
+  .part7{
+    position:relative;
+    display:block;
+    width:100%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
+    color:white;
+    font-weight:200;
+    font-size: 100%;
+    text-align:center;
+    /*    border:1px solid;*/
+    background-color:#2EBEC2;
+  }
+  
+  #logo2{
+    display:none;
+  }
+  .jeanner{
+    display:none;
+  }
+  .beanner{
+    display:none;
+  }
   
 }
 
@@ -839,6 +877,40 @@ p {
     margin-bottom:3%;
     border-bottom:1px dashed;
   }
+  #form {
+    position:relative;
+    display:block;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    margin-top:-3%;
+  }
+  
+  .part7{
+    position:relative;
+    display:block;
+    width:100%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
+    color:white;
+    font-weight:200;
+    font-size: 100%;
+    text-align:center;
+    /*    border:1px solid;*/
+    background-color:#2EBEC2;
+  }
+  
+  #logo2{
+    display:none;
+  }
+  .jeanner{
+    display:none;
+  }
+  .beanner{
+    display:none;
+  }
   
   
 }
@@ -924,7 +996,43 @@ p {
   
     /*  border:1px solid red;*/
   }
+  .jeanner{
+    display:none;
+  }
+  .beanner{
+    display:none;
+  }
+  
 
+  #form {
+    position:relative;
+    display:block;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    margin-top:-3%;
+  }
+  
+  .part7{
+    position:relative;
+    display:block;
+    width:100%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
+    color:white;
+    font-weight:200;
+    font-size: 100%;
+    text-align:center;
+    /*    border:1px solid;*/
+    background-color:#2EBEC2;
+  }
+  
+  #logo2{
+    display:none;
+  }
+  
   
 }
 
