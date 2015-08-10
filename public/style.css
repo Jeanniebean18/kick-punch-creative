@@ -1,11 +1,14 @@
 @import url("animate.css");
 
+
+
 body {
   margin: 0;
   width: 100%;
   /*  border:1px solid red;*/
 }
-
+@media (max-width: 3220px) {
+ 
 #arrow {
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
@@ -110,7 +113,7 @@ body {
 
 .skyline {
   position:absolute;
-  bottom:-120px;
+  bottom:-490px;
   width:101%;
 }
 
@@ -272,7 +275,7 @@ h1.bottom {
   display:block;
   margin-right: auto;
   margin-left: auto;
-  width:90%;
+  width:70%;
 }
 .column {
   position: relative;
@@ -361,10 +364,10 @@ h1.bottom {
 
 
 #bubble {
-  width: 290px;
+  width: 380px;
   position: absolute;
   top:25%;
-  left:12%;
+  left:20%;
   margin-top:1%;
   display:block;
   -webkit-animation-delay: 3s;
@@ -450,16 +453,15 @@ h1.bottom {
   width:300px;
   position:absolute;
   bottom:0;
-  left:50px;
+  left:200px;
    z-index:1;
   /*    border:1px solid red;*/
-  
 }
 .beanner {
   width:300px;
   position:absolute;
   bottom:-20px;
-  right:60px;
+  right:200px;
    z-index:1;
   /*    border:1px solid red;*/
   
@@ -580,7 +582,7 @@ p {
 #belt {
   width:100%;
   position:absolute;
-  bottom:-40%;
+  bottom:-100%;
   z-index:0;
   
 }
@@ -604,7 +606,7 @@ p {
 .submit {
   /*  border-radius:10px;*/
   border:none;
-  width:100px;
+  
   /*  height:50px;*/
   background-color:#363636;
   color:white;
@@ -697,6 +699,79 @@ p {
   left:30px;
   -webkit-animation-delay:2s;
   animation-delay:2s;
+}
+}
+
+@media (max-width: 2000px) {
+  .skyline {
+    position:absolute;
+    bottom:-120px;
+    width:101%;
+  }
+  
+  #bubble {
+    width: 290px;
+    position: absolute;
+    top:25%;
+    left:12%;
+    margin-top:1%;
+    display:block;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+ 
+  }
+  
+  #belt {
+    width:100%;
+    position:absolute;
+    bottom:-50%;
+    z-index:0;
+  
+  }
+  
+  .jeanner {
+    width:300px;
+    position:absolute;
+    bottom:0;
+    left:50px;
+     z-index:1;
+    /*    border:1px solid red;*/
+  }
+  .beanner {
+    width:300px;
+    position:absolute;
+    bottom:-20px;
+    right:60px;
+     z-index:1;
+    /*    border:1px solid red;*/
+  
+  }
+  
+  .part3_parent {
+    position:relative;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    width:90%;
+  }
+  .column {
+    position: relative;
+    display: block;
+    width:33%;
+    float:left;
+    font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
+    color:#363636;
+    font-weight:200;
+    font-size: 210%;
+    text-align: center;
+    padding:.16%;
+  
+    margin-top:3%;
+    margin-bottom:3%;
+  
+  }
+  
+  
 }
 
 
@@ -1188,6 +1263,8 @@ p {
   
   
 }
+
+
 
 
 
