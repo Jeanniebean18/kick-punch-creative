@@ -25,7 +25,7 @@ post "/contacts" do
           :domain => "kickpunchcreative.com"
       }
       })
-    redirect "/home#contact" #should redirect to login after creating contact.
+    erb :success #should redirect to login after creating contact.
   else
     @error = true
     redirect "/home"

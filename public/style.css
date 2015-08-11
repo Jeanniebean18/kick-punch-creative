@@ -450,18 +450,18 @@ h1.bottom {
 
 
 .jeanner {
-  width:300px;
+  width:270px;
   position:absolute;
   bottom:0;
-  left:200px;
+  left:75px;
    z-index:1;
   /*    border:1px solid red;*/
 }
 .beanner {
-  width:300px;
+  width:270px;
   position:absolute;
-  bottom:-20px;
-  right:200px;
+  bottom:-30px;
+  right:75px;
    z-index:1;
   /*    border:1px solid red;*/
   
@@ -510,9 +510,22 @@ a {
   color:white;
 }
 
+a.oops {
+  text-decoration:none;
+  color:#1FB9BE;
+}
+
 h2 {
   font-size:35px;
   text-align:left;
+  font-weight:400;
+  color: #363636;
+  font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
+}
+
+h3 {
+  font-size:35px;
+  text-align:center;
   font-weight:400;
   color: #363636;
   font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
@@ -572,6 +585,18 @@ p {
   display:block;
   width:100%;
   height:auto;
+  overflow:hidden;
+  border-top:1px dashed gray;
+ 
+ 
+  /*  background-color:#3CC0C5;*/
+}
+
+#oops{
+  position:relative;
+  display:block;
+  width:100%;
+  height:600px;
   overflow:hidden;
   border-top:1px dashed gray;
  
@@ -702,7 +727,18 @@ p {
 }
 }
 
+
 @media (max-width: 2000px) {
+  #belt {
+    width:100%;
+    position:absolute;
+    bottom:-50%;
+    z-index:0;
+  
+  }
+  
+}
+@media (max-width: 1280px) {
   .skyline {
     position:absolute;
     bottom:-120px;
@@ -724,7 +760,7 @@ p {
   #belt {
     width:100%;
     position:absolute;
-    bottom:-50%;
+    bottom:-40%;
     z-index:0;
   
   }
