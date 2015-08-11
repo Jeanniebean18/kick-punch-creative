@@ -510,10 +510,7 @@ a {
   color:white;
 }
 
-a.oops {
-  text-decoration:none;
-  color:#1FB9BE;
-}
+
 
 h2 {
   font-size:35px;
@@ -524,11 +521,15 @@ h2 {
 }
 
 h3 {
+  position:absolute;
+  left:33%;
+  top:5%;
   font-size:35px;
   text-align:center;
   font-weight:400;
   color: #363636;
   font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
+  z-index:500;
 }
   
 .form {
@@ -1022,6 +1023,18 @@ p {
 
 @media (max-width: 655px) {
   
+  h3 {
+    position:absolute;
+    left:10%;
+    top:5%;
+    font-size:35px;
+    text-align:center;
+    font-weight:400;
+    color: #363636;
+    font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
+    z-index:500;
+  }
+  
   #part2 {
     visibility:visible;
     display:block;
@@ -1158,6 +1171,17 @@ p {
 }
 
 @media (max-width: 502px) {
+  
+  h3 {
+    position:absolute;
+    top:5%;
+    font-size:30px;
+    text-align:center;
+    font-weight:400;
+    color: #363636;
+    font-family: 'Dosis', sans-serif,'Roboto Condensed', sans-serif;
+    z-index:500;
+  }
   #parent_container {
     position: relative;
     height:250px;
