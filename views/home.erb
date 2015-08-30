@@ -79,12 +79,13 @@
             </a>
           </ul>
         </div>
+        <div id="contactquote">GET A QUOTE</div>
         <img src="assets/twitter.svg" class="twitter">
         <img src="assets/facebook.svg" class="facebook">
       </nav>
     </header>
     
-    <section id="part-one">
+    <section id="part-one" class="animated fadeIn">
       <object id="skyline" type="image/svg+xml" data="assets/skyline1.svg" class="skyline center">
       </object>
       <object id="cloud1" type="image/svg+xml" data="assets/cloud.svg" class="animated floatLeft">
@@ -102,8 +103,8 @@
     
       <section id="part-two">
     
-        <p class="large"> We tell your brand’s story through exciting visuals and micro content</p>
-        <hr> <p>What is micro content you ask? Whether it be an animated infographic, an eye-catching ad, or interactive web experience, micro content is an essential addition to your business’s marketing strategy. Simple, creative and informative content optimized for social media and designed to reduce information overload.
+        <p id="tell" class="large"> We tell your brand’s story through exciting visuals and micro content</p>
+        <hr> <p id="tellcopy">What is micro content you ask? Whether it be an animated infographic, an eye-catching ad, or interactive web experience, micro content is an essential addition to your business’s marketing strategy. Simple, creative and informative content optimized for social media and designed to reduce information overload.
         </p>
       </section>
 
@@ -120,10 +121,10 @@
       </section>
   
       <section id="contact" class="clearfix">
-        <object id="quote1" type="image/svg+xml" data="assets/quote1.svg" class="floatleft cube">
+        <object id="quote1" type="image/svg+xml" data="assets/quote1.svg" class="floatleft cube2 animated slideInLeft">
         </object>
     
-        <div class="quote-text floatleft margin-top-plus">
+        <div id="quote-text" class="quote-text floatleft margin-top-plus animated slideInRight">
           <h1> READY TO DELIVER
             <br> AMAZING VISUALS
             <br><b> TO YOUR CUSTOMERS?</b></br>
@@ -132,6 +133,8 @@
           </div>
    
         </section>
+        
+        
         <section id="work" class="clearfix center">
           <h1> OUR RECENT WORK </h1>
           <div id="work1" class="floatleft"></div>
@@ -139,17 +142,18 @@
       
         </section>
 
-        <section id="form" class="clearfix">
-  
+            <section id="contact-two" class="clearfix">
+          
+                    <div id="form-text" class="floatleft"><h1> WHAT CAN WE <br> <b>CREATE FOR YOU?</b></h1>
+                      <img src="assets/logo.svg" class="form-image center">
+                    </div>
+          
+                    <div id="formcontainer" class="center floatright"> <form action="/contacts" method="post"> <input type="name" class="form" placeholder="&nbsp;&nbsp;your name" name="name" value="<%=params["name"] %>" required></h2> <input type="email" class="form" placeholder="&nbsp;&nbsp;your email" name="email" value="<%=params["email"]%>" ></h2>  <input type="text" class="form" placeholder="&nbsp;&nbsp;402-555-5555" name="phone" value="<%=params["phone"]%>" required></h2>   <input type="text_area" class="form message" placeholder="&nbsp;&nbsp;what can we make for you?" name="message" value="<%=params["message"]%>"required></h2> <input type="hidden" name="date" value="<%=Time.now%>"> <input type="submit" value="submit" class="submit"> </form>
+              </div>
+          
+          
+            </section>
 
-          <div id="form-text" class="floatleft"><h1> WHAT CAN WE <br> <b>CREATE FOR YOU?</b></h1>
-            <img src="assets/logo.svg" class="form-image center">
-
-          </div>
-          <div id="formcontainer" class="center floatright"> <form action="/contacts" method="post"> <input type="name" class="form" placeholder="&nbsp;&nbsp;your name" name="name" value="<%=params["name"] %>" required></h2> <input type="email" class="form" placeholder="&nbsp;&nbsp;your email" name="email" value="<%=params["email"]%>" ></h2>  <input type="text" class="form" placeholder="&nbsp;&nbsp;402-555-5555" name="phone" value="<%=params["phone"]%>" required></h2>   <input type="text_area" class="form message" placeholder="&nbsp;&nbsp;what can we make for you?" name="message" value="<%=params["message"]%>"required></h2> <input type="hidden" name="date" value="<%=Time.now%>"> <input type="submit" value="submit" class="submit"> </form> </div><object data="jeannie.svg" type="image/svg+xml" class="jeanner"> </object> <object data="bryan.svg" type="image/svg+xml" class="beanner"> </object> <object data="belt.svg" id="belt" type="image/svg+xml" class=""> </object> </div>
- 
- 
-        </section>
   
         <footer> 
     
@@ -177,6 +181,8 @@
             <div id="column-three" class="footer-column floatleft">
               <img src="assets/wdc.svg" class="wdc">
             </footer>
+            
+           
   
           </section>
 
@@ -190,5 +196,6 @@
 
   
           <script src="animate.js"></script>
+          <script src="scroll.js"></script>
    
         </body></html>

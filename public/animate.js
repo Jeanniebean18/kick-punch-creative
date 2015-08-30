@@ -1,6 +1,11 @@
 
 var logo = document.getElementById("logo");
 var logoTwo = document.getElementById("logo-two");
+var tell = document.getElementById("tell");
+var tellcopy = document.getElementById("tellcopy");
+var contact = document.getElementById("contact");
+var quoteText = document.getElementById("quote-text");
+var quoteOne = document.getElementById("quote1");
 
 
 // hamburger.onclick = toggle_display1;
@@ -28,12 +33,12 @@ window.onscroll=inView;
   
 function inView(){
   // roll out of top star
-  if (window.pageYOffset>75) {
+  if (window.pageYOffset>5) {
     logo.style.display="none";
     logoTwo.style.display="block";
   }
 
-  if (window.pageYOffset<75) {
+  if (window.pageYOffset<5) {
     logo.style.display="block";
     logoTwo.style.display="none";
   }
@@ -44,21 +49,16 @@ function inView(){
       
      
         
-    if(isInViewport(hammer)){
-      hammer.setAttribute("class","animated pulse");
+    if(isInViewport(tellcopy)){
+      tell.setAttribute("class"," large animated pulse");
     } 
-    if(isInViewport(wrench)){
-      wrench.setAttribute("class","animated pulse");
+    
+    if(isInViewport(contact)){
+      quoteOne.style.visibility="visible";
+      quoteText.style.visibility="visible";
+      
     } 
-    if(isInViewport(house)){
-      house.setAttribute("class","animated pulse");
-    } 
-    if(isInViewport(contract)){
-      contract.setAttribute("class","animated pulse");
-    } 
-    if(isInViewport(form)){
-      form.setAttribute("class","animated pulse");
-    } 
+
     
     // if(isInViewport(studentTwo)){
    //
