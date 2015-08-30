@@ -18,7 +18,7 @@ a {
   color:#3D383A;
 }
 
-a:hover {
+nav a:hover {
   color:#2CBDC2;
   
 }
@@ -60,6 +60,10 @@ button:hover {
   
 }
 
+.button2:hover {
+  background-color:#2CBDC2;
+}
+
 .submit {
   background-color:#363636;
   border:none;
@@ -94,6 +98,10 @@ h1.white {
   margin-bottom:-10px;
   text-align:left;
   padding:0;
+}
+
+h1.left {
+  text-align:left;
 }
 
 p.white {
@@ -207,7 +215,11 @@ header {
   position:absolute;
   display:block;
   bottom:-25%;
-  width:100%;
+  width:102%;
+  right:1%;
+}
+.form.message {
+  height:100px;
 }
 
 #cloud1 {
@@ -242,7 +254,7 @@ header {
   margin:1% 5% 1% 5%;
 }
 #quote1 {
-  width:50%;
+  width:48%;
   visibility:hidden;
 /*  border-right:1px solid;*/
 }
@@ -302,9 +314,10 @@ header {
   
 }
 
-#here {
+#tellus {
   width:100%;
   background-color:#F9F9F9;
+  padding-bottom:3%;
   
   
 }
@@ -349,13 +362,14 @@ header {
   background-color:white;
   font-family:'Dosis', sans-serif;
   font-size:18px;
-  font-weight:400;
-  color:#363636;
+  font-weight:200;
+ 
   width:100%;
   border:none;
   padding:1%;
   height:50px;
   margin-top:2%;
+  border:1px solid;
 }
 
 
@@ -388,7 +402,7 @@ header {
 #form-text {
   position:relative;
   width:40%;
-  margin-top:30px;
+  margin-top:90px;
   height:400px;
   margin-left:10%;
 }
@@ -423,6 +437,38 @@ footer {
   margin-left:10%;
   width:18%;
 }
+
+.button2 {
+  border:1px solid;
+  font-family:'Dosis', sans-serif;
+  font-size:25px;
+  padding:.5%;
+  font-weight:200;
+  text-align:center;
+  width:200px;
+  margin-top:-20px;
+ 
+  
+}
+h3 {
+  font-family:'Dosis', sans-serif;
+  
+  font-size:21px;
+  padding:.5%;
+  font-weight:200;
+  display:inline;
+  
+}
+
+input[type='checkbox'] {
+  position:relative;
+  margin-top:2%;
+ width:20px;
+ height:20px;
+ 
+}
+  
+
 
 
 

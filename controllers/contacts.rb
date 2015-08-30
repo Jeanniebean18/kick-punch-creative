@@ -9,11 +9,12 @@ end
 post "/contacts" do
   @contact = Contact.create({name:params[:name], phone: params[:phone], email:params[:email], message:params[:message], date:params[:date]})
   if @contact.save
+    binding.pry
     Pony.mail ( {
         :to => 'jeannie@kickpunchcreative.com, shineartdesigns@gmail.com',
         :from => "jeannie@kickpunchcreative.com",
         :subject => "KPC Contact Submission :  #{params[:name]}",
-        :body=> "name: #{params[:name]} - phone: #{params[:phone]}- message: #{params[:message]}, --- Contact them at: #{params[:email]}",
+        :body=> "name: #{params[:name]} - phone: #{params[:phone]}- interested in: #{params[:services]} message: #{params[:message]}, --- Contact them at: #{params[:email]}",
         :via => :smtp,
         :via_options => {  
           :address   => 'smtp.gmail.com',  

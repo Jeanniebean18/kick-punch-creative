@@ -39,8 +39,8 @@
   <section id="home">
   
     <header>
-      <img id="logo" src="assets/logo.svg" class="logo bounceIn animated center">
-      <img id="logo-two" src="assets/logo-two.svg" class="logo bounceIn animated center">
+     <a href="/home">  <img id="logo" src="assets/logo.svg" class="logo bounceIn animated center"></a>
+     <a href="/home"> <img id="logo-two" src="assets/logo-two.svg" class="logo bounceIn animated center"></a>
       
       <nav>
         <div class="center1">
@@ -67,7 +67,7 @@
                 blog
               </li>
             </a>
-            <a class="scroll" data-speed="2000" href="#work"> 
+            <a class="scroll" data-speed="2000" href="#tellus"> 
               <li>
                 contact
               </li>
@@ -93,7 +93,7 @@
       <object id="cloud2" type="image/svg+xml" data="assets/cloud2.svg" class="animated float">
       </object>
       <section id="toptext">
-        <h1> MICRO CONTENT <br>FOR A <b>BIG WORLD<b> </h1>
+        <h1> MICRO-CONTENT <br>FOR A <b>BIG WORLD<b> </h1>
           <button class="center margin-top"> see our work </button>
 
         </section>
@@ -103,17 +103,17 @@
     
       <section id="part-two">
     
-        <p id="tell" class="large"> We tell your brand’s story through exciting visuals and micro content</p>
-        <hr> <p id="tellcopy">What is micro content you ask? Whether it be an animated infographic, an eye-catching ad, or interactive web experience, micro content is an essential addition to your business’s marketing strategy. Simple, creative and informative content optimized for social media and designed to reduce information overload.
+        <p id="tell" class="large"> We Tell Your Brand’s Story Through Exciting Visuals and Micro-Content</p>
+        <hr> <p id="tellcopy">What is micro-content you ask? Whether it be an animated infographic, an eye-catching social ad, or interactive web experience, micro-content is an essential addition to your business’s marketing strategy. Simple, creative and informative content optimized for social media and designed to reduce information overload.
         </p>
       </section>
 
       <section id="services" class="clearfix">
-        <object id="cube1" type="image/svg+xml" data="assets/cube1.svg" class="floatleft cube">
+        <object id="cube1" type="image/svg+xml" data="assets/cube4.svg" class="floatleft cube">
         </object>
-        <object id="cube2" type="image/svg+xml" data="assets/cube1.svg" class="floatleft cube">
+        <object id="cube2" type="image/svg+xml" data="assets/cube2.svg" class="floatleft cube">
         </object>
-        <object id="cube3" type="image/svg+xml" data="assets/cube1.svg" class="floatleft cube">
+        <object id="cube3" type="image/svg+xml" data="assets/cube3.svg" class="floatleft cube">
         </object>
         <object id="cube4" type="image/svg+xml" data="assets/cube1.svg" class="floatleft cube">
         </object>
@@ -129,7 +129,7 @@
             <br> AMAZING VISUALS
             <br><b> TO YOUR CUSTOMERS?</b></br>
             <br>
-            <button class="margin-top"> contact us </button>
+           <a class="scroll" data-speed="2000" href="#tellus">  <div class="button2 center"> contact us </div></a>
           </div>
    
         </section>
@@ -143,14 +143,28 @@
         </section>
         
         
-<section id="here" class="clearfix">
+<section id="tellus" class="clearfix">
   
-        <div id="form-text" class="floatleft"><h1> WHAT CAN WE <br> <b>CREATE FOR YOU?</b></h1>
-          <img src="assets/logo.svg" class="form-image center">
+        <div id="form-text" class="floatleft">
+         
+          <h1 class="left"> SO...WHAT'S YOUR STORY? <br> AND HOW CAN WE HELP YOU
+        <br> <b> SHARE IT WITH THE WORLD? </b></h1>
+        <div class="button2 center "> TELL US >> </div>
+         
         </div>
 
         <div id="formcontainer" class="center floatright"> 
-          <form action="/contacts" method="post"> <input type="name" class="form" placeholder="&nbsp;&nbsp;your name" name="name" value="<%=params["name"] %>" required></h2> <input type="email" class="form" placeholder="&nbsp;&nbsp;your email" name="email" value="<%=params["email"]%>" ></h2>  <input type="text" class="form" placeholder="&nbsp;&nbsp;402-555-5555" name="phone" value="<%=params["phone"]%>" required></h2>   <input type="text_area" class="form message" placeholder="&nbsp;&nbsp;what can we make for you?" name="message" value="<%=params["message"]%>"required></h2> <input type="hidden" name="date" value="<%=Time.now%>"> <input type="submit" value="submit" class="submit"> 
+          
+          
+          <form action="/contacts" method="post"> <input type="name" class="form" placeholder="&nbsp;&nbsp;your name" name="name" value="<%=params["name"] %>" required></h2> <input type="email" class="form" placeholder="&nbsp;&nbsp;your email" name="email" value="<%=params["email"]%>" ></h2>  <input type="text" class="form" placeholder="&nbsp;&nbsp;402-555-5555" name="phone" value="<%=params["phone"]%>" required></h2> 
+            
+            <input type="checkbox"  name="services[]" value="microsite"> <h3>micro-site</h3></input>
+            <input type="checkbox"  name="services[]" value="socialcontent"><h3> social content</h3></input>
+            <input type="checkbox"  name="services[]" value="infographics"> <h3>infographics</h3></input>
+            <input type="checkbox"  name="services[]" value="logoandbranding"> <h3>logo & branding</h3></input>
+            
+            
+            <input type="textarea" class="form message" placeholder="&nbsp;&nbsp;what can we create for you?" name="message" value="<%=params["message"]%>"required></h2> <input type="hidden" name="date" value="<%=Time.now%>"> <input type="submit" value="submit" class="submit"> 
         </form>
   </div>
   
@@ -166,7 +180,7 @@
     
             <h2><a href="tel:4029150518" class="white">402.915.0518</a></h2>
     
-            <h2>jeannie@kickpunchcreative.com </h2>
+            <h2><a class="white" href="mailto:jeannie@kickpunchcreative.com"> jeannie@kickpunchcreative.com </a> </h2>
             <h2>omaha, ne </h2>
           </div>
      

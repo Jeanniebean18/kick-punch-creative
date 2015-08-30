@@ -1,31 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/css" href="http://fonts.googleapis.com/css?family=Dosis" ?>
-<?xml-stylesheet type="text/css" href="style.css" ?>  
-<!-- Generator: Adobe Illustrator 19.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 332.3 332.3" style="enable-background:new 0 0 332.3 332.3;" xml:space="preserve">
-<style type="text/css">
-
- 	.st0{fill:#FFFFFF;}
-  
-	.st1{fill:#231F20;}
-	.st2{font-family:'Dosis', sans-serif;}
-	.st3{font-size:40.5341px;}
-	.st4{fill:none;stroke:#A2A2A3;stroke-miterlimit:10;}
-	.st5{fill:none;}
-	.st6{font-family:'Dosis', sans-serif; font-weight:200}
-	.st7{font-size:17px;}
-	.st8{fill:#2CBDC1;}
-</style>
-<rect x="0" y="0" class="st0" width="332.3" height="332.3" id="bkg"/>
-<text transform="matrix(1 0 0 1 75.9672 183.28)" class="st1 st2 st3">infographics</text>
-<line class="st4" x1="111.2" y1="207.6" x2="229.1" y2="207.6"/>
-<rect x="51.7" y="229.6" class="st5" width="237" height="86.8"/>
-<text transform="matrix(1 0 0 1 67.9821 242.6494)"><tspan x="0" y="0" class="st1 st6 st7">Have content to share? Let’s do it </tspan><tspan x="3.1" y="20.4" class="st1 st6 st7">in an un-boring way. We’ll make</tspan><tspan x="14.2" y="40.8" class="st1 st6 st7">your content  look awesome </tspan><tspan x="45" y="61.2" class="st1 st6 st7">and share-worthy.</tspan></text>
+	 viewBox="145 -157.579 361.081 386.579" enable-background="new 145 -157.579 361.081 386.579" xml:space="preserve">
+<rect id="bkg" x="146.493" y="-157.579" fill="#FFFFFF" width="358.831" height="386.579"/>
+<text transform="matrix(1 0 0 1 231.5883 7.5707)" fill="#231F20" font-family="'Dosis-Regular'" font-size="40.5341px">infographics</text>
+<line fill="none" stroke="#A2A2A3" stroke-miterlimit="10" x1="266.493" y1="25.421" x2="384.393" y2="25.421"/>
+<text transform="matrix(1 0 0 1 257.4161 192.0042)" fill="#31C5C7" font-family="'Dosis-ExtraLight'" font-size="25.6932px">starting at $799</text>
+<rect x="176.202" y="40.421" fill="none" width="307.124" height="148.583"/>
+<text transform="matrix(1 0 0 1 186.0167 58.0851)" font-family="'Dosis-ExtraLight'" font-size="23px">Tell a compelling story with visuals </text>
+<text transform="matrix(1 0 0 1 180.1517 89.0851)" font-family="'Dosis-ExtraLight'" font-size="23px">to help support the overall message </text>
+<text transform="matrix(1 0 0 1 198.7697 120.0851)" font-family="'Dosis-ExtraLight'" font-size="23px">of your business. Ask about our</text>
+<text transform="matrix(1 0 0 1 234.1777 151.0851)" font-family="'Dosis-ExtraLight'" font-size="23px">animated infographics!</text>
 <g>
-	<rect x="127.1" y="79.8" class="st8" width="17.8" height="39"/>
-	<rect x="149.9" y="69.4" class="st8" width="17.8" height="49.4"/>
-	<rect x="172.7" y="54.2" class="st8" width="17.8" height="64.6"/>
-	<rect x="195.5" y="79.8" class="st8" width="17.8" height="39"/>
+	<rect x="272.146" y="-93.211" fill="#2CBDC1" width="22.011" height="48.227"/>
+	<rect x="300.34" y="-106.072" fill="#2CBDC1" width="22.011" height="61.087"/>
+	<rect x="328.534" y="-124.868" fill="#2CBDC1" width="22.011" height="79.883"/>
+	<rect x="356.729" y="-93.211" fill="#2CBDC1" width="22.011" height="48.227"/>
 </g>
 </svg>
