@@ -141,18 +141,21 @@
           <div id="work2" class="floatleft"></div>
       
         </section>
+        
+        
+<section id="here" class="clearfix">
+  
+        <div id="form-text" class="floatleft"><h1> WHAT CAN WE <br> <b>CREATE FOR YOU?</b></h1>
+          <img src="assets/logo.svg" class="form-image center">
+        </div>
 
-            <section id="contact-two" class="clearfix">
-          
-                    <div id="form-text" class="floatleft"><h1> WHAT CAN WE <br> <b>CREATE FOR YOU?</b></h1>
-                      <img src="assets/logo.svg" class="form-image center">
-                    </div>
-          
-                    <div id="formcontainer" class="center floatright"> <form action="/contacts" method="post"> <input type="name" class="form" placeholder="&nbsp;&nbsp;your name" name="name" value="<%=params["name"] %>" required></h2> <input type="email" class="form" placeholder="&nbsp;&nbsp;your email" name="email" value="<%=params["email"]%>" ></h2>  <input type="text" class="form" placeholder="&nbsp;&nbsp;402-555-5555" name="phone" value="<%=params["phone"]%>" required></h2>   <input type="text_area" class="form message" placeholder="&nbsp;&nbsp;what can we make for you?" name="message" value="<%=params["message"]%>"required></h2> <input type="hidden" name="date" value="<%=Time.now%>"> <input type="submit" value="submit" class="submit"> </form>
-              </div>
-          
-          
-            </section>
+        <div id="formcontainer" class="center floatright"> 
+          <form action="/contacts" method="post"> <input type="name" class="form" placeholder="&nbsp;&nbsp;your name" name="name" value="<%=params["name"] %>" required></h2> <input type="email" class="form" placeholder="&nbsp;&nbsp;your email" name="email" value="<%=params["email"]%>" ></h2>  <input type="text" class="form" placeholder="&nbsp;&nbsp;402-555-5555" name="phone" value="<%=params["phone"]%>" required></h2>   <input type="text_area" class="form message" placeholder="&nbsp;&nbsp;what can we make for you?" name="message" value="<%=params["message"]%>"required></h2> <input type="hidden" name="date" value="<%=Time.now%>"> <input type="submit" value="submit" class="submit"> 
+        </form>
+  </div>
+  
+</section>
+            
 
   
         <footer> 
@@ -181,7 +184,7 @@
             <div id="column-three" class="footer-column floatleft">
               <img src="assets/wdc.svg" class="wdc">
             </footer>
-            
+        
            
   
           </section>

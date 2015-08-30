@@ -293,12 +293,17 @@ header {
 
 #contact-two {
 
-  position:relative;
-  display:block;
   width:100%;
-  background-color:#2CBDC2;
+  background-color:#F9F9F9;
   border:1px solid;
 
+  
+  
+}
+
+#here {
+  width:100%;
+  background-color:#F9F9F9;
   
   
 }
@@ -353,7 +358,7 @@ header {
   width:40%;
 /*  border:1px solid;*/
   margin-top:60px;
-  margin-right:60px;
+  margin-right:10%;
 }
 
 #work {
@@ -376,9 +381,10 @@ header {
 
 #form-text {
   position:relative;
-  width:50%;
+  width:40%;
   margin-top:30px;
   height:400px;
+  margin-left:10%;
 }
 .form-image {
   width:270px;
@@ -393,7 +399,7 @@ footer {
   bottom:0;
   width:100%;
   background-color:#363636;
-  height:310px;
+  height:325px;
   
 }
 
@@ -403,6 +409,7 @@ footer {
 }
 
 .wdc {
+  margin-top:20px;
   width:80%;
 }
 
