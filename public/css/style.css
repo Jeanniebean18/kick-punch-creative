@@ -132,7 +132,7 @@ header {
   z-index:5000;
 }
 .logo {
-  width:200px;
+  width:190px;
   position:relative;
   display:block;
   z-index:5001;
@@ -142,7 +142,7 @@ header {
   position:relative;
   width:100%;
   background-color:#F9F9F9;
-  height:640px;
+  height:600px;
   overflow:hidden;
   z-index:1;
 }
@@ -179,7 +179,7 @@ header {
 
 #toptext {
   position:relative;
-  top:235px;
+  top:205px;
   display:block;
   width:30%;
   left:100px;
