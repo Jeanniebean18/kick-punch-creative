@@ -55,6 +55,8 @@ button {
   padding: 2% 5% 2% 5%;
 }
 
+
+
 button:hover {
   background-color:#363636;
   
@@ -390,15 +392,39 @@ header {
 /*  border:1px solid;*/
 }
 #work1{
+  position:relative;
   width:45%;
+  background-image:url("../assets/foodtruck.jpg");
+  background-size:cover;
   background-color:#2CBDC2;
   height:300px;
   margin-right:10%;
+
 }
 
 #work2{
+  position:relative;
   width:45%;
+  background-image:url("../assets/pedersen.jpg");
+  background-size:cover;
   background-color:#2CBDC2;
+  height:300px;
+}
+.margin-top-again {
+  top:130px;
+}
+#work2:hover > .overlay ,
+#work1:hover > .overlay {
+  display:block;
+}
+
+.overlay {
+  position:relative;
+  display:none;
+  width:100%;
+  background-color:rgba(255,255,255,0.8);
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
   height:300px;
 }
 
@@ -456,7 +482,7 @@ footer {
 h3 {
   font-family:'Dosis', sans-serif;
   
-  font-size:21px;
+  font-size:19px;
   padding:.5%;
   font-weight:200;
   display:inline;

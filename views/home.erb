@@ -39,8 +39,8 @@
   <section id="home">
   
     <header>
-     <a href="/home">  <img id="logo" src="assets/logo.svg" class="logo bounceIn animated center"></a>
-     <a href="/home"> <img id="logo-two" src="assets/logo-two.svg" class="logo bounceIn animated center"></a>
+      <a href="/home">  <img id="logo" src="assets/logo.svg" class="logo bounceIn animated center"></a>
+      <a href="/home"> <img id="logo-two" src="assets/logo-two.svg" class="logo bounceIn animated center"></a>
       
       <nav>
         <div class="center1">
@@ -129,7 +129,7 @@
             <br> AMAZING VISUALS
             <br><b> TO YOUR CUSTOMERS?</b></br>
             <br>
-           <a class="scroll" data-speed="2000" href="#tellus">  <div class="button2 center"> contact us </div></a>
+            <a class="scroll" data-speed="2000" href="#tellus">  <div class="button2 center"> contact us </div></a>
           </div>
    
         </section>
@@ -137,73 +137,82 @@
         
         <section id="work" class="clearfix center">
           <h1> OUR RECENT WORK </h1>
-          <div id="work1" class="floatleft"></div>
-          <div id="work2" class="floatleft"></div>
+          <div id="work1" class="floatleft">
+            <div class="overlay">
+              <button class="center margin-top-again">view work</button>
+            </div>
+          </div>
+          <div id="work2" class="floatleft">
+            
+            <div class="overlay">
+              <button class="center margin-top-again">view work</button>
+            </div>
+          </div>
       
         </section>
         
         
-<section id="tellus" class="clearfix">
+        <section id="tellus" class="clearfix">
   
-        <div id="form-text" class="floatleft">
+          <div id="form-text" class="floatleft">
          
-          <h1 > SO...WHAT'S YOUR STORY? <br> AND HOW CAN WE HELP YOU
-        <br> <b> SHARE IT WITH THE WORLD? </b></h1>
-        <div class="button2 center "> TELL US >> </div>
+            <h1 > SO...WHAT'S YOUR STORY? <br> AND HOW CAN WE HELP YOU
+              <br> <b> SHARE IT WITH THE WORLD? </b></h1>
+              <div class="button2 center "> TELL US >> </div>
          
-        </div>
+            </div>
 
-        <div id="formcontainer" class="center floatright"> 
+            <div id="formcontainer" class="center floatright"> 
           
           
-          <form action="/contacts" method="post"> <input type="name" class="form" placeholder="&nbsp;&nbsp;your name" name="name" value="<%=params["name"] %>" required></h2> <input type="email" class="form" placeholder="&nbsp;&nbsp;your email" name="email" value="<%=params["email"]%>" ></h2>  <input type="text" class="form" placeholder="&nbsp;&nbsp;402-555-5555" name="phone" value="<%=params["phone"]%>" required></h2> 
+              <form action="/contacts" method="post"> <input type="name" class="form" placeholder="&nbsp;&nbsp;your name" name="name" value="<%=params["name"] %>" required></h2> <input type="email" class="form" placeholder="&nbsp;&nbsp;your email" name="email" value="<%=params["email"]%>" ></h2>  <input type="text" class="form" placeholder="&nbsp;&nbsp;402-555-5555" name="phone" value="<%=params["phone"]%>" required></h2> 
             
-            <input type="checkbox"  name="services[]" value="microsite"> <h3>micro-site</h3></input>
-            <input type="checkbox"  name="services[]" value="socialcontent"><h3> social content</h3></input>
-            <input type="checkbox"  name="services[]" value="infographics"> <h3>infographics</h3></input>
-            <input type="checkbox"  name="services[]" value="logoandbranding"> <h3>logo & branding</h3></input>
+                <input type="checkbox"  name="services[]" value="microsite"> <h3>micro-site</h3></input>
+                <input type="checkbox"  name="services[]" value="socialcontent"><h3> social content</h3></input>
+                <input type="checkbox"  name="services[]" value="infographics"> <h3>infographics</h3></input>
+                <input type="checkbox"  name="services[]" value="logoandbranding"> <h3>logo & branding</h3></input>
             
             
-            <input type="textarea" class="form message" placeholder="&nbsp;&nbsp;what can we create for you?" name="message" value="<%=params["message"]%>"required></h2> <input type="hidden" name="date" value="<%=Time.now%>"> <input type="submit" value="submit" class="submit"> 
-        </form>
-  </div>
+                <input type="textarea" class="form message" placeholder="&nbsp;&nbsp;what can we create for you?" name="message" value="<%=params["message"]%>"required></h2> <input type="hidden" name="date" value="<%=Time.now%>"> <input type="submit" value="submit" class="submit"> 
+              </form>
+            </div>
   
-</section>
+          </section>
             
 
   
-        <footer> 
+          <footer> 
     
-          <div id="column-one" class="footer-column floatleft">
-            <h1 class="white"> CONTACTS</h1>
-            <br>
+            <div id="column-one" class="footer-column floatleft">
+              <h1 class="white"> CONTACTS</h1>
+              <br>
     
-            <h2><a href="tel:4029150518" class="white">402.915.0518</a></h2>
+              <h2><a href="tel:4029150518" class="white">402.915.0518</a></h2>
     
-            <h2><a class="white" href="mailto:jeannie@kickpunchcreative.com"> jeannie@kickpunchcreative.com </a> </h2>
-            <h2>omaha, ne </h2>
-          </div>
-     
-          <div id="column-two" class="footer-column floatleft">
-       
-            <h1 class="white">
-              <a href="http://kickpunchcreative.com" class="white">KICK PUNCH CREATIVE
-              </a>
-            </h1>
-  
-            <p class="white">
-              Kick Punch Creative is an Omaha Micro Design Agency specializing in micro-content and visuals for social media and web. Micro-content is an essential addition to your business’s marketing strategy.
+              <h2><a class="white" href="mailto:jeannie@kickpunchcreative.com"> jeannie@kickpunchcreative.com </a> </h2>
+              <h2>omaha, ne </h2>
             </div>
      
-            <div id="column-three" class="footer-column floatleft">
-              <img src="assets/wdc.svg" class="wdc">
-            </footer>
+            <div id="column-two" class="footer-column floatleft">
+       
+              <h1 class="white">
+                <a href="http://kickpunchcreative.com" class="white">KICK PUNCH CREATIVE
+                </a>
+              </h1>
+  
+              <p class="white">
+                Kick Punch Creative is an Omaha Micro Design Agency specializing in micro-content and visuals for social media and web. Micro-content is an essential addition to your business’s marketing strategy.
+              </div>
+     
+              <div id="column-three" class="footer-column floatleft">
+                <img src="assets/wdc.svg" class="wdc">
+              </footer>
         
            
   
-          </section>
+            </section>
 
-          <script src="animate.js"></script>
-          <script src="scroll.js"></script>
+            <script src="animate.js"></script>
+            <script src="scroll.js"></script>
    
-        </body></html>
+          </body></html>
