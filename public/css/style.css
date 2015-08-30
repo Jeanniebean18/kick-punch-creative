@@ -65,7 +65,7 @@ button:hover {
 h1 {
 
     font-family:'Dosis', sans-serif;
-    font-size:245%;
+    font-size:215%;
     font-weight:200;
     color:#363636;
     text-align:center;
@@ -142,7 +142,7 @@ header {
   position:relative;
   width:100%;
   background-color:#F9F9F9;
-  height:570px;
+  height:560px;
   overflow:hidden;
   z-index:1;
 }
@@ -179,7 +179,7 @@ header {
 
 #toptext {
   position:relative;
-  top:205px;
+  top:190px;
   display:block;
   width:30%;
   left:100px;
