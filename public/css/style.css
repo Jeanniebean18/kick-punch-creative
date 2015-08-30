@@ -44,6 +44,26 @@ nav li {
   font-weight:400;
 }
 
+h1 {
+
+    font-family:'Dosis', sans-serif;
+    font-size:375%;
+    font-weight:200;
+    color:white;
+    text-align:center;
+  
+ 
+}
+
+p {
+  font-family:'Dosis', sans-serif;
+  font-size:25px;
+  font-weight:400;
+  color:white;
+  text-align:center;
+  
+}
+
 .center {
   position:relative;
   margin-right:auto;
@@ -95,7 +115,7 @@ header {
   position:relative;
   width:100%;
   background-color:#F9F9F9;
-  height:690px;
+  height:590px;
   overflow:hidden;
   z-index:1;
 }
@@ -126,6 +146,19 @@ header {
   position:absolute;
   top:15%;
   left:10%;
+}
+
+/*part two*/
+
+#part-two {
+  position:relative;
+  margin-top:0px;
+  display:block;
+    width:100%;
+    background-color:#363636;
+    padding:.1%;
+    z-index:1;
+  
 }
 
 
