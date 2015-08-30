@@ -44,12 +44,30 @@ nav li {
   font-weight:400;
 }
 
+button {
+  background-color:#2CBDC2;
+  border:none;
+  color:white;
+  font-family:'Dosis', sans-serif;
+  font-size:20px;
+  padding: 2% 5% 2% 5%;
+}
+
+button:hover {
+  background-color:#363636;
+  
+}
+
+.margin-top {
+  margin-top:-40px;
+}
+
 h1 {
 
     font-family:'Dosis', sans-serif;
-    font-size:375%;
+    font-size:245%;
     font-weight:200;
-    color:white;
+    color:#363636;
     text-align:center;
     padding:1.5%;
   
@@ -58,11 +76,19 @@ h1 {
 
 p {
   font-family:'Dosis', sans-serif;
-  font-size:25px;
+  font-size:23px;
   font-weight:400;
-  color:white;
+  color:#363636;
   text-align:center;
   
+}
+
+p.large {
+  font-size:35px;
+}
+
+hr {
+  width:300px;
 }
 
 .center {
@@ -151,15 +177,20 @@ header {
 
 /*part two*/
 
-#part-two {
+#toptext {
   position:relative;
-  margin-top:-65px;
+  top:235px;
   display:block;
-    width:100%;
-    background-color:#363636;
-    
-    z-index:1;
+  width:30%;
+  left:100px;
+  border:1px;
   
+  z-index:1;
+  
+}
+
+#part-two {
+  margin:1% 5% 1% 5%;
 }
 
 
