@@ -58,6 +58,15 @@ button:hover {
   
 }
 
+.submit {
+  background-color:gray;
+  border:none;
+  color:white;
+  font-family:'Dosis', sans-serif;
+  font-size:20px;
+  padding: 2% 5% 2% 5%;
+}
+
 .margin-top {
   margin-top:-40px;
 }
@@ -231,7 +240,12 @@ header {
 }
 
 #form {
-  background-color:#2CBDC2;
+/*  background-color:#2CBDC2;*/
+  background-image:url("../assets/belt.svg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:100%;
+  
 }
 
 .twitter {
@@ -245,6 +259,50 @@ header {
   top:8px;
   right:50px;
   width:38px;
+}
+
+.form {
+  background-color:white;
+  font-family:'Dosis', sans-serif;
+  font-size:15px;
+  font-weight:400;
+  color:#363636;
+  width:100%;
+  border:none;
+  padding:1%;
+  height:50px;
+}
+
+h2 {
+
+  font-family:'Dosis', sans-serif;
+  font-size:25px;
+  font-weight:400;
+  color:white;
+  width:100%;
+  border:none;
+  margin:2%;
+}
+
+#formcontainer {
+  width:50%;
+}
+
+#work {
+  width:75%;
+/*  border:1px solid;*/
+}
+#work1{
+  width:45%;
+  background-color:#2CBDC2;
+  height:300px;
+  margin-right:10%;
+}
+
+#work2{
+  width:45%;
+  background-color:#2CBDC2;
+  height:300px;
 }
 
 
