@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="145 -157.579 361.081 386.579" enable-background="new 145 -157.579 361.081 386.579" xml:space="preserve">
-<rect id="bkg" x="146.493" y="-157.579" fill="#FFFFFF" width="358.831" height="386.579"/>
-<text transform="matrix(1 0 0 1 231.5883 7.5707)" fill="#231F20" font-family="'Dosis-Regular'" font-size="40.5341px">infographics</text>
-<line fill="none" stroke="#A2A2A3" stroke-miterlimit="10" x1="266.493" y1="25.421" x2="384.393" y2="25.421"/>
-<text transform="matrix(1 0 0 1 257.4161 192.0042)" fill="#31C5C7" font-family="'Dosis-ExtraLight'" font-size="25.6932px">starting at $799</text>
-<rect x="176.202" y="40.421" fill="none" width="307.124" height="148.583"/>
-<text transform="matrix(1 0 0 1 186.0167 58.0851)" font-family="'Dosis-ExtraLight'" font-size="23px">Tell a compelling story with visuals </text>
-<text transform="matrix(1 0 0 1 180.1517 89.0851)" font-family="'Dosis-ExtraLight'" font-size="23px">to help support the overall message </text>
-<text transform="matrix(1 0 0 1 198.7697 120.0851)" font-family="'Dosis-ExtraLight'" font-size="23px">of your business. Ask about our</text>
-<text transform="matrix(1 0 0 1 234.1777 151.0851)" font-family="'Dosis-ExtraLight'" font-size="23px">animated infographics!</text>
+	 viewBox="145 -216 361.081 504" enable-background="new 145 -216 361.081 504" xml:space="preserve">
+<rect id="bkg" x="146.125" y="-216" fill="#FFFFFF" width="358.831" height="504"/>
+<text transform="matrix(1 0 0 1 231.2205 7.8607)" fill="#231F20" font-family="Dosis, sans-serif" font-weight="400" font-size="40.5341px">infographics</text>
+<line fill="none" stroke="#A2A2A3" stroke-miterlimit="10" x1="266.125" y1="25.711" x2="384.025" y2="25.711"/>
+<text transform="matrix(1 0 0 1 250.8879 230.2902)" fill="#31C5C7" font-family="Dosis, sans-serif" font-weight="200" font-size="25.6932px">starting at $799</text>
 <g>
-	<rect x="272.146" y="-93.211" fill="#2CBDC1" width="22.011" height="48.227"/>
-	<rect x="300.34" y="-106.072" fill="#2CBDC1" width="22.011" height="61.087"/>
-	<rect x="328.534" y="-124.868" fill="#2CBDC1" width="22.011" height="79.883"/>
-	<rect x="356.729" y="-93.211" fill="#2CBDC1" width="22.011" height="48.227"/>
+	<rect x="271.778" y="-92.921" fill="#2CBDC1" width="22.011" height="48.227"/>
+	<rect x="299.972" y="-105.782" fill="#2CBDC1" width="22.011" height="61.087"/>
+	<rect x="328.166" y="-124.578" fill="#2CBDC1" width="22.011" height="79.883"/>
+	<rect x="356.361" y="-92.921" fill="#2CBDC1" width="22.011" height="48.227"/>
 </g>
+<rect x="176.028" y="36.301" fill="none" width="299.803" height="154.492"/>
+<text transform="matrix(1 0 0 1 197.2846 64.2696)" font-family="Dosis, sans-serif" font-weight="200" font-size="26px">Tell a compelling story with </text>
+<text transform="matrix(1 0 0 1 201.8996 95.4696)" font-family="Dosis, sans-serif" font-weight="200" font-size="26px">visuals to help support the </text>
+<text transform="matrix(1 0 0 1 213.3786 126.6696)" font-family="Dosis, sans-serif" font-weight="200" font-size="26px">overall message of your </text>
+<text transform="matrix(1 0 0 1 214.0546 157.8696)" font-family="Dosis, sans-serif" font-weight="200" font-size="26px">business. Ask about our </text>
+<text transform="matrix(1 0 0 1 217.8766 189.0696)" font-family="Dosis, sans-serif" font-weight="200" font-size="26px">animated infographics!</text>
 </svg>

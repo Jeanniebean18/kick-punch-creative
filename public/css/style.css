@@ -254,8 +254,10 @@ header {
   margin:1% 5% 1% 5%;
 }
 #quote1 {
-  width:48%;
+  width:43%;
   visibility:hidden;
+  margin-left:6%;
+  margin-top:2%;
 /*  border-right:1px solid;*/
 }
 #services {
@@ -273,6 +275,7 @@ header {
   position:relative;
   border-left:1px solid;
   width:40%;
+  
 }
 
 #contact {

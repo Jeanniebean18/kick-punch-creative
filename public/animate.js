@@ -55,7 +55,11 @@ function inView(){
     
     if(isInViewport(contact)){
       quoteOne.style.visibility="visible";
+      quoteOne.setAttribute("class", "floatleft cube2 animated slideInLeft")
       quoteText.style.visibility="visible";
+      quoteText.setAttribute("class", "quote-text floatleft margin-top-plus animated slideInRight")
+      
+      
       
     } 
 

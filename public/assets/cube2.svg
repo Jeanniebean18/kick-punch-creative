@@ -1,32 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="145 -157.579 361.081 386.579" enable-background="new 145 -157.579 361.081 386.579" xml:space="preserve">
-<rect id="bkg" x="148.184" y="-157.579" fill="#FFFFFF" width="358.831" height="386.579"/>
-<text transform="matrix(1 0 0 1 208.0003 7.5707)" fill="#231F20" font-family="'Dosis-Regular'" font-size="40.5341px">logo &amp; branding</text>
-<line fill="none" stroke="#A2A2A3" stroke-miterlimit="10" x1="270.134" y1="25.421" x2="388.034" y2="25.421"/>
-<rect x="210.633" y="85.021" fill="none" width="237" height="102.7"/>
-<text transform="matrix(1 0 0 1 251.49 191.9208)" fill="#31C5C7" font-family="'Dosis-ExtraLight'" font-size="25.6932px">starting at $699</text>
-<rect x="183.533" y="40.421" fill="none" width="285.883" height="123.084"/>
-<text transform="matrix(1 0 0 1 198.5966 58.0851)" font-family="'Dosis-ExtraLight'" font-size="23px">Wanting the right look for your </text>
-<text transform="matrix(1 0 0 1 185.0506 89.0851)" font-family="'Dosis-ExtraLight'" font-size="23px">new business or does the old look </text>
-<text transform="matrix(1 0 0 1 195.1706 120.0851)" font-family="'Dosis-ExtraLight'" font-size="23px">need a facelift? We’ll design the </text>
-<text transform="matrix(1 0 0 1 193.1586 151.0851)" font-family="'Dosis-ExtraLight'" font-size="23px">perfect brand &amp; identity for you. </text>
+	 viewBox="145 -216.29 361.081 504" enable-background="new 145 -216.29 361.081 504" xml:space="preserve">
+<rect id="bkg" x="146.125" y="-216.29" fill="#FFFFFF" width="358.831" height="504"/>
+<text transform="matrix(1 0 0 1 205.9413 7.5707)" fill="#231F20" font-family="Dosis, sans-serif" font-weight="00" font-size="40.5341px">logo &amp; branding</text>
+<line fill="none" stroke="#A2A2A3" stroke-miterlimit="10" x1="268.075" y1="25.421" x2="385.975" y2="25.421"/>
+<text transform="matrix(1 0 0 1 249.431 228.9208)" fill="#31C5C7" font-family="Dosis, sans-serif" font-weight="200" font-size="25.6932px">starting at $699</text>
 <g>
 	<g>
 		<g>
 			<g>
-				<defs>
-					<rect id="SVGID_1_" x="277.107" y="-123.37" width="100.984" height="84.775"/>
-				</defs>
-				<clipPath id="SVGID_2_">
-					<use xlink:href="#SVGID_1_"  overflow="visible"/>
-				</clipPath>
-				<path clip-path="url(#SVGID_2_)" fill="#31C5C7" d="M355.563-122.625c-14.047-3.993-26.493,8.639-32.664,23.354
-					c-6.354-14.625-19.054-27.293-32.971-23.033c-17.742,4.885-25.288,48.339,33.363,75.82
-					C381.522-74.464,373.378-117.663,355.563-122.625"/>
+				<g>
+					<defs>
+						<rect id="SVGID_1_" x="275.048" y="-123.37" width="100.984" height="84.775"/>
+					</defs>
+					<clipPath id="SVGID_2_">
+						<use xlink:href="#SVGID_1_"  overflow="visible"/>
+					</clipPath>
+					<path clip-path="url(#SVGID_2_)" fill="#31C5C7" d="M353.504-122.625c-14.047-3.993-26.493,8.639-32.664,23.354
+						c-6.354-14.625-19.054-27.293-32.971-23.033c-17.742,4.885-25.288,48.339,33.363,75.82
+						C379.463-74.464,371.319-117.663,353.504-122.625"/>
+				</g>
 			</g>
 		</g>
 	</g>
 </g>
+<rect x="182" y="44.421" fill="none" width="296" height="160"/>
+<text transform="matrix(1 0 0 1 185.4429 64.3888)"><tspan x="0" y="0" font-family="Dosis, sans-serif" font-weight="200" font-size="26px">Wanting the right look for your</tspan><tspan x="7.254" y="31.2" font-family="Dosis, sans-serif" font-weight="200" font-size="26px">new business or does the old </tspan><tspan x="25.337" y="62.4" font-family="Dosis, sans-serif" font-weight="200" font-size="26px">look need a facelift? We’ll </tspan><tspan x="17.745" y="93.6" font-family="Dosis, sans-serif" font-weight="200" font-size="26px">design the perfect brand &amp; </tspan><tspan x="71.486" y="124.8" font-family="Dosis, sans-serif" font-weight="200" font-size="26px">identity for you.</tspan></text>
 </svg>
