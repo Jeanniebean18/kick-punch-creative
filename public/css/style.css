@@ -51,6 +51,7 @@ h1 {
     font-weight:200;
     color:white;
     text-align:center;
+    padding:1.5%;
   
  
 }
@@ -115,7 +116,7 @@ header {
   position:relative;
   width:100%;
   background-color:#F9F9F9;
-  height:590px;
+  height:640px;
   overflow:hidden;
   z-index:1;
 }
@@ -152,11 +153,11 @@ header {
 
 #part-two {
   position:relative;
-  margin-top:0px;
+  margin-top:-65px;
   display:block;
     width:100%;
     background-color:#363636;
-    padding:.1%;
+    
     z-index:1;
   
 }
