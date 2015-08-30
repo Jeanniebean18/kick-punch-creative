@@ -61,6 +61,9 @@ button:hover {
 .margin-top {
   margin-top:-40px;
 }
+.margin-top-plus {
+  top:100px;
+}
 
 h1 {
 
@@ -194,16 +197,23 @@ header {
 }
 #quote1 {
   width:50%;
-  border-right:1px solid;
+/*  border-right:1px solid;*/
 }
 #services {
-  margin:2% 0 2% 0;
-  padding:3% 5% 3% 5%;
-/*  background-color:#31C5C7;*/
+  margin:2% 0 0 0;
+  padding:3%;
+  padding-bottom:6%;
+  background-color:#F9F9F9;
+}
+
+.quote-text {
+  position:relative;
+  border:1px solid;
+  width:40%;
 }
 
 #contact {
-  margin:2% 0 2% 0;
+  margin:-3% 0 2% 0;
   padding:3% 5% 3% 5%;
   background-color:white;
 }
@@ -211,10 +221,30 @@ header {
 .floatleft{
   float:left;
 }
+.floatright{
+  float:right;
+}
 
 .cube {
   width:23%;
   margin:1%;
+}
+
+#form {
+  background-color:#2CBDC2;
+}
+
+.twitter {
+  position:absolute;
+  top:8px;
+  right:10px;
+  width:40px;
+}
+.facebook {
+  position:absolute;
+  top:8px;
+  right:50px;
+  width:38px;
 }
 
 
