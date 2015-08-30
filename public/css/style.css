@@ -217,7 +217,7 @@ header {
 
 .quote-text {
   position:relative;
-  border:1px solid;
+  border-left:1px solid;
   width:40%;
 }
 
