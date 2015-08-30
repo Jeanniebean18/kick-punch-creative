@@ -20,6 +20,7 @@ a {
 
 a:hover {
   color:#2CBDC2;
+  
 }
 
 .break {
@@ -319,6 +320,11 @@ header {
   top:12px;
   right:55px;
   width:29px;
+}
+
+.twitter:hover, 
+.facebook:hover {
+  background-color:#2CBDC2;
 }
 
 #contactquote {
