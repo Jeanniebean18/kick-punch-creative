@@ -192,6 +192,30 @@ header {
 #part-two {
   margin:1% 5% 1% 5%;
 }
+#quote1 {
+  width:50%;
+  border-right:1px solid;
+}
+#services {
+  margin:2% 0 2% 0;
+  padding:3% 5% 3% 5%;
+/*  background-color:#31C5C7;*/
+}
+
+#contact {
+  margin:2% 0 2% 0;
+  padding:3% 5% 3% 5%;
+  background-color:white;
+}
+
+.floatleft{
+  float:left;
+}
+
+.cube {
+  width:23%;
+  margin:1%;
+}
 
 
  
