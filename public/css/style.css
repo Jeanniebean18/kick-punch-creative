@@ -88,7 +88,28 @@ h1 {
 }
 a.white,
 h1.white {
-  color:white;
+  color:#D9DDDD;
+  margin-bottom:-10px;
+  text-align:left;
+  padding:0;
+}
+
+p.white {
+  color:#D9DDDD;
+  font-size:18px;
+  text-align:left;
+}
+
+h2 {
+
+  font-family:'Dosis', sans-serif;
+  font-size:20px;
+  font-weight:200;
+  color:#D9DDDD;
+  width:100%;
+  border:none;
+  line-height:10px;
+  text-align:left;
 }
 
 p {
@@ -153,6 +174,15 @@ header {
   position:relative;
   display:block;
   z-index:5001;
+  display:block;
+}
+
+#logo-two {
+  width:60px;
+  position:relative;
+  display:block;
+  z-index:5001;
+  display:none;
 }
 
 #part-one {
@@ -256,19 +286,20 @@ header {
   overflow:hidden;
   height:415px;
   
+  
 }
 
 .twitter {
   position:absolute;
-  top:8px;
-  right:10px;
-  width:40px;
+  top:12px;
+  right:19px;
+  width:31px;
 }
 .facebook {
   position:absolute;
-  top:8px;
-  right:50px;
-  width:38px;
+  top:12px;
+  right:59px;
+  width:29px;
 }
 
 .form {
@@ -284,16 +315,7 @@ header {
   margin-top:2%;
 }
 
-h2 {
 
-  font-family:'Dosis', sans-serif;
-  font-size:25px;
-  font-weight:400;
-  color:white;
-  width:100%;
-  border:none;
-  margin:2%;
-}
 
 #formcontainer {
   width:40%;
@@ -327,7 +349,7 @@ h2 {
   height:400px;
 }
 .form-image {
-  width:300px;
+  width:270px;
   position:relative;
   margin-top:-35px;
 
@@ -335,14 +357,26 @@ h2 {
 }
 
 footer {
+  position:relative;
+  bottom:0;
   width:100%;
   background-color:#363636;
   height:300px;
+  
 }
 
 .footer-column {
-  width:30%;
-  margin:5%;
+  width:25%;
+  margin:4%;
+}
+
+.wdc {
+  width:80%;
+}
+
+#column-one {
+  margin-left:10%;
+  width:18%;
 }
 
 
