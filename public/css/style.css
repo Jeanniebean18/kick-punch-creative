@@ -59,12 +59,13 @@ button:hover {
 }
 
 .submit {
-  background-color:gray;
+  background-color:#363636;
   border:none;
   color:white;
   font-family:'Dosis', sans-serif;
   font-size:20px;
   padding: 2% 5% 2% 5%;
+  margin-top:3%;
 }
 
 .margin-top {
@@ -84,6 +85,10 @@ h1 {
     padding:1.5%;
   
  
+}
+a.white,
+h1.white {
+  color:white;
 }
 
 p {
@@ -241,10 +246,15 @@ header {
 
 #form {
 /*  background-color:#2CBDC2;*/
-  background-image:url("../assets/belt.svg");
+  /*background-image:url("../assets/belt.svg");
   background-size:cover;
-  background-repeat:no-repeat;
+  background-repeat:no-repeat;*/
+  position:relative;
   width:100%;
+  background-color:#F9F9F9;
+/*  border:1px solid red;*/
+  overflow:hidden;
+  height:415px;
   
 }
 
@@ -264,13 +274,14 @@ header {
 .form {
   background-color:white;
   font-family:'Dosis', sans-serif;
-  font-size:15px;
+  font-size:18px;
   font-weight:400;
   color:#363636;
   width:100%;
   border:none;
   padding:1%;
   height:50px;
+  margin-top:2%;
 }
 
 h2 {
@@ -285,11 +296,15 @@ h2 {
 }
 
 #formcontainer {
-  width:50%;
+  width:40%;
+/*  border:1px solid;*/
+  margin-top:60px;
+  margin-right:60px;
 }
 
 #work {
   width:75%;
+  margin-bottom:40px;
 /*  border:1px solid;*/
 }
 #work1{
@@ -304,6 +319,33 @@ h2 {
   background-color:#2CBDC2;
   height:300px;
 }
+
+#form-text {
+  position:relative;
+  width:50%;
+  margin-top:30px;
+  height:400px;
+}
+.form-image {
+  width:300px;
+  position:relative;
+  margin-top:-35px;
+
+  
+}
+
+footer {
+  width:100%;
+  background-color:#363636;
+  height:300px;
+}
+
+.footer-column {
+  width:30%;
+  margin:5%;
+}
+
+
 
 
  

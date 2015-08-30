@@ -96,22 +96,35 @@
    
     </section>
     <section id="work" class="clearfix center">
+      <h1> OUR RECENT WORK </h1>
      <div id="work1" class="floatleft"></div>
       <div id="work2" class="floatleft"></div>
       
     </section>
 
-<section id="form">
+<section id="form" class="clearfix">
+  
 
+ <div id="form-text" class="floatleft"><h1> WHAT CAN WE <br> <b>CREATE FOR YOU?</b></h1>
+ <img src="assets/logo.svg" class="form-image center">
 
- <h1> what can we create for you?</h1> <div id="formcontainer" class="center"> <form action="/contacts" method="post"> <h2> name:<input type="name" class="form" placeholder="&nbsp;&nbsp;your name" name="name" value="<%=params["name"] %>" required></h2> <h2> email: <input type="email" class="form" placeholder="&nbsp;&nbsp;your email" name="email" value="<%=params["email"]%>" ></h2> <h2> phone: <input type="text" class="form" placeholder="&nbsp;&nbsp;402-555-5555" name="phone" value="<%=params["phone"]%>" required></h2> <h2> message: <input type="text_area" class="form message" placeholder="&nbsp;&nbsp;what can we make for you?" name="message" value="<%=params["message"]%>"required></h2> <input type="hidden" name="date" value="<%=Time.now%>"> <input type="submit" value="submit" class="submit"> </form> </div><object data="jeannie.svg" type="image/svg+xml" class="jeanner"> </object> <object data="bryan.svg" type="image/svg+xml" class="beanner"> </object> <object data="belt.svg" id="belt" type="image/svg+xml" class=""> </object> </div>
+ </div>
+ <div id="formcontainer" class="center floatright"> <form action="/contacts" method="post"> <input type="name" class="form" placeholder="&nbsp;&nbsp;your name" name="name" value="<%=params["name"] %>" required></h2> <input type="email" class="form" placeholder="&nbsp;&nbsp;your email" name="email" value="<%=params["email"]%>" ></h2>  <input type="text" class="form" placeholder="&nbsp;&nbsp;402-555-5555" name="phone" value="<%=params["phone"]%>" required></h2>   <input type="text_area" class="form message" placeholder="&nbsp;&nbsp;what can we make for you?" name="message" value="<%=params["message"]%>"required></h2> <input type="hidden" name="date" value="<%=Time.now%>"> <input type="submit" value="submit" class="submit"> </form> </div><object data="jeannie.svg" type="image/svg+xml" class="jeanner"> </object> <object data="bryan.svg" type="image/svg+xml" class="beanner"> </object> <object data="belt.svg" id="belt" type="image/svg+xml" class=""> </object> </div>
+ 
+ 
+ </section>
   
-  <footer> <div class="part7"> <div class="copy"> <a href="http://kickpunchcreative.com">kick punch creative</a>&nbsp; | &nbsp;  a micro design agency &nbsp; | &nbsp; <a href="tel:4029150518">402.915.0518</a> &nbsp; | &nbsp; omaha, ne </div></div>
-  
-  
-    loreum  
+  <footer> 
+    
+    <div id="column-one" class="footer-column floatleft">
+    <h1 class="white"><a href="http://kickpunchcreative.com" class="white">KICK PUNCH CREATIVE</a></h1>
+    <br> <h2>a micro design agency</h2>
+     <br><a href="tel:4029150518">402.915.0518</a> 
+     <br>omaha, ne </div>
+  </footer>
   
  </section>
+
     
     
 
