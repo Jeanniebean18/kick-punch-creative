@@ -348,14 +348,14 @@ header {
 .twitter {
   position:absolute;
   top:12px;
-  right:19px;
+  right:100px;
   width:31px;
   display:block;
 }
 .facebook {
   position:absolute;
   top:12px;
-  right:55px;
+  right:60px;
   width:29px;
   display:block;
 }
@@ -368,7 +368,7 @@ header {
 #contactquote {
   position:absolute;
   top:12px;
-  right:105px;
+  left:90px;
   border:1px solid;
   font-family:'Dosis', sans-serif;
   font-size:15px;
