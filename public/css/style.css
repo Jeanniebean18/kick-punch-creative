@@ -247,12 +247,11 @@ header {
 
 #toptext {
   position:relative;
-  top:190px;
+  top:210px;
   display:block;
   width:30%;
-  left:100px;
+  left:60px;
   border:1px;
-  
   z-index:1;
   
 }
