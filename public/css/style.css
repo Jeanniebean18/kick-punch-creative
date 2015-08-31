@@ -312,6 +312,8 @@ header {
 .cube {
   width:23%;
   margin:1%;
+/*  float:none;*/
+  padding:0%;
 }
 
 .cube2 {

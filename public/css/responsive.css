@@ -31,10 +31,38 @@
     left:60px;
     border:1px;
     z-index:1;
-  /*  border:1px solid;*/
+    /*  border:1px solid;*/
   
   }
   
+  h1.tell {
+    font-size:26px;
+  }
+    
+    #form-text {
+      position:relative;
+      width:40%;
+      margin-top:90px;
+      height:400px;
+      margin-left:5%;
+    }
+    p.white {
+      font-size:16px;
+    }
+    
+    .wdc {
+      margin-top:50px;
+      width:80%;
+    }
+    footer {
+      position:relative;
+      bottom:0;
+      left:0;
+      width:100%;
+      background-color:#363636;
+      height:355px;
+  
+    }
   
 }
 
@@ -49,7 +77,7 @@
     left:60px;
     border:1px;
     z-index:1;
-  /*  border:1px solid;*/
+    /*  border:1px solid;*/
   
   }
   
@@ -66,6 +94,19 @@
     right:55px;
     width:29px;
     display:none;
+  }
+  
+  h2 {
+
+    font-family:'Dosis', sans-serif;
+    font-size:15px;
+    font-weight:200;
+    color:#D9DDDD;
+    width:100%;
+    border:none;
+    line-height:10px;
+    text-align:left;
+  
   }
   
   
@@ -85,14 +126,14 @@
   #toptext {
     position:relative;
     top:25%;
-    width:40%;
+    width:60%;
     left:0;
     display:block;
-   margin-left:auto;
-   margin-right:auto;
+    margin-left:auto;
+    margin-right:auto;
     border:1px;
     z-index:1;
-/*    border:1px solid;*/
+    /*    border:1px solid;*/
   
   }
 }
@@ -105,77 +146,262 @@
   }
   
   #hamburger {
-     display:block;
-     position:absolute;
-     top:10px;
-     left:10px;
-     z-index:5000;
-     width:60px;
-     background-color:none;
+    display:block;
+    position:absolute;
+    top:10px;
+    left:10px;
+    z-index:5000;
+    width:60px;
+    background-color:none;
     
-   }
-   #bottom,
-   #top {
-     -webkit-transition: all 1s ease;
-     transition: all 1s ease;
-     transform-origin:50% 50%;
-     -webkit-transform-origin:50% 50%;
-   }
-   .rotate1 {
-     transform:rotate(45deg) ;
-     transform-origin:50% 50%;
-   }
-   .rotate2 {
-     transform:rotate(-45deg) ;
-      transform-origin:50% 50%;
-   }
-   .rotate3 {
-     transform:rotate(180deg) ;
-     transform-origin:50% 50%;
-   }
-   .rotate4 {
-     transform:rotate(-180deg) ;
-      transform-origin:50% 50%;
-   }
+  }
+  
+  #quote-text {
+    display:none;
+  }
+  
+  #quote1 {
+    width:70%;
+    visibility:visible;
+    position:relative;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2%;
+  /*  border-right:1px solid;*/
+  }
+  #bottom,
+  #top {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    transform-origin:50% 50%;
+    -webkit-transform-origin:50% 50%;
+  }
+  .rotate1 {
+    transform:rotate(45deg) ;
+    transform-origin:50% 50%;
+  }
+  .rotate2 {
+    transform:rotate(-45deg) ;
+    transform-origin:50% 50%;
+  }
+  .rotate3 {
+    transform:rotate(180deg) ;
+    transform-origin:50% 50%;
+  }
+  .rotate4 {
+    transform:rotate(-180deg) ;
+    transform-origin:50% 50%;
+  }
    
-   #logo-two {
-     width:60px;
+  #logo-two {
+    width:60px;
+    position:relative;
+    display:block;
+    z-index:5001;
+    display:none;
+    visibility:hidden;
+  }
+   
+  #mobilenav {
+    position:fixed;
+    top:0;
+    left:0;
+    width:85px;
+    height:2000px;
+    background-color:white;
+    z-index:5000;
+    display:none;
+    font-family:'Dosis', sans-serif;
+    font-size:18px;
+  }
+  #mobile {
+    margin-top:70px;
+    
+  }
+  #mobilenav li {
+    list-style-type: none;
+    margin-left:-20px;
+    line-height:50px;
+     
+     
+  }
+   
+  .face,
+  .twit {
+    width:60%;
+    margin-left:9px;
+  }
+   
+  #skyline {
+    position:absolute;
+    display:block;
+    bottom:-5%;
+    width:102%;
+    right:1%;
+  }
+  #cloud1 {
+    width:20%;
+    position:absolute;
+    top:10%;
+    right:5%;
+  }
+
+  #cloud2 {
+    width:25%;
+    position:absolute;
+    top:15%;
+    left:10%;
+  }
+  
+  .floatleft {
+    float:none;
+  }
+  
+  .cube {
+    float:left;
+    width:48%;
+    padding:2%;
+  }
+  
+  #work {
+    width:90%;
+    margin-bottom:40px;
+  /*  border:1px solid;*/
+  }
+  #work1{
+    position:relative;
+    width:100%;
+    background-image:url("../assets/foodtruck.jpg");
+    background-size:cover;
+    background-color:#2CBDC2;
+    height:300px;
+    margin-right:1%;
+    margin-bottom:2%;
+
+  }
+
+  #work2{
+    position:relative;
+    width:100%;
+    background-image:url("../assets/pedersen.jpg");
+    background-size:cover;
+    background-color:#2CBDC2;
+    height:300px;
+  }
+  
+  
+
+}
+
+@media  (max-width: 583px) {
+  
+  #part-one {
+    position:relative;
+    width:100%;
+    background-color:#F9F9F9;
+    height:450px;
+    overflow:hidden;
+    z-index:1;
+  }
+  
+  #toptext {
+    position:relative;
+    top:25%;
+    width:100%;
+    
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border:1px;
+    z-index:1;
+    /*    border:1px solid;*/
+  
+  }
+  
+  #quote1 {
+    width:90%;}
+  
+  .cube {
+    float:none;
      position:relative;
      display:block;
-     z-index:5001;
-     display:none;
-     visibility:hidden;
-   }
-   
-   #mobilenav {
-     position:fixed;
-     top:0;
-     left:0;
-     width:85px;
-     height:2000px;
-     background-color:white;
-     z-index:5000;
-     display:none;
-     font-family:'Dosis', sans-serif;
-     font-size:18px;
-   }
-   #mobile {
-     margin-top:70px;
+    width:70%;
+    padding:2%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  #cloud1 {
+    width:20%;
+    position:absolute;
+    top:15%;
+    right:5%;
+  }
+
+  #cloud2 {
+    width:25%;
+    position:absolute;
+    top:30%;
+    left:10%;
+  }
+  
+}
+
+@media  (max-width: 414px) {
+  
+  .jeanniebryan {
+    position:absolute;
+    display:block;
+    bottom:-15px;
+    width:70%;
+    left:15%;
+  }
+  
+  p.large {
+    font-size:25px;
+  }
+  p {
+    font-size:20px;
     
-   }
-   #mobilenav li {
-     list-style-type: none;
-     margin-left:-20px;
-     line-height:50px;
-     
-     
-   }
-   
-   .face,
-   .twit {
-     width:60%;
-     margin-left:9px;
-   }
+  }
+
+}
+
+@media  (max-width: 379px) {
+
+  .logo {
+    width:160px;
+
+    position:relative;
+    display:block;
+    z-index:5001;
+    display:block;
+  }
+  
+
+}
+
+@media  (max-width: 320px) {
+
+  .logo {
+    width:160px;
+    
+    position:relative;
+    display:block;
+    z-index:5001;
+    display:block;
+  }
+  
+  #part-one {
+    position:relative;
+    width:100%;
+    background-color:#F9F9F9;
+    height:380px;
+    overflow:hidden;
+    z-index:1;
+  }
+  
 
 }
 
