@@ -9,7 +9,7 @@ var quoteOne = document.getElementById("quote1");
 var topp = document.getElementById("top");
 var bottomm = document.getElementById("bottom");
 var hamburger = document.getElementById("hamburger");
-
+var mobilenav = document.getElementById("mobilenav");
 
 hamburger.onclick = toggle_display1;
 
@@ -24,6 +24,7 @@ function toggle_display1() {
     topp.setAttribute("class","rotate1");
     bottomm.setAttribute("class","rotate2");
     hamburger.style.backgroundColor = "white";
+    mobilenav.style.display="block";
   } 
   
   else {
@@ -31,6 +32,7 @@ function toggle_display1() {
     topp.setAttribute("class","rotate3");
     bottomm.setAttribute("class","rotate4");
     hamburger.style.backgroundColor = "";
+    mobilenav.style.display="none";
    
 
   }
@@ -47,6 +49,7 @@ function inView(){
   if (window.pageYOffset>5) {
     logo.style.display="none";
     logoTwo.style.display="block";
+    
   }
 
   if (window.pageYOffset<5) {
@@ -56,7 +59,7 @@ function inView(){
       
     
   // student work and quotes in viewport in viewport
-  if (document.documentElement.clientWidth  >= 1020) {
+  if (document.documentElement.clientWidth  >= 856) {
       
      
         

@@ -1,0 +1,183 @@
+/*media query*/
+
+
+@media  (max-width: 1081px) {
+ 
+
+  #contactquote {
+    display:none;
+  }
+  .quote-text {
+    position:relative;
+    border-left:1px solid;
+    width:40%;
+    margin-top:-60px;
+  }
+  
+  #part-one {
+    position:relative;
+    width:100%;
+    background-color:#F9F9F9;
+    height:460px;
+    overflow:hidden;
+    z-index:1;
+  }
+  
+  #toptext {
+    position:relative;
+    top:190px;
+    display:block;
+    width:30%;
+    left:60px;
+    border:1px;
+    z-index:1;
+  /*  border:1px solid;*/
+  
+  }
+  
+  
+}
+
+
+@media  (max-width: 979px) {
+ 
+  #toptext {
+    position:relative;
+    top:160px;
+    display:block;
+    width:30%;
+    left:60px;
+    border:1px;
+    z-index:1;
+  /*  border:1px solid;*/
+  
+  }
+  
+  .twitter {
+    position:absolute;
+    top:12px;
+    right:19px;
+    width:31px;
+    display:none;
+  }
+  .facebook {
+    position:absolute;
+    top:12px;
+    right:55px;
+    width:29px;
+    display:none;
+  }
+  
+  
+}
+
+@media  (max-width: 976px) {
+  
+  #part-one {
+    position:relative;
+    width:100%;
+    background-color:#F9F9F9;
+    height:560px;
+    overflow:hidden;
+    z-index:1;
+  }
+  
+  #toptext {
+    position:relative;
+    top:25%;
+    width:40%;
+    left:0;
+    display:block;
+   margin-left:auto;
+   margin-right:auto;
+    border:1px;
+    z-index:1;
+/*    border:1px solid;*/
+  
+  }
+}
+
+
+@media  (max-width: 858px) {
+  
+  nav {
+    display:none;
+  }
+  
+  #hamburger {
+     display:block;
+     position:absolute;
+     top:10px;
+     left:10px;
+     z-index:5000;
+     width:60px;
+     background-color:none;
+    
+   }
+   #bottom,
+   #top {
+     -webkit-transition: all 1s ease;
+     transition: all 1s ease;
+     transform-origin:50% 50%;
+     -webkit-transform-origin:50% 50%;
+   }
+   .rotate1 {
+     transform:rotate(45deg) ;
+     transform-origin:50% 50%;
+   }
+   .rotate2 {
+     transform:rotate(-45deg) ;
+      transform-origin:50% 50%;
+   }
+   .rotate3 {
+     transform:rotate(180deg) ;
+     transform-origin:50% 50%;
+   }
+   .rotate4 {
+     transform:rotate(-180deg) ;
+      transform-origin:50% 50%;
+   }
+   
+   #logo-two {
+     width:60px;
+     position:relative;
+     display:block;
+     z-index:5001;
+     display:none;
+     visibility:hidden;
+   }
+   
+   #mobilenav {
+     position:fixed;
+     top:0;
+     left:0;
+     width:85px;
+     height:2000px;
+     background-color:white;
+     z-index:5000;
+     display:none;
+     font-family:'Dosis', sans-serif;
+     font-size:18px;
+   }
+   #mobile {
+     margin-top:70px;
+    
+   }
+   #mobilenav li {
+     list-style-type: none;
+     margin-left:-20px;
+     line-height:50px;
+     
+     
+   }
+   
+   .face,
+   .twit {
+     width:60%;
+     margin-left:9px;
+   }
+
+}
+
+
+
