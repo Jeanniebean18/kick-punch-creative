@@ -6,26 +6,37 @@ var tellcopy = document.getElementById("tellcopy");
 var contact = document.getElementById("contact");
 var quoteText = document.getElementById("quote-text");
 var quoteOne = document.getElementById("quote1");
+var topp = document.getElementById("top");
+var bottomm = document.getElementById("bottom");
+var hamburger = document.getElementById("hamburger");
 
 
-// hamburger.onclick = toggle_display1;
-// menu.onclick = toggle_display2;
-//
-// function toggle_display1() {
-//
-//   if (menu.style.display == "none") {
-//     menu.style.display = "block";
-//   }
-//   else {
-//     menu.style.display ="none";
-//
-//   }
-// }
-//
-// function toggle_display2() {
-//
-//   menu.style.display = "none"
-// }
+hamburger.onclick = toggle_display1;
+
+
+function toggle_display1() {
+  
+  
+  
+
+
+  if (hamburger.style.backgroundColor == "") {
+    topp.setAttribute("class","rotate1");
+    bottomm.setAttribute("class","rotate2");
+    hamburger.style.backgroundColor = "white";
+  } 
+  
+  else {
+    
+    topp.setAttribute("class","rotate3");
+    bottomm.setAttribute("class","rotate4");
+    hamburger.style.backgroundColor = "";
+   
+
+  }
+};
+
+
 
 
 window.onscroll=inView;
@@ -45,7 +56,7 @@ function inView(){
       
     
   // student work and quotes in viewport in viewport
-  if (document.documentElement.clientWidth  >= 600) {
+  if (document.documentElement.clientWidth  >= 1020) {
       
      
         

@@ -127,6 +127,7 @@ h2 {
   border:none;
   line-height:10px;
   text-align:left;
+  
 }
 
 p {
@@ -450,9 +451,10 @@ header {
 footer {
   position:relative;
   bottom:0;
+  left:0;
   width:100%;
   background-color:#363636;
-  height:325px;
+  height:335px;
   
 }
 
@@ -500,6 +502,148 @@ input[type='checkbox'] {
  height:20px;
  
 }
+
+.phone {
+  width:110px;
+  
+}
+#hamburger {
+  display:none;
+}
+
+@media (max-width: 1081px) {
+  #contactquote {
+    display:none;
+  }
+  
+  footer {
+    height:360px;
+  }
+  
+  #quote-text {
+    margin-top:-60px;
+  }
+  
+  #form-text {
+ 
+    margin-left:5%;
+  }
+  
+  
+}
+
+@media (max-width: 1024px) {
+  #contactquote {
+    display:none;
+  }
+  
+  footer {
+    height:360px;
+  }
+  
+  .floatleft, .floatright {
+    float:none;
+  }
+  #quote-text {
+display:none;
+  }
+  
+  #quote1 {
+    width:80%;
+    display:block;
+    visibility:visible;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    -webkit-animation-name:none;animation-name:none;
+  }
+  
+  #work1, #work2 {
+    width:600px;
+    margin-bottom:20px;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+ 
+  h1 {
+    font-size:45px;
+  }
+  
+  .cube {
+    width:60%;
+    margin:1%;
+    display:block;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  nav {
+    display:none;
+  }
+  
+  
+  .logo {
+    width:180px;
+    position:relative;
+    display:block;
+    z-index:5001;
+    display:block;
+  }
+
+  #logo-two {
+    width:60px;
+    position:relative;
+    display:block;
+    z-index:5001;
+    display:none;
+    visibility:hidden;
+  }
+  
+  #hamburger {
+    display:block;
+    position:absolute;
+    top:10px;
+    left:10px;
+    z-index:5000;
+    width:60px;
+    background-color:none;
+    
+  }
+  #bottom,
+  #top {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    transform-origin:50% 50%;
+    -webkit-transform-origin:50% 50%;
+  }
+  .rotate1 {
+    transform:rotate(45deg) ;
+    transform-origin:50% 50%;
+  }
+  .rotate2 {
+    transform:rotate(-45deg) ;
+     transform-origin:50% 50%;
+  }
+  .rotate3 {
+    transform:rotate(180deg) ;
+    transform-origin:50% 50%;
+  }
+  .rotate4 {
+    transform:rotate(-180deg) ;
+     transform-origin:50% 50%;
+  }
+  header {
+    height:65px;
+  }
+  #part-one {
+    height:500px;
+  }
+  
+}
+
+
   
 
 
