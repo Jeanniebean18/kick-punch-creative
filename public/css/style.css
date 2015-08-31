@@ -94,6 +94,11 @@ h1 {
   
  
 }
+
+h1.small {
+  font-size:170%;
+  margin-bottom:-100px;
+}
 a.white,
 h1.white {
   color:#D9DDDD;
