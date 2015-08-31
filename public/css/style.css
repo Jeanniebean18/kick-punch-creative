@@ -73,7 +73,7 @@ button:hover {
 }
 
 .submit {
-  background-color:#363636;
+  background-color:#2CBDC2;
   border:none;
   color:white;
   font-family:'Dosis', sans-serif;
@@ -341,6 +341,7 @@ header {
   width:100%;
   background-color:#F9F9F9;
   padding-bottom:3%;
+/*  height:400px;*/
   
   
 }
@@ -400,35 +401,41 @@ header {
 
 
 #formcontainer {
-  width:40%;
+  width:50%;
+  margin-top:-7%;
 /*  border:1px solid;*/
-  margin-top:60px;
-  margin-right:10%;
-}
 
+ 
+}
+h1.white1 {
+  color:white;
+}
 #work {
-  width:75%;
-  margin-bottom:40px;
-/*  border:1px solid;*/
+  width:100%;
+  padding-bottom:40px;
+  
+  
 }
 #work1{
   position:relative;
-  width:45%;
+  width:48%;
   background-image:url("../assets/foodtruck.jpg");
   background-size:cover;
   background-color:#2CBDC2;
   height:300px;
-  margin-right:10%;
+  margin:1%;
+ 
 
 }
 
 #work2{
   position:relative;
-  width:45%;
+  width:48%;
   background-image:url("../assets/pedersen.jpg");
   background-size:cover;
   background-color:#2CBDC2;
   height:300px;
+  margin:1%;
 }
 .margin-top-again {
   top:130px;
@@ -450,8 +457,8 @@ header {
 
 #form-text {
   position:relative;
-  width:40%;
-  margin-top:90px;
+  width:80%;
+ padding-top:3%;
   height:400px;
   margin-left:10%;
 }
@@ -463,13 +470,17 @@ header {
   
 }
 
+#mobilefooter {
+  display:none;
+}
+
 footer {
-  position:relative;
-  bottom:0;
+  position:absolute;
+  bottom:-10%;
   left:0;
   width:100%;
   background-color:#363636;
-  height:335px;
+  
   
 }
 
