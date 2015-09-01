@@ -199,7 +199,20 @@ hr.short {
   
   top:40px;
 }
-
+#square {
+  visibility:hidden;
+  position:fixed;
+  bottom:5%;
+  right:2%;
+  width:40px;
+  height:40px;
+  background-color:rgba(0,0,0,.3);
+  z-index:50000;
+  color:white;
+  font-size:300%;
+  text-align:center;
+  font-family:'Dosis', sans-serif;
+  ;}
 .center {
   position:relative;
   margin-right:auto;

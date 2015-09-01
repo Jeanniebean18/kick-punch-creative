@@ -8,6 +8,7 @@ var topp = document.getElementById("top");
 var bottomm = document.getElementById("bottom");
 var hamburger = document.getElementById("hamburger");
 var mobilenav = document.getElementById("mobilenav");
+var square = document.getElementById("square");
 
 hamburger.onclick = toggle_display1;
 
@@ -53,6 +54,13 @@ function inView(){
   if (window.pageYOffset<5) {
     logo.style.display="block";
     logoTwo.style.display="none";
+  }
+  
+  if (window.pageYOffset>500) {
+    square.style.visibility="visible";
+  } else {
+    square.style.visibility="hidden";
+    
   }
   
 
