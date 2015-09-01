@@ -150,7 +150,7 @@ p {
   font-weight:400;
   color:#363636;
   text-align:center;
-  line-height:37px;
+  
   z-index:500;
   
 }
@@ -163,6 +163,7 @@ p.top {
   position:absolute;
   top:0;
   z-index:5;
+  line-height:37px;
 }
 
 hr {
