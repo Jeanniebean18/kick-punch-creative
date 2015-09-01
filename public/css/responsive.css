@@ -433,7 +433,9 @@
     font-size:21px;
     line-height:27px;
   }
-
+  #quotation {
+    visibility:visible;
+  }
 }
 
 @media  (max-width: 583px) {
@@ -460,7 +462,9 @@
     /*    border:1px solid;*/
   
   }
-  
+  #formcontainer {
+    width:80%;
+  }
   #quote1 {
     display:none;
   }
@@ -492,7 +496,7 @@
   
   footer {
     position:absolute;
-    bottom:-11%;
+    bottom:-8%;
     width:100%;
     background-color:#363636;
     
@@ -504,6 +508,21 @@
   
 }
 
+
+@media  (max-width: 500px) {
+  
+  #form-text {
+    margin-bottom:50px;
+  }
+  
+  footer {
+    position:absolute;
+    bottom:-9%;
+    width:100%;
+    background-color:#363636;
+    
+  }
+}
 @media  (max-width: 414px) {
   
   .jeanniebryan {
@@ -526,8 +545,19 @@
   
   #formcontainer {
     width:90%;
-    margin-top:-70px;
+    margin-top:-210px;
     margin-bottom:-120px;
+  /*  border:1px solid;*/
+
+ 
+  }
+  
+
+  
+  #formcontainer {
+    width:90%;
+    margin-top:-200px;
+    
   /*  border:1px solid;*/
 
  
@@ -587,8 +617,13 @@
     background-color:#363636;
     
   }
-
+ 
+  #tellus {
+    margin-top:20px;
+  }
 }
+
+
 
 @media  (max-width: 379px) {
 
@@ -607,6 +642,14 @@
   
   #quotation {
     margin-bottom:29%;
+  }
+  #formcontainer {
+    width:90%;
+    margin-top:-200px;
+    
+  /*  border:1px solid;*/
+
+ 
   }
 
 }
@@ -633,7 +676,7 @@
   
   #formcontainer {
     width:90%;
-    margin-top:-70px;
+    margin-top:-200px;
     margin-bottom:-50px;
   /*  border:1px solid;*/
 

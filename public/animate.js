@@ -1,11 +1,9 @@
 
 var logo = document.getElementById("logo");
 var logoTwo = document.getElementById("logo-two");
-var tell = document.getElementById("tell");
-var tellcopy = document.getElementById("tellcopy");
-var contact = document.getElementById("contact");
-var quoteText = document.getElementById("quote-text");
-var quoteOne = document.getElementById("quote1");
+var getquote= document.getElementById("contactquote");
+var work = document.getElementById("work");
+var quoteOne = document.getElementById("quotation");
 var topp = document.getElementById("top");
 var bottomm = document.getElementById("bottom");
 var hamburger = document.getElementById("hamburger");
@@ -56,6 +54,8 @@ function inView(){
     logo.style.display="block";
     logoTwo.style.display="none";
   }
+  
+
       
     
   // student work and quotes in viewport in viewport
@@ -67,15 +67,17 @@ function inView(){
       tell.setAttribute("class"," large animated pulse");
     } 
     
-    if(isInViewport(contact)){
+    if(isInViewport(quotation)){
       quoteOne.style.visibility="visible";
-      quoteOne.setAttribute("class", "floatleft cube2 animated slideInLeft")
-      quoteText.style.visibility="visible";
-      quoteText.setAttribute("class", "quote-text floatleft margin-top-plus animated slideInRight")
-      
-      
-      
+      quoteOne.setAttribute("class", " margin-top-plus center animated bounceIn")
     } 
+    
+    if(isInViewport(work)){
+      getquote.setAttribute("class", "animated tada")
+    }
+    
+    
+    
 
     
     // if(isInViewport(studentTwo)){

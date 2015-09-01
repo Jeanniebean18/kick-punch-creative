@@ -300,6 +300,7 @@ header {
   height:300px;
 /*  border:1px solid;*/
   margin-bottom:14%;
+  visibility:hidden;
 }
 
 .quote1{
@@ -329,24 +330,7 @@ b.small {
   background-color:#F9F9F9;
 }
 
-#quote-text {
-  visibility:hidden;
-}
 
-.quote-text {
-  position:relative;
-  border-left:1px solid;
-  width:40%;
-  margin-top:-20px;
-}
-
-#quote {
-  position:relative;
-  display:block;
-  margin:-3% 0 8% 0;
-  padding:3% 5% 3% 5%;
-  background-color:white;
-}
 
 .floatleft{
   float:left;
@@ -448,6 +432,7 @@ b.small {
 #formcontainer {
   width:50%;
   margin-top:-190px;
+  margin-bottom:15px;
 /*  border:1px solid;*/
 
  
