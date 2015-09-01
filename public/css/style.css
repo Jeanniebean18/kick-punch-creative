@@ -163,6 +163,13 @@ p.top {
   position:absolute;
   top:0;
   z-index:5;
+ 
+    font-size:30px;
+    line-height:39px;
+  }
+  
+}
+p.line {
   line-height:37px;
 }
 
@@ -287,20 +294,18 @@ header {
 #part-two {
   margin:1% 5% 1% 5%;
 }
-#quote1 {
+#quotation {
+  width:80%;
   position:relative;
-  width:39%;
-  visibility:hidden;
-  margin-left:9.2%;
-  margin-right:2%;
-  margin-top:7%;
-/*  border-right:1px solid;*/
+  height:300px;
+/*  border:1px solid;*/
+  margin-bottom:14%;
 }
 
 .quote1{
   width:25%;
   position:absolute;
-  top:-45px;
+  top:0;
   left:0;
   z-index:0;
 }
@@ -308,7 +313,7 @@ header {
 .quote2{
   width:25%;
   position:absolute;
-  bottom:-305px;
+  bottom:35%;
   right:0;
   z-index:0;
 }
@@ -335,7 +340,7 @@ b.small {
   margin-top:-20px;
 }
 
-#contact {
+#quote {
   position:relative;
   display:block;
   margin:-3% 0 8% 0;
@@ -458,6 +463,8 @@ h1.white1 {
   
   
 }
+
+
 
 #workcontainer {
   position:relative;
