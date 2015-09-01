@@ -292,7 +292,9 @@
     visibility:hidden;
   }
   
- 
+  header {
+    height:70px;
+  }
    
   #mobilenav {
     position:fixed;
@@ -621,6 +623,20 @@
   #tellus {
     margin-top:20px;
   }
+  
+  p.top {
+    font-size:25px;
+    font-weight:200;
+    line-height:30px;
+    
+  }
+  #work {
+    margin-top:250px;
+  }
+  
+  .quote2 {
+    bottom:-50px;
+  }
 }
 
 
@@ -635,14 +651,9 @@
     z-index:5001;
     display:block;
   }
-  p.top {
-    line-height:20px;
-    font-size:14px;
-  }
+
   
-  #quotation {
-    margin-bottom:29%;
-  }
+ 
   #formcontainer {
     width:90%;
     margin-top:-200px;
@@ -650,6 +661,10 @@
   /*  border:1px solid;*/
 
  
+  }
+  
+  .quote2 {
+    bottom:-70px;
   }
 
 }
@@ -681,6 +696,14 @@
   /*  border:1px solid;*/
 
  
+  }
+  
+  .quote2 {
+    bottom:-120px;
+  }
+  
+  #work {
+    margin-top:350px;
   }
   
 
