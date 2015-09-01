@@ -1,8 +1,6 @@
-get "/" do
-  redirect "/home"
-end
 
-get "/home" do
+
+get "/" do
   erb :"home"
 end
 
@@ -29,7 +27,7 @@ post "/contacts" do
     redirect "/success" #should redirect to login after creating contact.
   else
     @error = true
-    redirect "/home"
+    redirect "/"
   end
 end
 

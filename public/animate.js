@@ -9,6 +9,8 @@ var bottomm = document.getElementById("bottom");
 var hamburger = document.getElementById("hamburger");
 var mobilenav = document.getElementById("mobilenav");
 var square = document.getElementById("square");
+var form = document.getElementById("form-text");
+var jeannie = document.getElementById("jeannie");
 
 hamburger.onclick = toggle_display1;
 
@@ -56,7 +58,7 @@ function inView(){
     logoTwo.style.display="none";
   }
   
-  if (window.pageYOffset>500) {
+  if (window.pageYOffset>400) {
     square.style.visibility="visible";
   } else {
     square.style.visibility="hidden";
@@ -84,8 +86,13 @@ function inView(){
       getquote.setAttribute("class", "animated tada")
     }
     
-    
-    
+    if(isInViewport(form)){
+      jeannie.style.display="block";
+      jeannie.setAttribute("class","slideInUp animated");
+    } else {
+      jeannie.setAttribute("class","slideOutDown animated");
+      
+    }
 
     
     // if(isInViewport(studentTwo)){

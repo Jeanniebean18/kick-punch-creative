@@ -330,12 +330,20 @@ header {
 #part-two {
   margin:1% 5% 1% 5%;
 }
+
+#jeannie {
+  display:none;
+  position:fixed;
+  bottom:-50px;
+  left:0;
+  width:24%;
+}
 #quotation {
   width:80%;
   position:relative;
   height:300px;
 /*  border:1px solid;*/
-  margin-bottom:14%;
+  margin-bottom:11%;
   visibility:hidden;
 }
 
