@@ -72,6 +72,10 @@ button:hover {
   background-color:#2CBDC2;
 }
 
+.button:hover {
+  background-color:#2CBDC2;
+}
+
 .submit {
   background-color:#2CBDC2;
   border:none;
@@ -205,6 +209,9 @@ header {
   display:block;
 }
 
+#fixedcontainer {
+  max-width:1500px;
+}
 #logo-two {
   width:60px;
   position:relative;
@@ -389,7 +396,6 @@ header {
   font-family:'Dosis', sans-serif;
   font-size:18px;
   font-weight:200;
- 
   width:100%;
   border:none;
   padding:1%;
@@ -402,19 +408,25 @@ header {
 
 #formcontainer {
   width:50%;
-  margin-top:-7%;
+  margin-top:-190px;
 /*  border:1px solid;*/
 
  
 }
+
 h1.white1 {
   color:white;
 }
 #work {
   width:100%;
   padding-bottom:40px;
+/*  border:1px solid;*/
   
   
+}
+
+#workcontainer {
+  position:relative;
 }
 #work1{
   position:relative;
@@ -508,6 +520,22 @@ footer {
   text-align:center;
   width:200px;
   margin-top:-20px;
+ 
+  
+}
+
+.button {
+  position:relative;
+  border:1px solid;
+  font-family:'Dosis', sans-serif;
+  font-size:25px;
+  padding:.5%;
+  font-weight:200;
+  text-align:center;
+  width:200px;
+  height:50px;
+  margin-top:20px;
+  
  
   
 }

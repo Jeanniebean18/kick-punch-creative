@@ -1,5 +1,32 @@
 /*media query*/
+@media  (min-width: 1500px) {
+  #tellus {
+    background-color:white;
+  }
+  
+ footer {
+   bottom:-15%;
+ }
+ 
+ .jeanniebryan {
+   position:absolute;
+   display:block;
+   bottom:-15px;
+   width:30%;
+   left:35%;
+ }
+}
 
+@media  (max-width: 1178px) {
+  
+  footer {
+    position:absolute;
+    bottom:-12%;
+    width:100%;
+    background-color:#363636;
+    
+  }
+}
 
 @media  (max-width: 1081px) {
  
@@ -7,6 +34,18 @@
   #contactquote {
     display:none;
   }
+  
+ 
+  
+  #formcontainer {
+    width:50%;
+    margin-top:-190px;
+    margin-bottom:0;
+  /*  border:1px solid;*/
+
+ 
+  }
+  
   
 
   .quote-text {
@@ -38,29 +77,20 @@
   }
   
   h1.tell {
-    font-size:26px;
+    font-size:33px;
   }
     
-    #form-text {
-      position:relative;
-      width:40%;
-      margin-top:90px;
-      height:400px;
-      margin-left:5%;
-    }
+
     p.white {
       font-size:16px;
     }
     
-    .wdc {
-      margin-top:50px;
-      width:80%;
-    }
+
     
     
     footer {
       position:absolute;
-      bottom:-11%;
+      bottom:-12%;
       width:100%;
       background-color:#363636;
       
@@ -125,6 +155,8 @@
     z-index:1;
   }
   
+
+  
   #toptext {
     position:relative;
     top:25%;
@@ -158,6 +190,7 @@
     
   }
   
+ 
   #quote-text {
     display:none;
   }
@@ -231,8 +264,8 @@
    
   .face,
   .twit {
-    width:60%;
-    margin-left:9px;
+    width:40%;
+    margin-left:19px;
   }
    
   #skyline {
@@ -292,21 +325,14 @@
     height:300px;
   }
   
-  footer {
-    position:absolute;
-    bottom:-15%;
-    width:100%;
-    background-color:#363636;
-    
-    
-  }
+
   
   #mobilefooter {
     display:block;
   }
   
   .wdc {
-    width:100%%;
+   display:none;
   }
   
   .footer-column {
@@ -320,7 +346,7 @@
     margin-left:auto;
     margin-right:auto;
     display:block;
-    left:5%;
+    left:18%;
   }
  
   h1.white {
@@ -331,6 +357,7 @@
   h2 {
     text-align:center;
     font-size:25px;
+    line-height:33px;
   }
   
   #column-one {
@@ -341,7 +368,13 @@
     width:90%;
   }
   
-  
+  footer {
+    position:absolute;
+    bottom:-15%;
+    width:100%;
+    background-color:#363636;
+    
+  }
   
 
 }
@@ -417,6 +450,50 @@
     font-size:20px;
     
   }
+  
+  #formcontainer {
+    width:90%;
+    margin-top:-70px;
+    margin-bottom:-120px;
+  /*  border:1px solid;*/
+
+ 
+  }
+  
+  #cloud1 {
+    width:35%;
+    position:absolute;
+    top:15%;
+    right:5%;
+  }
+
+  #cloud2 {
+    width:25%;
+    position:absolute;
+    top:25%;
+    left:10%;
+  }
+  
+  #tellus {
+    margin-top:-30px;
+  }
+  
+  #quote1 {
+    width:100%;
+  }
+  
+  #work1,
+  #work2 {
+    width:80%;
+    position:relative;
+    margin-right:auto;
+     margin-left:auto;
+     display:block;
+  }
+  
+  .cube {
+    width:80%;
+  }
 
 }
 
@@ -452,6 +529,15 @@
     height:380px;
     overflow:hidden;
     z-index:1;
+  }
+  
+  #formcontainer {
+    width:90%;
+    margin-top:-70px;
+    margin-bottom:-50px;
+  /*  border:1px solid;*/
+
+ 
   }
   
 
