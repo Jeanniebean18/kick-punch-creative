@@ -84,6 +84,7 @@ button:hover {
   font-size:20px;
   padding: 2% 5% 2% 5%;
   margin-top:3%;
+  -webkit-appearance: none;
 }
 
 .margin-top {
