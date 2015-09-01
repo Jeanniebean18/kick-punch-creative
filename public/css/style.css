@@ -150,11 +150,19 @@ p {
   font-weight:400;
   color:#363636;
   text-align:center;
+  line-height:37px;
+  z-index:500;
   
 }
 
 p.large {
   font-size:35px;
+}
+
+p.top {
+  position:absolute;
+  top:0;
+  z-index:5;
 }
 
 hr {
@@ -279,11 +287,34 @@ header {
   margin:1% 5% 1% 5%;
 }
 #quote1 {
-  width:43%;
+  position:relative;
+  width:39%;
   visibility:hidden;
-  margin-left:6%;
-  margin-top:2%;
+  margin-left:9.2%;
+  margin-right:2%;
+  margin-top:7%;
 /*  border-right:1px solid;*/
+}
+
+.quote1{
+  width:25%;
+  position:absolute;
+  top:-45px;
+  left:0;
+  z-index:0;
+}
+
+.quote2{
+  width:25%;
+  position:absolute;
+  bottom:-305px;
+  right:0;
+  z-index:0;
+}
+
+b.small {
+  font-size:15px;
+  margin-top:20px;
 }
 #services {
   margin:2% 0 0 0;
@@ -304,7 +335,9 @@ header {
 }
 
 #contact {
-  margin:-3% 0 2% 0;
+  position:relative;
+  display:block;
+  margin:-3% 0 8% 0;
   padding:3% 5% 3% 5%;
   background-color:white;
 }

@@ -26,6 +26,19 @@
     background-color:#363636;
     
   }
+  
+  p.top {
+    line-height:27px;
+    font-size:22px;
+  }
+  
+  .quote-text {
+    position:relative;
+    border-left:1px solid;
+    width:40%;
+    margin-top:-40px;
+  }
+  
 }
 
 @media  (max-width: 1081px) {
@@ -35,6 +48,11 @@
     display:none;
   }
   
+
+  p.top {
+    line-height:23px;
+    font-size:18px;
+  }
  
   
   #formcontainer {
@@ -45,6 +63,13 @@
 
  
   }
+  .quote2{
+    width:25%;
+    position:absolute;
+    bottom:-250px;
+    right:0;
+    z-index:0;
+  }
   
   
 
@@ -52,7 +77,7 @@
     position:relative;
     border-left:1px solid;
     width:40%;
-    margin-top:-60px;
+    margin-top:-80px;
   }
   
   #part-one {
@@ -170,6 +195,8 @@
     /*    border:1px solid;*/
   
   }
+ 
+
 }
 
 
@@ -187,6 +214,23 @@
     z-index:5000;
     width:60px;
     background-color:none;
+    
+  }
+  
+  .quote2{
+    width:25%;
+    position:absolute;
+    bottom:-195px;
+    right:0;
+    z-index:0;
+  }
+  
+  #contact {
+    position:relative;
+    display:block;
+    margin:2% 0 25% 0;
+    padding:3% 5% 3% 5%;
+    background-color:white;
     
   }
   
@@ -213,18 +257,26 @@
     -webkit-transform-origin:50% 50%;
   }
   .rotate1 {
+    -webkit-transform:rotate(45deg) ;
+    -webkit-transform-origin:50% 50%;
     transform:rotate(45deg) ;
     transform-origin:50% 50%;
   }
   .rotate2 {
+    -webkit-transform:rotate(-45deg) ;
+    -webkit-transform-origin:50% 50%;
     transform:rotate(-45deg) ;
     transform-origin:50% 50%;
   }
   .rotate3 {
+    -webkit-transform:rotate(180deg) ;
+     -webkit-transform-origin:50% 50%;
     transform:rotate(180deg) ;
     transform-origin:50% 50%;
   }
   .rotate4 {
+     -webkit-transform:rotate(-180deg) ;
+     -webkit-transform-origin:50% 50%;
     transform:rotate(-180deg) ;
     transform-origin:50% 50%;
   }
@@ -493,6 +545,28 @@
   
   .cube {
     width:80%;
+  }
+  
+  #contact {
+    position:relative;
+    display:block;
+    margin:10% 0 52% 0;
+    padding:3% 5% 3% 5%;
+    background-color:white;
+    
+  }
+  
+  b.small {
+    font-size:15px;
+    top:40px;
+  }
+  
+  .quote2{
+    width:25%;
+    position:absolute;
+    bottom:-242px;
+    right:0;
+    z-index:0;
   }
 
 }
