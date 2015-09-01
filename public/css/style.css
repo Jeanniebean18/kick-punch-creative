@@ -108,6 +108,7 @@ h1 {
 }
 #mobilenav {
   display:none;
+  padding-top:50px;
 }
 
 h1.small {
@@ -124,6 +125,9 @@ h1.white {
 
 h1.left {
   text-align:left;
+}
+h1.heavy {
+  font-weight:400;
 }
 
 p.white {
@@ -173,9 +177,27 @@ p.top {
 p.line {
   line-height:37px;
 }
+p.small {
+  font-size:120%;
+  font-weight:200;
+  margin:5%;
+}
 
+p.small.blue {
+  color:#2CBDC1;
+  font-size:150%;
+}
 hr {
   width:300px;
+}
+
+hr.short {
+  width:100px;
+}
+
+.cubespace {
+  
+  top:40px;
 }
 
 .center {
@@ -343,8 +365,9 @@ b.small {
 .cube {
   width:23%;
   margin:1%;
-/*  float:none;*/
+background-color:white;
   padding:0%;
+  height:500px;
 }
 
 .cube2 {
