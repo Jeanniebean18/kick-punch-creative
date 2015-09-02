@@ -1,10 +1,22 @@
 @import url("style.css");
-#page-container {
-  position:relative;
-  display:block;
-  margin-top:140px;
-}
 
+
+#page-container-work {
+  margin-top:370px;
+  bottom:250px;
+  position:relative;
+  width:100%;
+/*  background-color:#F9F9F9;*/
+/*  height:800px;*/
+/*  border:1px solid;*/
+  z-index:1;
+}
+.clearfix::after {
+  content:" ";
+  display:table;
+  clear:both;
+  
+}
 
 h4 {
   font-family:'Dosis', sans-serif;
@@ -26,11 +38,18 @@ h5 {
   margin-top:-50px;
   color:white;
  
-  l
+  
   color:white;
 }
 #work-wrapper{
+  position:relative;
   width:100%;
+/*  background-color:#F9F9F9;*/
+  
+  margin-top:10px;
+  
+  z-index:1;
+/*  border:1px solid;*/
   
 }
 #work7{
@@ -116,15 +135,6 @@ h5 {
 h1.white.centered {
   text-align:center;
   
-}
-
-#otherfooter{
-  width:100%;
-  position:absolute;
-  bottom:-250px;
-  background-color:#363636;
-  height:210px;
-  padding-top:20px;
 }
 
 

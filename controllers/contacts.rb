@@ -46,10 +46,11 @@ get "/contact/:id" do
 end
 
 get "/our-work" do
-
-erb :work
-
+  erb :work
 end
 
+get "/quote" do
+  erb :quote
+end
 
 
