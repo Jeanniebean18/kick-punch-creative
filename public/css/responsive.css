@@ -542,7 +542,16 @@
     left:15%;
   }
   
-
+  #work2{
+    position:relative;
+    width:48%;
+    background-image:url("../assets/pedersen.jpg");
+    background-size:cover;
+    background-position:50% 50%;
+    background-color:#2CBDC2;
+    height:300px;
+    margin:1%;
+  }
   
   p.large {
     font-size:25px;
