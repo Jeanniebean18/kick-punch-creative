@@ -219,7 +219,9 @@
     /*    border:1px solid;*/
   
   }
- 
+  footer {
+     background-color:#363636;
+  }
 
 }
 
@@ -240,6 +242,7 @@
     background-color:none;
     
   }
+  
   
  
   
