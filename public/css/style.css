@@ -346,6 +346,7 @@ header {
  font-weight:200;
  visibility:visible;
   z-index:500;
+  border:1px solid;
   
 }
 

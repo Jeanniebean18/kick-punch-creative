@@ -2,24 +2,54 @@
 
 
 #page-container-work {
-  margin-top:150px;
-  
+  display:block;
   position:relative;
+  margin-top:150px;
   width:100%;
-/*  background-color:#F9F9F9;*/
-/*  height:800px;*/
-/*  border:1px solid;*/
   z-index:1;
+   border:1px solid;
 }
 
 #page-container-success {
+  background-color:#F9F9F9;
+  padding-top:200px;
+
+
+}
+
+#header-success {
+  position:relative;
+  display:block;
+  text-align:center;
+  margin-bottom:50px;
+  font-family:'Dosis', sans-serif;
+  font-size:255%;
+  font-weight:200;
+  color:#363636;
+  
+}
+#success {
+  position:relative;
+  display:block;
+  top:0;
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  
+ 
+  
+}
+
+#work-wrapper{
   position:relative;
   width:100%;
-  background-color:#F9F9F9;
-  height:560px;
-  overflow:hidden;
+/*  background-color:#F9F9F9;*/
+  margin-top:10px;
   z-index:1;
+/*  border:1px solid;*/
+  
 }
+
 .clearfix::after {
   content:" ";
   display:table;
@@ -50,17 +80,7 @@ h5 {
   
   color:white;
 }
-#work-wrapper{
-  position:relative;
-  width:100%;
-/*  background-color:#F9F9F9;*/
-  
-  margin-top:10px;
-  
-  z-index:1;
-/*  border:1px solid;*/
-  
-}
+
 #work7{
   position:relative;
   width:48%;
@@ -75,15 +95,7 @@ h5 {
 
 }
 
-#success {
-  position:absolute;
-  display:block;
-  bottom:-15px;
-  width:52%;
-  left:25%;
- 
-  
-}
+
 
 #work8{
   position:relative;
