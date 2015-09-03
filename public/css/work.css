@@ -2,8 +2,8 @@
 
 
 #page-container-work {
-  margin-top:370px;
-  bottom:250px;
+  margin-top:150px;
+  
   position:relative;
   width:100%;
 /*  background-color:#F9F9F9;*/
@@ -70,6 +70,7 @@ h5 {
   background-color:#2CBDC2;
   height:300px;
   margin:1%;
+  float:left;
  
 
 }
@@ -92,6 +93,7 @@ h5 {
   background-color:#2CBDC2;
   height:300px;
   margin:1%;
+  float:left;
 }
 
 #work3{
@@ -102,6 +104,7 @@ h5 {
   background-color:#2CBDC2;
   height:300px;
   margin:1%;
+  float:left;
 }
 
 #work4{
@@ -113,6 +116,7 @@ h5 {
   background-color:#2CBDC2;
   height:300px;
   margin:1%;
+  float:left;
  
 }
 
@@ -125,6 +129,7 @@ h5 {
   background-color:#2CBDC2;
   height:300px;
   margin:1%;
+  float:left;
  
 }
 
@@ -137,7 +142,7 @@ h5 {
   background-color:#2CBDC2;
   height:300px;
   margin:1%;
- 
+ float:left;
 }
 
 #work8:hover > .overlay ,

@@ -168,9 +168,8 @@ p.top {
   position:absolute;
   top:0;
   z-index:5;
- 
-    font-size:30px;
-    line-height:39px;
+  font-size:45px;
+  line-height:39px;
   }
   
 }
@@ -341,18 +340,29 @@ header {
 #quotation {
   width:80%;
   position:relative;
-  height:300px;
-/*  border:1px solid;*/
-  margin-bottom:11%;
-  visibility:visible;
+  font-family:'Dosis', sans-serif;
+ font-size:35px;
+ text-align:center;
+ font-weight:200;
+ visibility:visible;
+  z-index:500;
+  
 }
 
-.quote1{
+
+#quote1{
   width:25%;
   position:absolute;
-  top:0;
+  top:-9%;
   left:0;
-  z-index:0;
+  z-index:-1;
+}
+#quote2{
+  width:25%;
+  position:absolute;
+  bottom:20%;
+  right:0;
+  z-index:-1;
 }
 
 #foot {
@@ -368,13 +378,7 @@ header {
  text-align:left;
 }
 
-.quote2{
-  width:25%;
-  position:absolute;
-  bottom:35%;
-  right:0;
-  z-index:0;
-}
+
 
 b.small {
   font-size:15px;
@@ -430,9 +434,11 @@ b.small {
 }
 
 #tellus {
+  position:relative;
   width:100%;
   background-color:#F9F9F9;
   padding-bottom:3%;
+  display:block;
 /*  height:400px;*/
   
   
@@ -510,34 +516,10 @@ h1.white1 {
   
   
 }
-
-
-
 #workcontainer {
   position:relative;
 }
-#work1{
-  position:relative;
-  width:48%;
-  background-image:url("../assets/foodtruck.jpg");
-  background-size:cover;
-  background-position:50% 60%;
-  background-color:#2CBDC2;
-  height:300px;
-  margin:1%;
- 
 
-}
-
-#work2{
-  position:relative;
-  width:48%;
-  background-image:url("../assets/pedersen.jpg");
-  background-size:cover;
-  background-color:#2CBDC2;
-  height:300px;
-  margin:1%;
-}
 .margin-top-again {
   top:130px;
 }

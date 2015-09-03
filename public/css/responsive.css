@@ -465,20 +465,11 @@
     font-size:21px;
     line-height:27px;
   }
-  #quotation {
-    visibility:visible;
-  }
+
   
-  #page-container-work {
-    margin-top:370px;
-    bottom:350px;
-    position:relative;
-    width:100%;
-  /*  background-color:#F9F9F9;*/
-  /*  height:800px;*/
-  /*  border:1px solid;*/
-    z-index:1;
-  }
+#page-container-work{
+  margin-top:50px;
+}
 }
 
 @media  (max-width: 583px) {
