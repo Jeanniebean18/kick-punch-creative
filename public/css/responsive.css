@@ -244,10 +244,24 @@
   }
   
   
- 
-  
+  #work5,
+  #work6,
+   {
+    display:none;
+  }
 
+  #work-wrapper{
+    position:relative;
+    width:100%;
+    padding-bottom:100px;
+  /*  background-color:#F9F9F9;*/
   
+    top:100px;
+  
+    z-index:1;
+  /*  border:1px solid;*/
+  
+  }
 
   #quote-text {
     display:none;
@@ -609,13 +623,14 @@
   
   #tellus {
     margin-top:-30px;
+    background-color:white;
   }
   
  
-  
+ 
   #work1,
   #work2 {
-    width:80%;
+    width:100%;
     position:relative;
     margin-right:auto;
      margin-left:auto;
