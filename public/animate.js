@@ -78,7 +78,7 @@ function inView(){
     } 
     
     if(isInViewport(quotation)){
-      quoteOne.style.visibility="visible";
+      
       quoteOne.setAttribute("class", " margin-top-plus center animated pulse")
     } 
     

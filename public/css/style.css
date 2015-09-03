@@ -344,7 +344,7 @@ header {
   height:300px;
 /*  border:1px solid;*/
   margin-bottom:11%;
-  visibility:hidden;
+  visibility:visible;
 }
 
 .quote1{
@@ -353,6 +353,19 @@ header {
   top:0;
   left:0;
   z-index:0;
+}
+
+#foot {
+  position:relative;
+ background-color:#363636;
+ padding:2%;
+ height:200px;
+ border:1px solid;
+ font-family:'Dosis', sans-serif;
+ font-size:20px;
+ color:white;
+ font-weight:200;
+ text-align:left;
 }
 
 .quote2{
@@ -376,17 +389,21 @@ b.small {
 
 
 
-.left{
-  float:left;
-}
+
 .floatright{
   float:right;
 }
 
-.cube {
+#cube1, 
+#cube2, 
+#cube3, 
+#cube4 {
+  position:relative;
+  display:block;
+  float:left;
   width:23%;
   margin:1%;
-background-color:white;
+  background-color:white;
   padding:0%;
   height:500px;
 }
@@ -556,33 +573,21 @@ h1.white1 {
   
 }
 
-#mobilefooter {
-  display:none;
-}
 
-footer {
-  position:absolute;
-  bottom:-10%;
-  left:0;
-  width:100%;
-  background-color:#363636;
-  
-  
-}
 
-.footer-column {
-  width:25%;
-  margin:4%;
-}
+
 
 .wdc {
-  margin-top:20px;
-  width:80%;
+  position:relative;
+  
+  width:40%;
 }
 
-#column-one {
-  margin-left:10%;
-  width:18%;
+.column {
+  width:33%;
+  position:relative;
+  float:left;
+  z-index:5000;
 }
 
 .button2 {
@@ -632,6 +637,8 @@ input[type='checkbox'] {
 
 .phone {
   width:110px;
+  margin-bottom:2;
+  
   
 }
 #hamburger {

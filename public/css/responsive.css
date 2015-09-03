@@ -153,7 +153,16 @@
     /*  border:1px solid;*/
   
   }
+  .column {
+    float:none;
+    width:100%;
+    margin-top:50px;
+  }
   
+  #foot {
+    height:auto;
+    text-align:center;
+  }
   .twitter {
     position:absolute;
     top:12px;
@@ -373,7 +382,10 @@
     float:none;
   }
   
-  .cube {
+  #cube1, 
+  #cube2, 
+  #cube3, 
+  #cube4 {
     float:left;
     width:48%;
     padding:2%;
@@ -403,13 +415,9 @@
   
 
   
-  #mobilefooter {
-    display:block;
-  }
+
   
-  .wdc {
-   display:none;
-  }
+
   
   .footer-column {
     width:100%;
@@ -505,7 +513,10 @@
   }
 
   
-  .cube {
+  #cube1, 
+  #cube2, 
+  #cube3, 
+  #cube4 {
     float:none;
      position:relative;
      display:block;
@@ -590,19 +601,11 @@
   #formcontainer {
     width:90%;
     margin-top:-210px;
-    margin-bottom:-120px;
+    
   /*  border:1px solid;*/
 
  
   }
-  
-
-  
-  #formcontainer {
-    width:90%;
-    margin-top:-200px;
-    
-  /*  border:1px solid;*/
 
  
   }
@@ -700,9 +703,7 @@
   #formcontainer {
     width:90%;
     margin-top:-200px;
-    
-  /*  border:1px solid;*/
-
+  
  
   }
   
@@ -735,7 +736,7 @@
   #formcontainer {
     width:90%;
     margin-top:-200px;
-    margin-bottom:-50px;
+    
   /*  border:1px solid;*/
 
  
