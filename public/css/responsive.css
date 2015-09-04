@@ -3,15 +3,7 @@
 
 
 
-@media  (min-width: 2500px) {
-#formcontainer {
-  width:50%;
-  margin-top:-190px;
-  margin-bottom:170px;
-/*  border:1px solid;*/
 
-
-}
 }
 
 @media  (min-width: 1500px) {
@@ -601,19 +593,7 @@
  
   }
   
-  #cloud1 {
-    width:35%;
-    position:absolute;
-    top:15%;
-    right:5%;
-  }
-
-  #cloud2 {
-    width:25%;
-    position:absolute;
-    top:25%;
-    left:10%;
-  }
+ 
   
   #tellus {
     margin-top:-30px;
@@ -689,7 +669,8 @@
     display:block;
   }
 
-  
+
+
  
   #formcontainer {
     width:90%;
