@@ -151,7 +151,7 @@ h5 {
 #work3{
   position:relative;
   width:48%;
-  background-image:url("../assets/aspirations.png");
+  background-image:url("../assets/foodtruck.jpg");
   background-size:cover;
   background-color:#2CBDC2;
   height:300px;
@@ -175,7 +175,7 @@ h5 {
 #work5{
   position:relative;
   width:48%;
-  background-image:url("../assets/foodtruck.jpg");
+  background-image:url("../assets/aspirations.png");
   background-size:cover;
   background-position:50% 60%;
   background-color:#2CBDC2;
@@ -188,10 +188,10 @@ h5 {
 #work6{
   position:relative;
   width:48%;
-  background-image:url("../assets/drazic.png");
+  background-image:url("../assets/bk3.png");
   background-size:cover;
   background-position:50% 60%;
-  background-color:#2CBDC2;
+  background-color:white;
   height:300px;
   margin:1%;
  float:left;
