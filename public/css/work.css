@@ -124,7 +124,7 @@ h5 {
 #work7{
   position:relative;
   width:48%;
-  background-image:url("../assets/foodtruck.jpg");
+  background-image:url("../assets/drazic.png");
   background-size:cover;
   background-position:50% 60%;
   background-color:#2CBDC2;
@@ -151,7 +151,7 @@ h5 {
 #work3{
   position:relative;
   width:48%;
-  background-image:url("../assets/pedersen.jpg");
+  background-image:url("../assets/aspirations.png");
   background-size:cover;
   background-color:#2CBDC2;
   height:300px;
@@ -162,7 +162,7 @@ h5 {
 #work4{
   position:relative;
   width:48%;
-  background-image:url("../assets/foodtruck.jpg");
+  background-image:url("../assets/huskersquiz.png");
   background-size:cover;
   background-position:50% 60%;
   background-color:#2CBDC2;
@@ -188,7 +188,7 @@ h5 {
 #work6{
   position:relative;
   width:48%;
-  background-image:url("../assets/foodtruck.jpg");
+  background-image:url("../assets/drazic.png");
   background-size:cover;
   background-position:50% 60%;
   background-color:#2CBDC2;
@@ -231,6 +231,7 @@ h1.white.centered {
 #work5,
 #work6 {
   width:100%;
+
 
 }
 
