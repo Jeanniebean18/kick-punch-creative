@@ -251,18 +251,7 @@
     display:none;
   }
 
-  #work-wrapper{
-    position:relative;
-    width:100%;
-    padding-bottom:100px;
-  /*  background-color:#F9F9F9;*/
-  
-    top:100px;
-  
-    z-index:1;
-  /*  border:1px solid;*/
-  
-  }
+
 
   #quote-text {
     display:none;

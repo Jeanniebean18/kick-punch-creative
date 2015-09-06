@@ -152,6 +152,7 @@ h5 {
   position:relative;
   width:48%;
   background-image:url("../assets/foodtruck.jpg");
+  background-position:51% 60%;
   background-size:cover;
   background-color:#2CBDC2;
   height:300px;
@@ -218,22 +219,35 @@ h1.white.centered {
 
 #work-wrapper{
   position:relative;
-  width:70%;
+  width:90%;
   margin-left:auto;
   margin-right:auto;
 /*  border:1px solid;*/
+  margin-top:150px;
 }
 
-#work8 ,
+#work8,
 #work7,
 #work3, 
 #work4,
 #work5,
 #work6 {
-  width:100%;
-
-
+  width:100%;  
+  margin-left:auto;
+  margin-right:auto;
 }
+
+/*#work3{
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+  background-image:url("../assets/foodtruck.jpg");
+  background-size:cover;
+  background-color:#2CBDC2;
+  height:300px;
+  margin:1%;
+  float:left;
+}*/
 
 #quote-form {
   width:80%;
