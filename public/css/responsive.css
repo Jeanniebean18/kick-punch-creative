@@ -4,13 +4,10 @@
 
 
 
-}
+
 
 @media  (min-width: 1500px) {
-  #tellus {
-    background-color:white;
-  }
-  
+
   
  footer {
    bottom:-15%;
@@ -370,6 +367,7 @@
     float:left;
     width:48%;
     padding:2%;
+    height:450px;
   }
   
 
