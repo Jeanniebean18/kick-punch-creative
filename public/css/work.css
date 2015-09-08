@@ -58,13 +58,16 @@ width:100%;
 #header-success {
   position:relative;
   display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:50px;
   text-align:center;
-  
+  width:60%;
   font-family:'Dosis', sans-serif;
   font-size:255%;
   font-weight:200;
   color:#363636;
-  margin:0 50px 50px 50px;
+  
  
   
 }
