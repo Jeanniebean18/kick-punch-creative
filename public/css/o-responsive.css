@@ -1,0 +1,113 @@
+@media (min-width:1500px){footer{bottom:-15%;}
+.jeanniebryan{position:absolute;display:block;bottom:-15px;width:30%;left:35%;}
+}
+@media (max-width:1178px){footer{position:absolute;bottom:-12%;width:100%;background-color:#363636;}
+p.top{line-height:27px;font-size:22px;}
+.quote-text{position:relative;border-left:1px solid;width:40%;margin-top:-40px;}
+#formcontainer{width:50%;margin-top:-190px;margin-bottom:70px;}
+}
+@media (max-width:1081px){#contactquote{display:none;}
+#formcontainer{width:50%;margin-top:-190px;margin-bottom:50px;}
+#quote{display:none;}
+#part-one{position:relative;width:100%;background-color:#F9F9F9;height:460px;overflow:hidden;z-index:1;}
+#toptext{position:relative;top:190px;display:block;width:30%;left:60px;border:1px;z-index:1;}
+h1.tell{font-size:33px;}
+p.white{font-size:16px;}
+footer{position:absolute;bottom:-12%;width:100%;background-color:#363636;}
+}
+@media (max-width:979px){#toptext{position:relative;top:160px;display:block;width:30%;left:60px;border:1px;z-index:1;}
+.column{float:none;width:100%;margin-top:50px;}
+#foot{height:auto;text-align:center;}
+.twitter{position:absolute;top:12px;right:19px;width:31px;display:none;}
+.facebook{position:absolute;top:12px;right:55px;width:29px;display:none;}
+h2{font-family:'Dosis', sans-serif;font-size:15px;font-weight:200;color:#D9DDDD;width:100%;border:none;line-height:10px;text-align:left;}
+p.top{font-size:25px;line-height:30px;}
+#quotation{width:80%;}
+}
+@media (max-width:976px){#part-one{position:relative;width:100%;background-color:#F9F9F9;height:560px;overflow:hidden;z-index:1;}
+#toptext{position:relative;top:25%;width:60%;left:0;display:block;margin-left:auto;margin-right:auto;border:1px;z-index:1;}
+footer{background-color:#363636;}
+}
+@media (max-width:858px){nav{display:none;}
+#hamburger{display:block;position:absolute;top:10px;left:10px;z-index:5000;width:60px;background-color:none;}
+#work5,
+#work6,{display:none;}
+#quote-text{display:none;}
+#bottom,
+#top{-webkit-transition:all 1s ease;transition:all 1s ease;transform-origin:50% 50%;-webkit-transform-origin:50% 50%;-moz-transform:none;}
+.rotate1{-webkit-transform:rotate(45deg);-webkit-transform-origin:50% 50%;transform:rotate(45deg);transform-origin:50% 50%;-moz-transform:rotate(0deg);}
+.rotate2{-moz-transform:rotate(0deg);-webkit-transform:rotate(-45deg);-webkit-transform-origin:50% 50%;transform:rotate(-45deg);transform-origin:50% 50%;}
+.rotate3{-webkit-transform:rotate(180deg);-webkit-transform-origin:50% 50%;transform:rotate(180deg);transform-origin:50% 50%;-moz-transform:rotate(0deg);}
+.rotate4{-webkit-transform:rotate(-180deg);-webkit-transform-origin:50% 50%;transform:rotate(-180deg);transform-origin:50% 50%;-moz-transform:rotate(0deg);}
+#logo-two{width:60px;position:relative;display:block;z-index:5001;display:none;visibility:hidden;}
+header{height:70px;}
+#mobilenav{position:fixed;top:0;left:0;width:85px;height:2000px;background-color:white;z-index:5000;display:none;font-family:'Dosis', sans-serif;font-size:18px;}
+#mobile{margin-top:70px;}
+#mobilenav li{list-style-type:none;margin-left:-20px;line-height:50px;}
+.face,
+.twit{width:40%;margin-left:19px;}
+#skyline{position:absolute;display:block;bottom:-5%;width:102%;right:1%;}
+#cloud1{width:20%;position:absolute;top:10%;right:5%;}
+#cloud2{width:25%;position:absolute;top:15%;left:10%;}
+.floatleft{float:none;}
+#cube1,
+#cube2,
+#cube3,
+#cube4{float:left;width:48%;padding:2%;height:450px;}
+#work1{position:relative;width:100%;background-image:url("../assets/foodtruck.jpg");background-size:cover;background-color:#2CBDC2;height:300px;margin-right:1%;margin-bottom:2%;}
+#work2{position:relative;width:100%;background-image:url("../assets/pedersen.jpg");background-size:cover;background-color:#2CBDC2;height:300px;}
+.footer-column{width:100%;margin:4%;}
+#column-three{width:60%;position:relative;margin-left:auto;margin-right:auto;display:block;left:18%;}
+h1.white{text-align:center;margin-bottom:10px;}
+h2{text-align:center;font-size:25px;line-height:33px;}
+#column-one{display:none;}
+#column-two{width:90%;}
+footer{position:absolute;bottom:-11%;width:100%;background-color:#363636;}
+p.top{font-size:21px;line-height:27px;}
+#page-container-work{margin-top:50px;}
+}
+@media (max-width:583px){#part-one{position:relative;width:100%;background-color:#F9F9F9;height:450px;overflow:hidden;z-index:1;}
+#toptext{position:relative;top:25%;width:100%;display:block;margin-left:auto;margin-right:auto;border:1px;z-index:1;}
+#formcontainer{width:80%;}
+#quote1{display:none;}
+#cube1,
+#cube2,
+#cube3,
+#cube4{float:none;position:relative;display:block;width:70%;padding:2%;margin-left:auto;margin-right:auto;}
+#cloud1{width:20%;position:absolute;top:15%;right:5%;}
+#cloud2{width:25%;position:absolute;top:30%;left:10%;}
+footer{position:absolute;bottom:-8%;width:100%;background-color:#363636;}
+p.top{line-height:23px;font-size:17px;}
+}
+@media (max-width:500px){#form-text{margin-bottom:50px;}
+footer{position:absolute;bottom:-9%;width:100%;background-color:#363636;}
+}
+@media (max-width:414px){.jeanniebryan{position:absolute;display:block;bottom:-15px;width:70%;left:15%;}
+#work2{position:relative;width:48%;background-image:url("../assets/pedersen.jpg");background-size:cover;background-position:50% 50%;background-color:#2CBDC2;height:300px;margin:1%;}
+p.large{font-size:25px;}
+p{font-size:20px;}
+#formcontainer{width:90%;margin-top:-210px;}
+}
+#tellus{margin-top:-30px;background-color:white;}
+#work1,
+#work2{width:100%;position:relative;margin-right:auto;margin-left:auto;display:block;}
+.cube{width:80%;}
+#quote{position:relative;display:block;margin:10% 0 52% 0;padding:3% 5% 3% 5%;background-color:white;}
+b.small{font-size:15px;top:40px;}
+footer{position:absolute;bottom:-15%;width:100%;background-color:#363636;}
+#tellus{margin-top:20px;}
+p.top{font-size:25px;font-weight:200;line-height:30px;}
+#work{margin-top:200px;}
+.quote2{bottom:-50px;}
+}
+@media (max-width:379px){.logo{width:160px;position:relative;display:block;z-index:5001;display:block;}
+#formcontainer{width:90%;margin-top:-200px;}
+.quote2{bottom:-70px;}
+#work{margin-top:200px;}
+}
+@media (max-width:320px){.logo{width:160px;position:relative;display:block;z-index:5001;display:block;}
+#part-one{position:relative;width:100%;background-color:#F9F9F9;height:380px;overflow:hidden;z-index:1;}
+#formcontainer{width:90%;margin-top:-200px;}
+.quote2{bottom:-120px;}
+#work{margin-top:200px;}
+}
