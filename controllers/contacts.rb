@@ -1,9 +1,6 @@
 
-get "/" do
-redirect "/home"
-end
 
-get "/home" do
+get "/" do
   erb :"home"
 end
 
@@ -55,6 +52,10 @@ end
 
 get "/our-team" do
   erb :team
+end
+
+get "/sitemap" do
+  redirect "http://www.kickpunchcreative.com/sitemap.xml"
 end
 
 
