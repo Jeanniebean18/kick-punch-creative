@@ -50,7 +50,7 @@ get "/quote" do
   erb :quote
 end
 
-get "/our-team/" do
+get "/our-team" do
   erb :team
 end
 
