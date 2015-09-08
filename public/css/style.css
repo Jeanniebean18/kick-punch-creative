@@ -539,12 +539,7 @@ h1.white1 {
 .margin-top-again {
   top:130px;
 }
-#work2:hover > .overlay ,
-#work1:hover > .overlay {
-  display:block;
-  -webkit-animation-name:slideInLeft;animation-name:slideInLeft;
-  
-}
+
 
 .overlay {
   position:relative;

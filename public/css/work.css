@@ -212,7 +212,7 @@ h5 {
 #work5:hover > .overlay,
 #work6:hover > .overlay {
   display:block;
-  -webkit-animation-name:slideInLeft;animation-name:slideInLeft;
+  -webkit-animation-name:fadeInDown;animation-name:fadeInDown;
   
 }
 
