@@ -53,6 +53,9 @@ end
 get "/our-team" do
   erb :team
 end
+get "/connect" do
+  erb :social
+end
 
 get "/sitemap" do
   redirect "http://www.kickpunchcreative.com/sitemap.xml"

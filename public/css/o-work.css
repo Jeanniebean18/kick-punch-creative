@@ -25,6 +25,11 @@ h5{font-family:'Dosis', sans-serif;font-size:120%;font-weight:200;color:#363636;
 #work5:hover > .overlay,
 #work6:hover > .overlay{display:block;-webkit-animation-name:fadeInDown;animation-name:fadeInDown;}
 h1.white.centered{text-align:center;}*/
+
+#connect {
+  width:300px;
+  
+}
 @media (max-width:858px){#work-wrapper{position:relative;width:90%;margin-left:auto;margin-right:auto;margin-top:150px;}
 #work8,
 #work7,
