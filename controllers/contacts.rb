@@ -42,7 +42,7 @@ get "/contact/:id" do
   redirect "/profile"
 end
 
-get "/our-work" do
+get "/our-work/" do
   erb :work
 end
 
@@ -50,7 +50,7 @@ get "/quote" do
   erb :quote
 end
 
-get "/our-team" do
+get "/our-team/" do
   erb :team
 end
 
