@@ -83,6 +83,10 @@ width:100%;
 #work-wrapper{
   position:relative;
   width:100%;
+  max-width:1500px;
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
 /*  background-color:#F9F9F9;*/
   margin-top:10px;
   z-index:1;
