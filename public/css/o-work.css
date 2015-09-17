@@ -13,6 +13,7 @@
 h4{font-family:'Dosis', sans-serif;font-size:215%;font-weight:200;color:#363636;text-align:center;padding:1.5%;margin-top:0;color:white;}
 h5{font-family:'Dosis', sans-serif;font-size:120%;font-weight:200;color:#363636;text-align:center;margin-top:-50px;color:white;color:white;}
 #work7{position:relative;width:48%;background-image:url("../assets/drazic.png");background-size:cover;background-position:50% 60%;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
+#work19{position:relative;width:48%;background-image:url("../assets/316preview.png");background-size:cover;background-position:50% 60%;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
 #work8{position:relative;width:48%;background-image:url("../assets/pedersen.jpg");background-size:cover;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
 #work3{position:relative;width:48%;background-image:url("../assets/foodtruck.jpg");background-position:51% 60%;background-size:cover;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
 #work4{position:relative;width:48%;background-image:url("../assets/huskersquiz.png");background-size:cover;background-position:50% 60%;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
@@ -35,6 +36,7 @@ h5{font-family:'Dosis', sans-serif;font-size:120%;font-weight:200;color:#363636;
 #work5:hover > .overlay,
 #work9:hover > .overlay,
 #work10:hover > .overlay,
+#work19:hover > .overlay,
 #work6:hover > .overlay{display:block;-webkit-animation-name:fadeInDown;animation-name:fadeInDown;font-family:'Dosis', sans-serif;font-size:215%;font-weight:200;color:#363636;text-align:center; padding:5%;padding-top:15%;}
 h1.white.centered{text-align:center; }
 
