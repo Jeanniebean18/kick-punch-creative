@@ -60,7 +60,7 @@ h1.white.centered{text-align:center; }
 #work16,
 #work17,
 #work18,
-#work6{width:45%;margin-left:auto;margin-right:auto;}
+{width:45%;margin-left:auto;margin-right:auto;}
 #quote-form{width:80%;}
 @media (max-width:450px){#bryan-wrap{float:none;width:100%;}
 #jeannie-wrap{float:none;width:100%;}
@@ -72,9 +72,19 @@ h1.white.centered{text-align:center; }
 #work16,
 #work17,
 #work18,
-#work6{width:95%;margin-left:auto;margin-right:auto;height:400px;}
+{width:95%;margin-left:auto;margin-right:auto;height:400px;}
 #quote-form{width:80%;}
 }
-@media (max-width:414px){#success{width:100%;}
+@media (max-width:414px){
+  #success{width:100%;}
 #quote-form{width:90%;}
+#work11,
+#work12,
+#work13,
+#work14,
+#work15,
+#work16,
+#work17,
+#work18,
+{width:85%;margin-left:auto;margin-right:auto;height:400px;}
 }
