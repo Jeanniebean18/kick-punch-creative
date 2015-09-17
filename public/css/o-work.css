@@ -59,10 +59,14 @@ h1.white.centered{text-align:center; }
 #work15,
 #work16,
 #work17,
-#work18,
+#work18
 {width:45%;margin-left:auto;margin-right:auto;}
 #quote-form{width:80%;}
-@media (max-width:450px){#bryan-wrap{float:none;width:100%;}
+
+}
+@media (max-width:450px){
+
+#bryan-wrap{float:none;width:100%;}
 #jeannie-wrap{float:none;width:100%;}
 #work11,
 #work12,
@@ -71,13 +75,18 @@ h1.white.centered{text-align:center; }
 #work15,
 #work16,
 #work17,
-#work18,
-{width:95%;margin-left:auto;margin-right:auto;height:400px;}
+#work18
+{width:100%;margin-left:auto;margin-right:auto;height:400px;}
 #quote-form{width:80%;}
 }
 @media (max-width:414px){
   #success{width:100%;}
 #quote-form{width:90%;}
+
+}
+
+
+@media (max-width:320px){
 #work11,
 #work12,
 #work13,
@@ -85,6 +94,8 @@ h1.white.centered{text-align:center; }
 #work15,
 #work16,
 #work17,
-#work18,
-{width:85%;margin-left:auto;margin-right:auto;height:400px;}
+#work18
+{width:250px;margin-left:auto;margin-right:auto;}
+
+
 }
