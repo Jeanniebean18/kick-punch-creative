@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Microdata markup added by Google Structured Data Markup Helper. -->
   
   <meta name="google-site-verification" content="vvMSztX6CsnaywdBOZ1gmK4izx5VOvRUCnjLGM75twE" />
   <!-- META -->
@@ -39,7 +40,7 @@
   
   <link href='http://fonts.googleapis.com/css?family=Dosis:400,600,200' rel='stylesheet' type='text/css'> 
   
-  <section id="home">
+  <section itemscope itemtype="http://schema.org/LocalBusiness" id="home">
     <div id="mobilenav" class="animated slideInLeft">
       <div id="mobile">
         <ul>
@@ -92,7 +93,7 @@
   
   
     <header>
-      <a href="/home">  <img id="logo" src="assets/logo.svg" class="logo bounceIn animated center"></a>
+      <a href="/home">  <img itemprop="image" id="logo" src="assets/logo.svg" class="logo bounceIn animated center"></a>
       <a href="/home"> <img id="logo-two" src="assets/logo-two.svg" class="logo bounceIn animated center"></a>
       
       <nav>
@@ -161,20 +162,25 @@
      
   <div id="foot" class="clearfix">
     <div class="column">
-      <a href="tel:4029150518" class="white">402.915.0518 </a>
+      <a href="tel:4029150518" class="white">
+        <span itemprop="telephone"> 402.915.0518 </span></a>
       <br>
       <br>
-      <a class="white" href="mailto:jeannie@kickpunchcreative.com"> jeannie@kickpunchcreative.com </a>
+      <a class="white" href="mailto:jeannie@kickpunchcreative.com">
+        <span itemprop="email">
+           jeannie@kickpunchcreative.com </span></a>
       <br>
+     <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
      
-      omaha, nebraska 
-      <br>
+      
+     <span itemprop="addressLocality">omaha, nebraska</span> 
+           </span><br/>
       
       <img src="assets/mail.svg" class="phone" alt="contact information">
     </div>
        
     <div class="column">
-      <b>Kick Punch Creative </b>is an Omaha Micro Design Agency specializing in content and visuals for social media and web. Micro-content is an essential addition to your business’s marketing strategy.
+      <b itemprop="name">Kick Punch Creative </b>is an Omaha Micro Design Agency specializing in content and visuals for social media and web. Micro-content is an essential addition to your business’s marketing strategy.
     </div>
     <div class="column">
       <img src="assets/wdc.svg" class="wdc center" alt="kick punch creative we don't coast">
