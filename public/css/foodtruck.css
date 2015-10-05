@@ -46,7 +46,7 @@
   #truck {
     position:absolute;
     width:42%;
-    top:300px;
+    margin-top:15%;
     left:25%;
     z-index:300;
   
@@ -65,7 +65,7 @@
   
   #hero-text {
     position:absolute;
-    top:50px;
+    margin-top:3%;
     left:35%;
     width:30%;
     z-index:300;
