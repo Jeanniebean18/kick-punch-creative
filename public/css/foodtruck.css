@@ -1,0 +1,105 @@
+@media (max-width: 3000px){
+  
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+
+  #home {
+    position:relative;
+    width:100%;
+    
+    /*  border:1px solid red;*/
+  
+  }
+
+  .center {
+    position:relative;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  /*clear fix*/
+  .clearfix::after {
+    content:" ";
+    display:table;
+    clear:both;
+  
+  }
+  
+  #hero {
+    position:absolute;
+    width:100%;
+  }
+  
+
+  
+  #truck {
+    position:absolute;
+    width:42%;
+    top:300px;
+    left:25%;
+    z-index:300;
+  
+  }
+  
+  #foodtrucks {
+    position:relative;
+    width:100%;
+    z-index:0;
+    
+  }
+  .skyline {
+    position:relative;
+    
+  }
+  
+  #hero-text {
+    position:absolute;
+    top:50px;
+    left:35%;
+    width:30%;
+    z-index:300;
+  }
+  
+  h1 {
+    text-align:center;
+    font-family: 'Roboto Slab', serif;
+    color:#4F5069;
+    font-size:35px;
+    margin-bottom:-20px;
+  }
+  
+  #parttwo {
+    position:relative;
+    display:block;
+    background-color:#4F5069;
+    width:100%;
+    padding:3%;
+    margin:0;
+    
+  }
+  
+  p {
+    position:relative;
+    text-align:center;
+    font-size:220%;
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    font-weight:300;
+    
+  }
+  
+}
+
+
+  

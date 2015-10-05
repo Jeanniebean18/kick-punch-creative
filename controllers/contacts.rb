@@ -4,6 +4,10 @@ get "/" do
   erb :"home"
 end
 
+get "/omaha-food-trucks" do
+  erb :"foodtruck", :layout => :"foodtrucks"
+end
+
 post "/contacts" do
   @contact = Contact.create({name:params[:name], phone: params[:phone], email:params[:email], message:params[:message], date:params[:date]})
   if @contact.save
