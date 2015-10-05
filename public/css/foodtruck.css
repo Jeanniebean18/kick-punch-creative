@@ -101,5 +101,104 @@
   
 }
 
+@media (max-width: 1280px){
+  p {
+    position:relative;
+    text-align:center;
+    font-size:120%;
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    font-weight:300;
+    
+  }
+  
+  h1 {
+    text-align:center;
+    font-family: 'Roboto Slab', serif;
+    color:#4F5069;
+    font-size:20px;
+    margin-bottom:-20px;
+  }
+
+}
+
+@media (max-width: 953px){
+  p {
+    position:relative;
+    text-align:center;
+    font-size:100%;
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    font-weight:300;
+    
+  }
+  
+  h1 {
+    text-align:center;
+    font-family: 'Roboto Slab', serif;
+    color:#4F5069;
+    font-size:20px;
+    margin-bottom:-10px;
+  }
+  .skyline {
+    margin-top:200px;
+  }
+  #truck {
+    position:absolute;
+    width:70%;
+    margin-top:20%;
+    left:9%;
+    z-index:300;
+  
+  }
+  
+  #hero-text {
+    position:absolute;
+    margin-top:3%;
+    left:26%;
+    width:50%;
+    z-index:300;
+  }
+
+}
+@media (max-width: 780px){
+  p {
+    position:relative;
+    text-align:center;
+    font-size:100%;
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    font-weight:300;
+    
+  }
+  
+  h1 {
+    text-align:center;
+    font-family: 'Roboto Slab', serif;
+    color:#4F5069;
+    font-size:20px;
+    margin-bottom:-10px;
+  }
+  .skyline {
+    margin-top:200px;
+  }
+  #truck {
+    position:absolute;
+    width:70%;
+    margin-top:20%;
+    left:9%;
+    z-index:300;
+  
+  }
+  
+  #hero-text {
+    position:absolute;
+    margin-top:3%;
+    left:26%;
+    width:50%;
+    z-index:300;
+  }
+
+}
 
   
