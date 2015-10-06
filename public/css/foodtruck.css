@@ -92,7 +92,7 @@
   
   .sign {
     width:55%;
-    margin-top:6%;
+    margin-top:10%;
     margin-right:20px;
     float:right;
   }
@@ -135,14 +135,14 @@
     font-family: 'Roboto Slab', serif;
     color:#4F5069;
     font-size:45px;
-    margin-bottom:0px;
+    margin-bottom:3%;
     margin-top:0;
   }
   h2 {
     text-align:center;
     font-family: 'Roboto Slab', serif;
     color:#4F5069;
-    font-size:35px;
+    font-size:31px;
     font-weight:100;
     margin-bottom:0px;
   }
@@ -154,7 +154,7 @@
     width:100%;
     padding:3%;
     margin:0;
-    margin-bottom:1%;
+    margin-bottom:3%;
     
   }
   
@@ -347,6 +347,7 @@
   .sign {
     width:40%;
     margin-left:-50px;
+    margin-top:70px;
   }
   h2 {
     text-align:center;
