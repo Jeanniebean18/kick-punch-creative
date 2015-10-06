@@ -154,6 +154,7 @@
     width:100%;
     padding:3%;
     margin:0;
+    margin-bottom:1%;
     
   }
   
@@ -234,7 +235,7 @@
   }
   
   h2 {
-    font-size:22px;
+    font-size:24px;
   }
 
 
@@ -244,7 +245,7 @@
   
   
   .sign {
-    margin-top:24%;
+    margin-top:20%;
     
   }
 
