@@ -60,6 +60,52 @@
   }
   .skyline {
     position:relative;
+    width:101%;
+    
+  }
+  #socialwrap {
+    width:20%;
+    float:right;
+/*    border:1px solid red;*/
+    margin-top:10%;
+    margin-left:30px;
+  }
+  
+  #textwrap {
+    width:40%;
+    float:left;
+/*    border:1px solid red;*/
+   
+  }
+  .social {
+    width:50%;
+  }
+  .icon {
+    width:55%;
+    margin-top:-5%;
+    margin-right:20px;
+    float:right;
+  }
+  
+  .sign {
+    width:55%;
+    margin-top:8%;
+    margin-right:20px;
+    float:right;
+  }
+  #partthree {
+    margin:2%;
+  }
+  #columnone {
+    width:50%;
+    float:left;
+/*    border:1px solid;*/
+    
+  }
+  #columntwo {
+    width:50%;
+    float:left;
+/*    border:1px solid;*/
     
   }
   
@@ -76,6 +122,22 @@
     font-family: 'Roboto Slab', serif;
     color:#4F5069;
     font-size:35px;
+    margin-bottom:-20px;
+  }
+  
+  h3 {
+    text-align:center;
+    font-family: 'Roboto Slab', serif;
+    color:#4F5069;
+    font-size:45px;
+    margin-bottom:-20px;
+  }
+  h2 {
+    text-align:center;
+    font-family: 'Roboto Slab', serif;
+    color:#4F5069;
+    font-size:35px;
+    font-weight:100;
     margin-bottom:-20px;
   }
   
@@ -215,7 +277,7 @@
   p {
     position:relative;
     text-align:center;
-    font-size:26px;
+    font-size:24px;
     font-family: 'Roboto Slab', serif;
     color:white;
     font-weight:300;
@@ -228,6 +290,40 @@
     width:360px;
     margin-top:31%;
     left:1%;
+    z-index:300;
+  
+  }
+  
+  .skyline {
+    margin-top:170px;
+  }
+  #hero-text {
+    position:absolute;
+    margin-top:3%;
+    left:16%;
+    width:70%;
+    z-index:300;
+  }
+
+}
+
+@media (max-width: 320px){
+  p {
+    position:relative;
+    text-align:center;
+    font-size:21px;
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    font-weight:300;
+    
+  }
+  
+
+  #truck {
+    position:absolute;
+    width:360px;
+    margin-top:27%;
+    left:-8%;
     z-index:300;
   
   }
