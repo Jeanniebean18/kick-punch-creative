@@ -201,11 +201,11 @@
   p {
     position:relative;
     text-align:center;
-    font-size:220%;
+    font-size:260%;
     font-family: 'Roboto Slab', serif;
     color:white;
     font-weight:300;
-    line-height:160%;
+    
     
   }
   
@@ -248,7 +248,7 @@
   p {
     position:relative;
     text-align:center;
-    font-size:140%;
+    font-size:190%;
     font-family: 'Roboto Slab', serif;
     color:white;
     font-weight:300;
