@@ -205,6 +205,7 @@
     font-family: 'Roboto Slab', serif;
     color:white;
     font-weight:300;
+    line-height:130%;
     
   }
   
@@ -269,6 +270,7 @@
     font-family: 'Roboto Slab', serif;
     color:white;
     font-weight:300;
+    line-height:20px;
     
   }
   
@@ -283,7 +285,7 @@
   }
   
   h2 {
-    font-size:22px;
+    font-size:26px;
   }
 
 
