@@ -89,7 +89,7 @@
   }
   .icon {
     width:55%;
-    margin-top:-5%;
+    margin-top:-2%;
     margin-right:20px;
     float:right;
   }
@@ -113,7 +113,7 @@
     background-color:#F2F3F4;
     padding:1%;
     padding-top:3%;
-    background-image:url("../assets/foodtruck/cityscape1.svg");background-size:100%;background-position:100%;background-repeat:no-repeat;
+    background-image:url("../assets/foodtruck/cityscape1.svg");background-size:100%;background-position:bottom;background-repeat:no-repeat;
   }
   #columnone {
     position:relative;
@@ -140,7 +140,7 @@
     margin:2%;
     padding:1%;
     margin-top:0;
-    padding-bottom:2%;
+    padding-bottom:1%;
     
     background-color:#01B0A9;
     
@@ -151,6 +151,7 @@
   }
   h2.white {
     color:white;
+    font-size:35px;
   }
   
   #hero-text {
@@ -173,7 +174,7 @@
     text-align:center;
     font-family: 'Roboto Slab', serif;
     color:#4F5069;
-    font-size:45px;
+    font-size:55px;
     margin-bottom:3%;
     margin-top:0;
   }
@@ -181,7 +182,7 @@
     text-align:center;
     font-family: 'Roboto Slab', serif;
     color:#4F5069;
-    font-size:31px;
+    font-size:41px;
     font-weight:100;
     margin-bottom:0px;
   }
@@ -282,7 +283,7 @@
   }
   
   h2 {
-    font-size:26px;
+    font-size:22px;
   }
 
 
@@ -504,6 +505,18 @@
 }
 
 @media (max-width: 416px){
+  
+  #quote {
+    position:relative;
+    display:block;
+    margin:2%;
+    padding:2%;
+    margin-top:0;
+    padding-bottom:1%;
+    
+    background-color:#01B0A9;
+    
+  }
   p {
     position:relative;
     text-align:center;
@@ -514,7 +527,10 @@
     
   }
   
-
+  h2.white {
+    color:white;
+    font-size:21px;
+  }
   #truck {
     position:absolute;
     width:360px;
