@@ -16,6 +16,8 @@
     /*  border:1px solid red;*/
   
   }
+  
+  
 
   .center {
     position:relative;
@@ -79,7 +81,8 @@
    
   }
   .social {
-    width:50%;
+    width:46%;
+    margin:3%;
   }
   .flavor {
     width:50%;
@@ -89,6 +92,13 @@
     margin-top:-5%;
     margin-right:20px;
     float:right;
+  }
+  
+  .speechbubble {
+    position:relative;
+    float:left;
+    width:220px;
+    margin-top:-20px;
   }
   
   .sign {
@@ -130,8 +140,16 @@
     margin:2%;
     padding:1%;
     margin-top:0;
-    background-color:#F2F3F4;
     
+    background-color:#01B0A9;
+    
+  }
+  
+  h1.white {
+    color:#F3EB94;
+  }
+  h2.white {
+    color:white;
   }
   
   #hero-text {
@@ -450,6 +468,13 @@
   .flavor {
     width:40%;
   }
+  
+  .speechbubble {
+    position:relative;
+    float:left;
+    width:120px;
+    margin-top:0px;
+  }
 }
 
 @media (max-width: 610px){
@@ -574,7 +599,7 @@
     margin-bottom:0px;
   }
   .sign {
-    width:40%;
+    width:37%;
     margin-top:16%;
     
     float:right;
@@ -605,7 +630,7 @@
   #truck {
     position:absolute;
     width:360px;
-    margin-top:27%;
+    margin-top:29%;
     left:-8%;
     z-index:300;
   
@@ -639,11 +664,11 @@
    
   }
   .sign {
-    width:90%;
+    width:50%;
     margin-top:4%;
     margin-left:auto;
     margin-right:auto;
-    margin-left:5%;
+    margin-left:26%;
     
     float:none;
   }
