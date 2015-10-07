@@ -10,7 +10,7 @@ var hamburger = document.getElementById("hamburger");
 var mobilenav = document.getElementById("mobilenav");
 var square = document.getElementById("square");
 var form = document.getElementById("show-work");
-// var jeannie = document.getElementById("jeannie");
+
 
 hamburger.onclick = toggle_display1;
 
@@ -85,6 +85,8 @@ function inView(){
     if(isInViewport(work)){
       getquote.setAttribute("class", "animated tada")
     }
+    
+ 
     
     // if(isInViewport(form)){
     //   jeannie.style.display="block";

@@ -169,7 +169,10 @@
     font-size:35px;
     margin-bottom:-20px;
   }
-  
+  #smoke {
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
   h3 {
     text-align:center;
     font-family: 'Roboto Slab', serif;
