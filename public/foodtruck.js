@@ -7,8 +7,8 @@ var quote = document.getElementById("quote");
 var pineapple = document.getElementById("pineapple");
 var knife = document.getElementById("knife");
 var quote2 = document.getElementById("quote2");
-
-
+var maracas = document.getElementById("maracas");
+var partfive = document.getElementById("partfive");
 window.onscroll=inView;
   
   
@@ -46,6 +46,12 @@ function inView(){
     
     if(isInViewport(quote2)){
       quote2.setAttribute("class","animated pulse quote");
+      
+      
+    }
+    
+    if(isInViewport(partfive)){
+      maracas.setAttribute("class","animated shake");
       
       
     }
