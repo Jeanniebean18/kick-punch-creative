@@ -4,6 +4,7 @@ var smoke = document.getElementById("smoke");
 var train = document.getElementById("train");
 var shaker = document.getElementById("shaker");
 var quote = document.getElementById("quote");
+var pineapple = document.getElementById("pineapple");
 
 
 window.onscroll=inView;
@@ -30,6 +31,12 @@ function inView(){
     
     if(isInViewport(quote)){
       quote.setAttribute("class","animated pulse");
+      
+      
+    }
+    
+    if(isInViewport(pineapple)){
+      pineapple.setAttribute("class","animated pulse");
       
       
     }
