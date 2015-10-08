@@ -7,7 +7,8 @@ var quote = document.getElementById("quote");
 var pineapple = document.getElementById("pineapple");
 var knife = document.getElementById("knife");
 var quote2 = document.getElementById("quote2");
-var quote3 = document.getElementById("quote3");
+var quote4 = document.getElementById("quote3");
+var quote3 = document.getElementById("quote4");
 var maracas = document.getElementById("maracas");
 var partfive = document.getElementById("partfive");
 var partsix = document.getElementById("partsix");
@@ -74,6 +75,14 @@ function inView(){
       
       
     }
+    
+    if(isInViewport(quote4)){
+      quote4.setAttribute("class","animated pulse quote");
+      
+      
+    }
+    
+    
 
 
 
