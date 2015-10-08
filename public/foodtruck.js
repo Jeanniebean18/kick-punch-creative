@@ -5,6 +5,7 @@ var train = document.getElementById("train");
 var shaker = document.getElementById("shaker");
 var quote = document.getElementById("quote");
 var pineapple = document.getElementById("pineapple");
+var knife = document.getElementById("knife");
 
 
 window.onscroll=inView;
@@ -24,7 +25,7 @@ function inView(){
    
     
     if(isInViewport(train)){
-      smoke.setAttribute("class","animated down");
+      smoke.setAttribute("class","animated rubberBand");
       shaker.setAttribute("class","animated tada delay2");
       
     }
@@ -36,7 +37,8 @@ function inView(){
     }
     
     if(isInViewport(pineapple)){
-      pineapple.setAttribute("class","animated pulse");
+     
+      knife.setAttribute("class","animated delay2 rotate");
       
       
     }

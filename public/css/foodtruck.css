@@ -96,10 +96,27 @@
     margin-right:20px;
     float:right;
   }
-  
+  .rotate {
+    -webkit-transform:rotate(-45deg);
+    -webkit-transition-delay: 2s;
+    transform:rotate(-45deg) in;
+    transform-origin:50% 50%;
+    /* Firefox */
+    -moz-transition: all 1s ease;
+    /* WebKit */
+    -webkit-transition: all 1s ease;
+    /* Opera */
+    -o-transition: all 1s ease;
+    /* Standard */
+    transition: all 1s ease;
+    -webkit-transition-delay: 1s;
+    -moz-transition-delay: 1s;
+    -o-transition-delay: 1s;
+    transition-delay: 1s;
+  }
   #pineapple {
-    width:40%;
-    margin-top:-2%;
+    width:47%;
+    margin-top:5%;
     margin-right:20px;
     float:right;
     
