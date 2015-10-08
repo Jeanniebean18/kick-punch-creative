@@ -1,6 +1,6 @@
 
 
-var smoke = document.getElementById("smoke");
+
 var train = document.getElementById("train");
 var shaker = document.getElementById("shaker");
 var quote = document.getElementById("quote");
@@ -26,8 +26,8 @@ function inView(){
    
     
     if(isInViewport(train)){
-      smoke.setAttribute("class","animated rubberBand");
-      shaker.setAttribute("class","animated tada delay2");
+      
+      shaker.setAttribute("class","animated tada ");
       
     }
     
