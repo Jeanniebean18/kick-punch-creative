@@ -7,8 +7,13 @@ var quote = document.getElementById("quote");
 var pineapple = document.getElementById("pineapple");
 var knife = document.getElementById("knife");
 var quote2 = document.getElementById("quote2");
+var quote3 = document.getElementById("quote3");
 var maracas = document.getElementById("maracas");
 var partfive = document.getElementById("partfive");
+var partsix = document.getElementById("partsix");
+var bubble1 = document.getElementById("bubble1");
+var bubble2 = document.getElementById("bubble2");
+var bubble3 = document.getElementById("bubble3");
 window.onscroll=inView;
   
   
@@ -52,6 +57,20 @@ function inView(){
     
     if(isInViewport(partfive)){
       maracas.setAttribute("class","animated shake");
+      
+      
+    }
+    
+    if(isInViewport(quote3)){
+      quote3.setAttribute("class","animated pulse quote");
+      
+      
+    }
+    
+    if(isInViewport(partsix)){
+      bubble1.setAttribute("class","animated delay2 bounceIn");
+      bubble2.setAttribute("class","animated  delay3 bounceIn");
+      bubble3.setAttribute("class","animated  bounceIn");
       
       
     }
