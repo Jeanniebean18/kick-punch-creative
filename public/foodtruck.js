@@ -3,6 +3,7 @@
 var smoke = document.getElementById("smoke");
 var train = document.getElementById("train");
 var shaker = document.getElementById("shaker");
+var quote = document.getElementById("quote");
 
 
 window.onscroll=inView;
@@ -24,6 +25,12 @@ function inView(){
     if(isInViewport(train)){
       smoke.setAttribute("class","animated down");
       shaker.setAttribute("class","animated tada delay2");
+      
+    }
+    
+    if(isInViewport(quote)){
+      quote.setAttribute("class","animated pulse");
+      
       
     }
 

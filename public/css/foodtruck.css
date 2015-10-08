@@ -96,6 +96,14 @@
     float:right;
   }
   
+  #pineapple {
+    width:40%;
+    margin-top:-2%;
+    margin-right:20px;
+    float:right;
+    
+  }
+  
   .speechbubble {
     position:relative;
     float:left;
@@ -123,7 +131,7 @@
     background-color:#F2F3F4;
     padding:1%;
     padding-top:3%;
-    background-image:url("../assets/foodtruck/cityscape1.svg");background-size:100%;background-position:bottom;background-repeat:no-repeat;
+    background-image:url("../assets/foodtruck/cityscape2.svg");background-size:100%;background-position:bottom;background-repeat:no-repeat;
   }
   .columnone {
     position:relative;
@@ -462,6 +470,14 @@
     color:#4F5069;
     font-size:26px;
     margin-bottom:-10px;
+  }
+  
+  #pineapple {
+    width:50%;
+    margin-top:-2%;
+    margin-right:20px;
+    float:right;
+    margin-bottom:4%;
   }
 
 }
