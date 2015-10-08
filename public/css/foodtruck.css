@@ -20,6 +20,8 @@
   }
   
   
+  
+  
 
   .center {
     position:relative;
@@ -244,6 +246,15 @@
     font-family: 'Roboto Slab', serif;
     color:#4F5069;
     font-size:31px;
+    font-weight:100;
+    margin-bottom:0px;
+  }
+  
+  h5 {
+    text-align:center;
+    font-family: 'Roboto Slab', serif;
+    color:#4F5069;
+    font-size:15px;
     font-weight:100;
     margin-bottom:0px;
   }
@@ -717,7 +728,7 @@
 
 
 }
-@media (max-width: 320px){
+@media (max-width: 375px){
   p {
     position:relative;
     text-align:center;
@@ -791,7 +802,13 @@
   }
   
 
-
+  .socialwrap {
+    width:20%;
+    float:left;
+/*    border:1px solid red;*/
+    margin-top:0%;
+    margin-left:30px;
+  }
 }
 
   
