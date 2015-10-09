@@ -45,7 +45,10 @@
     }
   
   
-  
+    #shrimp {
+      width:80%;
+      margin-top:1%;
+    }
 
   .center {
     position:relative;
@@ -286,6 +289,15 @@
   }
   h2 {
     text-align:right;
+    font-family: 'Roboto Slab', serif;
+    color:#4F5069;
+    font-size:25px;
+    font-weight:100;
+    margin-bottom:0px;
+  }
+  
+  #footer {
+    text-align:center;
     font-family: 'Roboto Slab', serif;
     color:#4F5069;
     font-size:25px;

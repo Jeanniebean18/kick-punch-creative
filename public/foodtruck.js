@@ -53,7 +53,7 @@ function inView(){
     
     if(isInViewport(pineapple)){
      
-      knife.setAttribute("class","animated ß rotate");
+      knife.setAttribute("class","animated rotate");
       
       
     }
