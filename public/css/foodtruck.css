@@ -10,6 +10,11 @@
     color:#F4EC8F;
     text-decoration:none;
   }
+  
+  a.gray {
+    color:gray;
+    text-decoration:none;
+  }
   #fixedwidth{
     max-width:1700px;
   }
@@ -24,7 +29,11 @@
   #maracas {
     width:90%;
   }
-  
+  .share {
+    width:400px;
+/*    border:1px solid;*/
+    
+  }
   #arrow {
     position:relative;
     width:100px;
@@ -712,6 +721,11 @@
   
   .quote {
     padding:5%;
+  }
+  .share {
+    width:330px;
+/*    border:1px solid;*/
+    height:170px;
   }
 }
 
