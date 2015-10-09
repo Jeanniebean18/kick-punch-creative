@@ -123,7 +123,7 @@
     -webkit-transform:rotate(-45deg);
     -webkit-transition-delay: 2s;
     transform:rotate(-45deg) in;
-    transform-origin:50% 50%;
+    transform-origin:50% 100%;
     /* Firefox */
     -moz-transition: all 1s ease;
     /* WebKit */
