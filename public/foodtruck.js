@@ -45,7 +45,8 @@ function inView(){
     }
     
     if(isInViewport(quote)){
-      quote.setAttribute("class","animated pulse quote");
+     
+      quote.setAttribute("class","animated pulse quote ");
       
       
     }
