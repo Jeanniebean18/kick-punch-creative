@@ -15,6 +15,9 @@ var partsix = document.getElementById("partsix");
 var bubble1 = document.getElementById("bubble1");
 var bubble2 = document.getElementById("bubble2");
 var bubble3 = document.getElementById("bubble3");
+var arrow = document.getElementById("arrow");
+
+
 window.onscroll=inView;
   
   
@@ -27,7 +30,11 @@ function inView(){
   // student work and quotes in viewport in viewport
   if (document.documentElement.clientWidth  >= 856) {
       
-     
+    if(isInViewport(arrow)){
+      arrow.setAttribute("class","animated bounce center");
+      
+      
+    }
         
    
     
@@ -45,7 +52,7 @@ function inView(){
     
     if(isInViewport(pineapple)){
      
-      knife.setAttribute("class","animated delay2 rotate");
+      knife.setAttribute("class","animated ß rotate");
       
       
     }
@@ -57,7 +64,7 @@ function inView(){
     }
     
     if(isInViewport(partfive)){
-      maracas.setAttribute("class","animated shake");
+      maracas.setAttribute("class","animated tada");
       
       
     }
@@ -81,6 +88,7 @@ function inView(){
       
       
     }
+
     
     
 
