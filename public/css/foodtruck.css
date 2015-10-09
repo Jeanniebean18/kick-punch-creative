@@ -246,6 +246,8 @@
   }
   h2.cen {
     text-align:center;
+    border:1px solid;
+    width:200px;
   }
   
   #hero-text {
