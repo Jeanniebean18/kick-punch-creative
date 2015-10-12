@@ -799,11 +799,7 @@ h2 {
     margin-right:20px;
     float:right;
   }
-  #pineapple{
-    visibility:hidden;
-    width:55%;
-    
-  }
+
   #foodtrucks {
     position:relative;
     width:100%;
@@ -817,5 +813,32 @@ h2 {
     width:70%;
     z-index:300;
   }
+  #wrap,
+  #wrap2,
+  #wrap3,
+  #wrap4 {
+    visibility:visible;
+    
+  }
+  #train {
+    visibility:visible;
+    
+  }
+  #pineapple{
+    visibility:visible;
+    width:75%;
+    
+  }
+  #taco{
+    visibility:visible;
+    
+    
+  }
+  #shrimp{
+    visibility:visible;
+    
+    
+  }
+  
 
 }
