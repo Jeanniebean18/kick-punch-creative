@@ -28,7 +28,7 @@
   .columnwrap {
     width:1270px;
     max-width:1299px;
-/*    border:1px solid red;*/
+    border:1px solid red;
   }
   #maracas {
     width:90%;
@@ -97,8 +97,9 @@
     
   }
   .socialwrap {
-    width:50%;
+    width:20%;
     float:right;
+    margin-right:px;
     
 /*    border:1px solid red;*/
  
@@ -120,9 +121,10 @@
     left:50px;
   }
   .social {
-    width:40%;
-    margin:3%;
-    float:left;
+    width:90%;
+    margin:5%;
+    display:block;
+    
   }
   .flavor {
     width:50%;
@@ -141,6 +143,7 @@
     -webkit-transition-delay: 2s;
     transform:rotate(-45deg) in;
     transform-origin:50% 50%;
+    -webkit-transform-origin:50% 50%;
     /* Firefox */
     -moz-transition: all 1s ease;
     /* WebKit */
@@ -248,8 +251,10 @@
     font-size:35px;
   }
   h2.cen {
+    margin-top:-5px;
     text-align:center;
-    border:1px solid;
+    border-top:1px solid;
+    padding-top:2%;
     width:300px;
   }
   
@@ -397,37 +402,220 @@
   }
   
 }
+}
 
 @media (max-width: 1831px){
-  .textwrap {
-    width:43%;
-    float:left;
-    margin-top:0px;
-/*    border:1px solid red;*/
-   
-  }
-  .sign {
-    width:51%;
-    margin-top:12%;
-    margin-right:20px;
-    float:right;
-  }
-  
-  h2 {
-    text-align:center;
+  h1 {
+    text-align:right;
     font-family: 'Roboto Slab', serif;
     color:#4F5069;
     font-size:25px;
+    margin-bottom:-20px;
+  }
+  h2 {
+    text-align:right;
+    font-family: 'Roboto Slab', serif;
+    color:#4F5069;
+    font-size:22px;
     font-weight:100;
     margin-bottom:0px;
   }
-  h1 {
-    text-align:center;
-    font-family: 'Roboto Slab', serif;
-    color:#4F5069;
-    font-size:31px;
-    margin-bottom:-20px;
-  }
-  
 }
 
+
+@media (max-width: 1290px){
+.columnwrap {
+  width:1000px;
+}
+/*  border:1px solid red;*/
+/**/
+h1 {
+  text-align:right;
+  font-family: 'Roboto Slab', serif;
+  color:#4F5069;
+  font-size:25px;
+  margin-bottom:-20px;
+}
+h2 {
+  text-align:right;
+  font-family: 'Roboto Slab', serif;
+  color:#4F5069;
+  font-size:19px;
+  font-weight:100;
+  margin-bottom:0px;
+}
+  .socialwrap {
+    width:25%;
+    float:right;
+    margin-top:-20px;
+    margin-right:px;
+    
+/*    border:1px solid red;*/
+ 
+  }
+}
+
+@media (max-width: 1000px){
+.columnwrap {
+  width:800px;
+}
+/*  border:1px solid red;*/
+/**/
+h1 {
+  text-align:right;
+  font-family: 'Roboto Slab', serif;
+  color:#4F5069;
+  font-size:22px;
+  margin-bottom:-20px;
+}
+h2 {
+  text-align:right;
+  font-family: 'Roboto Slab', serif;
+  color:#4F5069;
+  font-size:21px;
+  font-weight:100;
+  margin-bottom:0px;
+}
+  .socialwrap {
+    width:25%;
+    float:right;
+    margin-top:-20px;
+    margin-right:px;
+    
+/*    border:1px solid red;*/
+ 
+  }
+  .textwrap {
+    
+    float:right;
+    width:50%;
+/*    border:1px solid red;*/
+    
+  }
+}
+
+@media (max-width: 800px){
+.columnwrap {
+  width:600px;
+}
+/*  border:1px solid red;*/
+/**/
+h3 {
+  font-size:30px;
+  margin-bottom:8%;
+}
+h1 {
+  text-align:right;
+  font-family: 'Roboto Slab', serif;
+  color:#4F5069;
+  font-size:16px;
+  margin-bottom:-10px;
+}
+h2 {
+  text-align:right;
+  font-family: 'Roboto Slab', serif;
+  color:#4F5069;
+  font-size:14px;
+  font-weight:100;
+  margin-bottom:0px;
+}
+  .socialwrap {
+    width:25%;
+    float:right;
+    margin-top:-20px;
+    margin-right:px;
+    
+/*    border:1px solid red;*/
+ 
+  }
+  .textwrap {
+    
+    float:right;
+    width:50%;
+/*    border:1px solid red;*/
+    
+  }
+  .sign {
+    width:40%;
+    float:left;
+    display:block;
+    position:absolute;
+    bottom:0;
+    left:50px;
+  }
+}
+
+@media (max-width: 600px){
+.columnwrap {
+  width:100%;
+}
+/*  border:1px solid red;*/
+/**/
+h3 {
+  font-size:30px;
+  margin-bottom:8%;
+}
+h1 {
+  text-align:right;
+  font-family: 'Roboto Slab', serif;
+  color:#4F5069;
+  font-size:19px;
+  margin-bottom:-10px;
+}
+h2 {
+  text-align:right;
+  font-family: 'Roboto Slab', serif;
+  color:#4F5069;
+  font-size:14px;
+  font-weight:100;
+  margin-bottom:0px;
+}
+
+  .textwrap {
+    
+    float:none;
+    width:220px;
+    margin-bottom:20px;
+/*    border:1px solid red;*/
+    
+  }
+
+  .columnone {
+    width:100%;
+    float:none;
+  }
+  .columntwo {
+    position:relative;
+    bottom:0;
+    right:10%;
+    width:45%;
+    float:none;
+     margin-top:0;
+/*        border:1px solid;*/
+/*    margin-bottom:2%;*/
+/*   height:500px;*/
+    
+  }
+  .sign {
+    width:90%;
+    float:left;
+    display:block;
+    position:absolute;
+    bottom:0;
+    left:250px;
+  }
+  .social{
+    width:100%;
+  }
+  .socialwrap {
+    position:absolute;
+    top:-200px;
+    width:30%;
+    left:70px;
+    
+    
+/*    border:1px solid red;*/
+ 
+  }
+
+}
