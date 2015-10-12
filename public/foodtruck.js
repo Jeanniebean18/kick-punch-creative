@@ -21,6 +21,7 @@ var wrap3 = document.getElementById("wrap3");
 var wrap4 = document.getElementById("wrap4");
 var pineapple = document.getElementById("pineapple");
 var taco = document.getElementById("taco");
+var shrimp = document.getElementById("shrimp");
 
 
 window.onscroll=inView;
@@ -94,6 +95,10 @@ function inView(){
     }
     
     if(isInViewport(partsix)){
+      shrimp.style.visibility="visible";
+      shrimp.setAttribute("class","icon animated slideInLeft");
+      wrap4.style.visibility="visible";
+      wrap4.setAttribute("class","clearfix textwrap animated slideInUp");
       bubble1.setAttribute("class","animated delay2 bounceIn");
       bubble2.setAttribute("class","animated  delay3 bounceIn");
       bubble3.setAttribute("class","animated  bounceIn");

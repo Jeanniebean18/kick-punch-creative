@@ -33,7 +33,7 @@
   }
   #train {
     visibility:hidden;
-    width:74%;
+    
   }
   #pineapple{
     visibility:hidden;
@@ -41,6 +41,11 @@
     
   }
   #taco{
+    visibility:hidden;
+    
+    
+  }
+  #shrimp{
     visibility:hidden;
     
     
@@ -201,7 +206,7 @@
 /*    background-color:#F2F3F4;*/
     padding:5%;
     padding-top:3%;
-    background-image:url("../assets/foodtruck/cityscape1.svg");background-size:100%;background-position:bottom;background-repeat:no-repeat;
+    background-image:url("../assets/foodtruck/cityscape1.svg");background-size:100%;background-position:top;background-repeat:no-repeat;
   }
   
   #partfour {
@@ -223,7 +228,7 @@
 /*    background-color:#F2F3F4;*/
     padding:2%;
     padding-top:3%;
-    background-image:url("../assets/foodtruck/cityscape4.svg");background-size:100%;background-position:bottom;background-repeat:no-repeat;
+    background-image:url("../assets/foodtruck/cityscape4.svg");background-size:100%;background-position:top;background-repeat:no-repeat;
   }
   .columnone {
     position:relative;
