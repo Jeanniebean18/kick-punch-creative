@@ -4,7 +4,6 @@
 var train = document.getElementById("train");
 var shaker = document.getElementById("shaker");
 var quote = document.getElementById("quote");
-var pineapple = document.getElementById("pineapple");
 var knife = document.getElementById("knife");
 var quote2 = document.getElementById("quote2");
 var quote4 = document.getElementById("quote3");
@@ -17,7 +16,10 @@ var bubble2 = document.getElementById("bubble2");
 var bubble3 = document.getElementById("bubble3");
 var arrow = document.getElementById("arrow");
 var wrap = document.getElementById("wrap");
-var jackson = document.getElementById("jackson");
+var wrap2 = document.getElementById("wrap2");
+var wrap3 = document.getElementById("wrap3");
+var wrap4 = document.getElementById("wrap4");
+var pineapple = document.getElementById("pineapple");
 
 
 window.onscroll=inView;
@@ -42,13 +44,12 @@ function inView(){
     
     if(isInViewport(train)){
       
-      shaker.setAttribute("class","animated tada delay3");
+      shaker.setAttribute("class","animated tada delay4");
       train.style.visibility="visible";
       train.setAttribute("class","icon animated slideInLeft");
       wrap.style.visibility="visible";
       wrap.setAttribute("class","clearfix textwrap animated slideInUp");
-      jackson.style.visibility="visible";
-      jackson.setAttribute("class","sign animated slideInUp delay3");
+      
       
     }
     
