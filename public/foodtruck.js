@@ -34,7 +34,7 @@ function inView(){
       
     
   // student work and quotes in viewport in viewport
-  if (document.documentElement.clientWidth  >= 766) {
+  if (document.documentElement.clientWidth  >= 320) {
       
     if(isInViewport(arrow)){
       arrow.setAttribute("class","animated bounce center");
