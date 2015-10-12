@@ -61,8 +61,11 @@ function inView(){
     }
     
     if(isInViewport(pineapple)){
-     
-      knife.setAttribute("class","animated rotate");
+      pineapple.style.visibility="visible";
+      pineapple.setAttribute("class","icon animated slideInLeft");
+      wrap2.style.visibility="visible";
+      wrap2.setAttribute("class","clearfix textwrap animated slideInUp");
+      knife.setAttribute("class","animated rotate delay4");
       
       
     }
