@@ -16,6 +16,8 @@ var bubble1 = document.getElementById("bubble1");
 var bubble2 = document.getElementById("bubble2");
 var bubble3 = document.getElementById("bubble3");
 var arrow = document.getElementById("arrow");
+var wrap = document.getElementById("wrap");
+var jackson = document.getElementById("jackson");
 
 
 window.onscroll=inView;
@@ -40,7 +42,13 @@ function inView(){
     
     if(isInViewport(train)){
       
-      shaker.setAttribute("class","animated tada ");
+      shaker.setAttribute("class","animated tada delay3");
+      train.style.visibility="visible";
+      train.setAttribute("class","icon animated slideInLeft");
+      wrap.style.visibility="visible";
+      wrap.setAttribute("class","clearfix textwrap animated slideInUp");
+      jackson.style.visibility="visible";
+      jackson.setAttribute("class","sign animated slideInUp delay3");
       
     }
     
