@@ -31,9 +31,7 @@
   #train {
     visibility:hidden;
   }
-  #jackson {
-    visibility:hidden;
-  }
+ 
   .columnwrap {
     width:1270px;
     max-width:1299px;
