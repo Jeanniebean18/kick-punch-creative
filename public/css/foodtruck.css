@@ -842,3 +842,339 @@ h2 {
   
 
 }
+@media (max-width: 375px){
+.columnwrap {
+  width:100%;
+  padding:2%;
+}
+/*  border:1px solid red;*/
+/**/
+h3 {
+  font-size:30px;
+  margin-bottom:8%;
+}
+h1 {
+  text-align:right;
+  font-family: 'Roboto Slab', serif;
+  color:#4F5069;
+  font-size:19px;
+  margin-bottom:-10px;
+}
+h2 {
+  text-align:right;
+  font-family: 'Roboto Slab', serif;
+  color:#4F5069;
+  font-size:17px;
+  font-weight:100;
+  margin-bottom:0px;
+}
+
+  .textwrap {
+    
+    float:none;
+    width:260px;
+    margin-bottom:20px;
+/*    border:1px solid red;*/
+    
+  }
+
+  .columnone {
+    width:100%;
+    float:none;
+  }
+  .columntwo {
+    position:relative;
+    bottom:0;
+    right:90px;
+    width:45%;
+    float:none;
+     margin-top:0;
+/*        border:1px solid;*/
+/*    margin-bottom:2%;*/
+/*   height:500px;*/
+    
+  }
+  .sign {
+    width:95%;
+    float:right;
+    display:block;
+    position:absolute;
+    bottom:40px;
+    left:250px;
+    margin-left:30px;
+  }
+  .social{
+    width:110%;
+  }
+  .social.small{
+    width:70%;
+  }
+  .socialwrap {
+    position:absolute;
+    top:-140px;
+    width:20%;
+    left:120px;
+    
+    
+/*    border:1px solid red;*/
+ 
+  }
+  p {
+    position:relative;
+    text-align:center;
+    font-size:21px;
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    font-weight:300;
+    
+    
+  }
+  #truck {
+    position:absolute;
+    width:87%;
+    margin-top:31%;
+    left:5%;
+    z-index:300;
+  
+  }
+  .skyline{
+    margin-top:160px;
+  }
+  #partthree {
+    margin:0;
+    margin-bottom:-.5%;
+   
+/*    background-color:#F2F3F4;*/
+    padding:5%;
+    padding-top:3%;
+    background-image:url("../assets/foodtruck/cityscape1.2.svg");background-size:100%;background-position:top;background-repeat:no-repeat;
+  }
+  .icon {
+    width:60%;
+    margin-top:-2%;
+    margin-right:20px;
+    float:right;
+  }
+
+  #foodtrucks {
+    position:relative;
+    width:100%;
+    z-index:0;
+    
+  }
+  #hero-text {
+    position:absolute;
+    margin-top:3%;
+    left:15%;
+    width:70%;
+    z-index:300;
+  }
+  #wrap,
+  #wrap2,
+  #wrap3,
+  #wrap4 {
+    visibility:visible;
+    
+  }
+  #train {
+    visibility:visible;
+    
+  }
+  #pineapple{
+    visibility:visible;
+    width:75%;
+    
+  }
+  #taco{
+    visibility:visible;
+    
+    
+  }
+  #shrimp{
+    visibility:visible;
+    
+    
+  }
+  #footer {
+    text-align:center;
+    font-family: 'Roboto Slab', serif;
+    color:#4F5069;
+    font-size:21px;
+    font-weight:100;
+    margin-bottom:0px;
+    padding:2%;
+  }
+  
+
+}
+@media (max-width: 320px){
+.columnwrap {
+  width:100%;
+  padding:2%;
+}
+/*  border:1px solid red;*/
+/**/
+h3 {
+  font-size:30px;
+  margin-bottom:8%;
+}
+h1 {
+  text-align:right;
+  font-family: 'Roboto Slab', serif;
+  color:#4F5069;
+  font-size:16px;
+  margin-bottom:-10px;
+}
+h2 {
+  text-align:right;
+  font-family: 'Roboto Slab', serif;
+  color:#4F5069;
+  font-size:15px;
+  font-weight:100;
+  margin-bottom:0px;
+}
+
+  .textwrap {
+    
+    float:none;
+    width:260px;
+    margin-bottom:20px;
+/*    border:1px solid red;*/
+    
+  }
+
+  .columnone {
+    width:100%;
+    float:none;
+  }
+  .columntwo {
+    position:relative;
+    bottom:0;
+    right:110px;
+    width:45%;
+    float:none;
+     margin-top:0;
+/*        border:1px solid;*/
+/*    margin-bottom:2%;*/
+/*   height:500px;*/
+    
+  }
+  .sign {
+    width:95%;
+    float:right;
+    display:block;
+    position:absolute;
+    bottom:40px;
+    left:250px;
+    margin-left:30px;
+  }
+  .social{
+    width:110%;
+  }
+  .social.small{
+    width:70%;
+  }
+  .socialwrap {
+    position:absolute;
+    top:-140px;
+    width:20%;
+    left:140px;
+    
+    
+/*    border:1px solid red;*/
+ 
+  }
+  p {
+    position:relative;
+    text-align:center;
+    font-size:21px;
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    font-weight:300;
+    
+    
+  }
+  #truck {
+    position:absolute;
+    width:91%;
+    margin-top:38%;
+    left:5%;
+    z-index:300;
+  
+  }
+  .skyline{
+    margin-top:160px;
+  }
+  #partthree {
+    margin:0;
+    margin-bottom:-.5%;
+   
+/*    background-color:#F2F3F4;*/
+    padding:5%;
+    padding-top:3%;
+    background-image:url("../assets/foodtruck/cityscape1.2.svg");background-size:100%;background-position:top;background-repeat:no-repeat;
+  }
+  .icon {
+    width:60%;
+    margin-top:-2%;
+    margin-right:20px;
+    float:right;
+  }
+
+  #foodtrucks {
+    position:relative;
+    width:100%;
+    z-index:0;
+    
+  }
+  #hero-text {
+    position:absolute;
+    margin-top:3%;
+    left:15%;
+    width:70%;
+    z-index:300;
+  }
+  #wrap,
+  #wrap2,
+  #wrap3,
+  #wrap4 {
+    visibility:visible;
+    
+  }
+  #train {
+    visibility:visible;
+    
+  }
+  #pineapple{
+    visibility:visible;
+    width:75%;
+    
+  }
+  #taco{
+    visibility:visible;
+    
+    
+  }
+  #shrimp{
+    visibility:visible;
+    
+    
+  }
+  #footer {
+    text-align:center;
+    font-family: 'Roboto Slab', serif;
+    color:#4F5069;
+    font-size:21px;
+    font-weight:100;
+    margin-bottom:0px;
+    padding:2%;
+  }
+  
+  .flavor {
+    width:50%;
+    margin-right:-9%;
+    margin-bottom:-8%;
+    margin-bottom:2%;
+/*        border:1px solid;*/
+  }
+}
