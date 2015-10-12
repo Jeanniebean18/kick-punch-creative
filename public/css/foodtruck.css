@@ -33,11 +33,19 @@
   }
   #train {
     visibility:hidden;
+    width:74%;
   }
   #pineapple{
     visibility:hidden;
+    width:65%;
     
   }
+  #taco{
+    visibility:hidden;
+    
+    
+  }
+  
   .columnwrap {
     width:1270px;
     max-width:1299px;
@@ -201,14 +209,14 @@
 /*    background-color:#F2F3F4;*/
     padding:2%;
     padding-top:3%;
-    background-image:url("../assets/foodtruck/cityscape2.svg");background-size:100%;background-position:bottom;background-repeat:no-repeat;
+    background-image:url("../assets/foodtruck/cityscape2.svg");background-size:100%;background-position:top;background-repeat:no-repeat;
   }
   #partfive {
 /*    margin:2%;*/
 /*    background-color:#F2F3F4;*/
     padding:2%;
     padding-top:3%;
-    background-image:url("../assets/foodtruck/cityscape3.svg");background-size:100%;background-position:bottom;background-repeat:no-repeat;
+    background-image:url("../assets/foodtruck/cityscape3.svg");background-size:100%;background-position:top;background-repeat:no-repeat;
   }
   #partsix {
 /*    margin:2%;*/
@@ -253,6 +261,7 @@
     background-color:#01B0A9;
     
   }
+
   
   
   h1.header {

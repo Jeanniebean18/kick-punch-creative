@@ -20,6 +20,7 @@ var wrap2 = document.getElementById("wrap2");
 var wrap3 = document.getElementById("wrap3");
 var wrap4 = document.getElementById("wrap4");
 var pineapple = document.getElementById("pineapple");
+var taco = document.getElementById("taco");
 
 
 window.onscroll=inView;
@@ -76,8 +77,12 @@ function inView(){
       
     }
     
-    if(isInViewport(partfive)){
-      maracas.setAttribute("class","animated tada");
+    if(isInViewport(taco)){
+      taco.style.visibility="visible";
+      taco.setAttribute("class","icon animated slideInLeft");
+      wrap3.style.visibility="visible";
+      wrap3.setAttribute("class","clearfix textwrap animated slideInUp");
+      maracas.setAttribute("class","animated tada delay4");
       
       
     }
