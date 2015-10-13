@@ -77,9 +77,9 @@ function inView(){
       tell.setAttribute("class"," large animated pulse");
     } 
     
-    if(isInViewport(quotation)){
+    if(isInViewport(quoteOne)){
       
-      quoteOne.setAttribute("class", " margin-top-plus center animated pulse")
+      quoteOne.setAttribute("class", " margin-top-plus center quotation animated pulse")
     } 
     
     if(isInViewport(work)){
