@@ -7,7 +7,7 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://www.kickpunchcreative.com/home</loc>
+  <loc>http://www.kickpunchcreative.com/</loc>
 </url>
 <url>
   <loc>http://www.kickpunchcreative.com/our-work</loc>
@@ -17,5 +17,8 @@
 </url>
 <url>
   <loc>http://www.kickpunchcreative.com/quote</loc>
+</url>
+<url>
+  <loc>http://www.kickpunchcreative.com/omaha-food-trucks</loc>
 </url>
 </urlset>
