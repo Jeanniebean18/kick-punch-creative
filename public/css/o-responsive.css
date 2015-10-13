@@ -53,7 +53,7 @@ header{height:70px;}
 #cube1,
 #cube2,
 #cube3,
-#cube4{float:left;width:48%;padding:2%;height:450px;}
+#cube4{float:left;width:48%;padding:2%;height:500px;}
 #work1{position:relative;width:100%;background-image:url("../assets/foodtruck.jpg");background-size:cover;background-color:#2CBDC2;height:300px;margin-right:1%;margin-bottom:2%;}
 #work2{position:relative;width:100%;background-image:url("../assets/pedersen.jpg");background-size:cover;background-color:#2CBDC2;height:300px;}
 .footer-column{width:100%;margin:4%;}
@@ -73,7 +73,7 @@ p.top{font-size:21px;line-height:27px;}
 #cube1,
 #cube2,
 #cube3,
-#cube4{float:none;position:relative;display:block;width:70%;padding:2%;margin-left:auto;margin-right:auto;}
+#cube4{float:none;position:relative;display:block;width:92%;padding:2%;padding-bottom:50px;height:496px;margin-left:auto;margin-right:auto;}
 #cloud1{width:20%;position:absolute;top:15%;right:5%;}
 #cloud2{width:25%;position:absolute;top:30%;left:10%;}
 footer{position:absolute;bottom:-8%;width:100%;background-color:#363636;}

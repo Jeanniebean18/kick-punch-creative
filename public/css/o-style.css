@@ -51,12 +51,13 @@ header{background-color:white;position:fixed;display:block;top:0px;left:0;height
 #toptext{position:relative;top:210px;display:block;width:30%;left:60px;border:1px;z-index:1;}
 #part-two{margin:1% 5% 1% 5%;}
 #jeannie{display:none;position:fixed;bottom:-50px;left:0;width:24%;}
-#quotation{width:80%;position:relative;font-family:'Dosis', sans-serif;font-size:35px;text-align:center;font-weight:200;visibility:visible;z-index:500;}
+.quotation{width:80%;position:relative;font-family:'Dosis', sans-serif;font-size:35px;text-align:center;font-weight:200;visibility:visible;z-index:500;}
+
 #quote1{width:25%;position:absolute;top:-9%;left:0;z-index:-1;}
 #quote2{width:25%;position:absolute;bottom:20%;right:0;z-index:-1;}
 #foot{position:relative;background-color:#363636;padding:2%;height:200px;border:1px solid;font-family:'Dosis', sans-serif;font-size:20px;color:white;font-weight:200;text-align:left;}
-b.small{font-size:15px;margin-top:20px;}
-#services{margin:2% 0 0 0;padding:3%;padding-bottom:6%;background-color:#F9F9F9;}
+b.small{font-size:15px;margin-top:20px; display:inline;}
+#services{margin:2% 0 0 0;padding:3%;padding-bottom:3%;background-color:#F9F9F9;}
 .floatright{float:right;}
 #cube1,
 #cube2,
