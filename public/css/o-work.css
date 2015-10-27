@@ -21,14 +21,14 @@ h5{font-family:'Dosis', sans-serif;font-size:120%;font-weight:200;color:#363636;
 #work6{position:relative;width:48%;background-image:url("../assets/omahadog.jpg");background-size:cover;background-position:50% 50%;height:300px;margin:1%;float:left;}
 #work9{position:relative;width:48%;background-image:url("../assets/omahasky.png");background-size:cover;background-position:50% 30%;height:300px;margin:1%;float:left;}
 #work10{position:relative;width:48%;background-image:url("../assets/crybaby.png");background-size:cover;background-position:50% 40%;height:300px;margin:1%;float:left;}
-#work11{position:relative;width:27%;background-image:url("../assets/draziclogo.svg");background-size:cover;background-position:50% 40%;height:300px;margin:1%;float:left;}
+#work11{position:relative;width:22%;background-image:url("../assets/draziclogo.svg");background-size:cover;background-position:50% 40%;height:250px;margin:1%;float:left;}
 #work12{position:relative;width:22%;background-image:url("../assets/crybabylogo.svg");background-size:cover;background-position:50% 40%;width:300px;height:320px;margin:1%;float:left;}
 #work13{position:relative;width:22%;background-image:url("../assets/travelbabylogo.svg");background-size:cover;background-position:50% 40%;height:320px;margin:1%;float:left;}
 #work14{position:relative;width:15%;background-image:url("../assets/omahadog-logo.svg");background-size:cover;background-position:50% 40%;width:300px;height:320px;margin:1%;float:left;}
-#work15{position:relative;width:18%;background-image:url("../assets/bklogo.svg");background-size:cover;background-position:50% 40%;height:250px;margin:1%;float:left;}
+#work15{position:relative;width:18%;background-image:url("../assets/bklogo.svg");background-size:cover;background-position:50% 40%;height:200px;margin:1%;float:left;}
 #work16{position:relative;width:20%;background-image:url("../assets/lucylogo.svg");background-size:cover;background-position:50% 40%;height:320px;margin:1%;float:left;}
 #work17{position:relative;width:21%;background-image:url("../assets/316.svg");background-size:cover;background-position:50% 40%;height:320px;margin:1%;float:left;}
-#work18{position:relative;width:22%;background-image:url("../assets/shinelogo.svg");background-size:cover;background-position:50% 40%;height:320px;margin:1%;float:left;}
+#work18{position:relative;width:22%;background-image:url("../assets/nfmlogo.svg");background-size:cover;background-position:50% 40%;height:200px;margin:1%;float:left;}
 
 #work8:hover > .overlay ,
 #work7:hover > .overlay,
@@ -44,6 +44,11 @@ h1.white.centered{text-align:center; }
 #connect {
   width:300px;
   
+}
+
+#clients {
+  position:relative;
+  width:80%;
 }
 @media (max-width:858px){#work-wrapper{position:relative;width:90%;margin-left:auto;margin-right:auto;margin-top:150px;}
 #work8,
@@ -80,9 +85,19 @@ h1.white.centered{text-align:center; }
 #work16,
 #work17,
 #work18
-{width:100%;margin-left:auto;margin-right:auto;height:400px;}
+{width:90%;margin-left:auto;margin-right:auto;height:250px;}
 #quote-form{width:80%;}
+
+#clients {
+  position:relative;
+  width:80%;
+  margin-right:40px;
 }
+#work18 {
+  top:-55px;
+}
+}
+
 @media (max-width:414px){
   #success{width:100%;}
 #quote-form{width:90%;}
@@ -99,7 +114,7 @@ h1.white.centered{text-align:center; }
 #work16,
 #work17,
 #work18
-{width:250px;margin-left:auto;margin-right:auto;}
+{width:250px;height:300pxmargin-left:auto;margin-right:auto;}
 
 
 }
