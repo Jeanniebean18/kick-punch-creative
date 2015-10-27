@@ -48,7 +48,7 @@ h1.white.centered{text-align:center; }
 
 #clients {
   position:relative;
-  width:80%;
+  width:95%;
 }
 @media (max-width:858px){#work-wrapper{position:relative;width:90%;margin-left:auto;margin-right:auto;margin-top:150px;}
 #work8,
