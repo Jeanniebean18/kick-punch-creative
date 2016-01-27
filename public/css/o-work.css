@@ -16,19 +16,21 @@ h5{font-family:'Dosis', sans-serif;font-size:120%;font-weight:200;color:#363636;
 #work19{position:relative;width:48%;background-image:url("../assets/316preview.png");background-size:cover;background-position:50% 60%;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
 #work8{position:relative;width:48%;background-image:url("../assets/pedersen.jpg");background-size:cover;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
 #work3{position:relative;width:48%;background-image:url("../assets/sharefoodtruck.png");background-position:51% 60%;background-size:cover;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
-#work4{position:relative;width:48%;background-image:url("../assets/huskersquiz.png");background-size:cover;background-position:50% 60%;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
+#work4{position:relative;width:48%;background-image:url("../assets/dospace.svg");background-size:cover;background-position:50% 60%;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
 #work5{position:relative;width:48%;background-image:url("../assets/aspirations.png");background-size:cover;background-position:51% 60%;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
 #work6{position:relative;width:48%;background-image:url("../assets/omahadog.jpg");background-size:cover;background-position:50% 50%;height:300px;margin:1%;float:left;}
+#work21{position:relative;width:48%;background-image:url("../assets/genoog.png");background-size:cover;background-position:50% 50%;height:300px;margin:1%;float:left;}
 #work9{position:relative;width:48%;background-image:url("../assets/omahasky.png");background-size:cover;background-position:50% 30%;height:300px;margin:1%;float:left;}
 #work10{position:relative;width:48%;background-image:url("../assets/crybaby.png");background-size:cover;background-position:50% 40%;height:300px;margin:1%;float:left;}
 #work11{position:relative;width:22%;background-image:url("../assets/draziclogo.svg");background-size:cover;background-position:50% 40%;height:250px;margin:1%;float:left;}
-#work12{position:relative;width:22%;background-image:url("../assets/crybabylogo.svg");background-size:cover;background-position:50% 40%;width:300px;height:320px;margin:1%;float:left;}
+#work12{position:relative;width:22%;background-image:url("../assets/crybabylogo.svg");background-size:cover;background-position:50% 40%;width:250px;height:270px;margin:1%;float:left;}
 #work13{position:relative;width:22%;background-image:url("../assets/travelbabylogo.svg");background-size:cover;background-position:50% 40%;height:320px;margin:1%;float:left;}
-#work14{position:relative;width:15%;background-image:url("../assets/omahadog-logo.svg");background-size:cover;background-position:50% 40%;width:300px;height:320px;margin:1%;float:left;}
+#work14{position:relative;width:28%;background-image:url("../assets/omahadog-logo.svg");background-size:cover;background-position:50% 40%;width:195px;height:195px;margin:1%;float:left;}
 #work15{position:relative;width:18%;background-image:url("../assets/bklogo.svg");background-size:cover;background-position:50% 40%;height:200px;margin:1%;float:left;}
 #work16{position:relative;width:20%;background-image:url("../assets/lucylogo.svg");background-size:cover;background-position:50% 40%;height:320px;margin:1%;float:left;}
-#work17{position:relative;width:21%;background-image:url("../assets/316.svg");background-size:cover;background-position:50% 40%;height:320px;margin:1%;float:left;}
-#work18{position:relative;width:22%;background-image:url("../assets/nfmlogo.svg");background-size:cover;background-position:50% 40%;height:200px;margin:1%;float:left;}
+#work17{position:relative;width:24%;background-image:url("../assets/316.svg");background-size:cover;background-position:50% 40%;height:200px;height:250px;margin:1%;float:left;}
+#work18{position:relative;width:23%;background-image:url("../assets/nfmlogo.svg");background-size:cover;background-position:50% 40%;height:200px;margin:1%;float:left;}
+#work22{position:relative;width:25%;background-image:url("../assets/dospacelogo.svg");background-size:cover;background-position:50% 10%;height:150px;margin:1%;float:left;}
 
 #work8:hover > .overlay ,
 #work7:hover > .overlay,
@@ -38,6 +40,7 @@ h5{font-family:'Dosis', sans-serif;font-size:120%;font-weight:200;color:#363636;
 #work9:hover > .overlay,
 #work10:hover > .overlay,
 #work19:hover > .overlay,
+#work21:hover > .overlay,
 #work6:hover > .overlay{display:block;-webkit-animation-name:fadeInDown;animation-name:fadeInDown;font-family:'Dosis', sans-serif;font-size:215%;font-weight:200;color:#363636;text-align:center; padding:5%;padding-top:15%;}
 h1.white.centered{text-align:center; }
 
@@ -59,6 +62,7 @@ h1.white.centered{text-align:center; }
 #work9,
 #work10,
 #work19,
+#work21,
 #work6{width:100%;margin-left:auto;margin-right:auto;}
 
 #work11,
@@ -68,6 +72,7 @@ h1.white.centered{text-align:center; }
 #work15,
 #work16,
 #work17,
+#work22,
 #work18
 {width:45%;margin-left:auto;margin-right:auto;}
 #quote-form{width:80%;}
@@ -84,6 +89,7 @@ h1.white.centered{text-align:center; }
 #work15,
 #work16,
 #work17,
+#work22,
 #work18
 {width:90%;margin-left:20px;margin-right:auto;height:250px;}
 #quote-form{width:80%;}
@@ -113,6 +119,7 @@ h1.white.centered{text-align:center; }
 #work15,
 #work16,
 #work17,
+#work22,
 #work18
 {width:250px;height:300pxmargin-left:auto;margin-right:auto;}
 
