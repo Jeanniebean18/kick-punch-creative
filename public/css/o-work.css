@@ -12,13 +12,13 @@
 .clearfix::after{content:" ";display:table;clear:both;}
 h4{font-family:'Dosis', sans-serif;font-size:215%;font-weight:200;color:#363636;text-align:center;padding:1.5%;margin-top:0;color:white;}
 h5{font-family:'Dosis', sans-serif;font-size:120%;font-weight:200;color:#363636;text-align:center;margin-top:-50px;color:white;color:white;}
-#work7{position:relative;width:48%;background-image:url("../assets/drazic.png");background-size:cover;background-position:50% 60%;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
+#work7{position:relative;width:48%;background-image:url("../assets/coffeetruckmock.png");background-size:cover;background-position:50% 40%;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
 #work19{position:relative;width:48%;background-image:url("../assets/316preview.png");background-size:cover;background-position:50% 60%;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
 #work8{position:relative;width:48%;background-image:url("../assets/pedersen.jpg");background-size:cover;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
 #work3{position:relative;width:48%;background-image:url("../assets/sharefoodtruck.png");background-position:51% 60%;background-size:cover;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
 #work4{position:relative;width:48%;background-image:url("../assets/dospace.svg");background-size:cover;background-position:50% 60%;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
 #work5{position:relative;width:48%;background-image:url("../assets/MOXIE.png");background-size:cover;background-position:51% 60%;background-color:#2CBDC2;height:300px;margin:1%;float:left;}
-#work6{position:relative;width:48%;background-image:url("../assets/mycity.dog.png");background-size:cover;background-position:50% 50%;height:300px;margin:1%;float:left;}
+#work6{position:relative;width:48%;background-image:url("../assets/mycity.dog.png");background-size:cover;background-position:50% 70%;height:300px;margin:1%;float:left;}
 #work21{position:relative;width:48%;background-image:url("../assets/genoog.png");background-size:cover;background-position:50% 50%;height:300px;margin:1%;float:left;}
 #work9{position:relative;width:48%;background-image:url("../assets/SPGC.png");background-size:cover;background-position:50% 30%;height:300px;margin:1%;float:left;}
 #work10{position:relative;width:48%;background-image:url("../assets/crybaby.png");background-size:cover;background-position:50% 40%;height:300px;margin:1%;float:left;}
